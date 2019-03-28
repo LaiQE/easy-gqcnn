@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/easy_gqcnn.egg-info/PKG-INFO
+src/easy_gqcnn.egg-info/SOURCES.txt
+src/easy_gqcnn.egg-info/dependency_links.txt
+src/easy_gqcnn.egg-info/requires.txt
+src/easy_gqcnn.egg-info/top_level.txt
+src/easygqcnn/__init__.py

@@ -30,6 +30,9 @@ def load_config(file):
 class NetworkTestCase(unittest.TestCase):
     @classmethod
     def setUp(cls):
+        # 配置成gpu显存使用量按需求增长
+        cls.gpu_config = tf.ConfigProto()
+        cls.gpu_config.gpu_options.allow_growth = True
         cls.config = load_config(TEST_CFG_FILE)
         # 屏蔽TensorFlow输出的通知信息，参考https://blog.csdn.net/dcrmg/article/details/80029741
         os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
@@ -37,29 +40,28 @@ class NetworkTestCase(unittest.TestCase):
     @classmethod
     def tearDown(cls):
         pass
-    
+
     def test_create(self):
         gqcnn = NeuralNetWork(self.config)
+        self.assertIsNotNone(gqcnn)
 
     @unittest.skip('skip test_load_ckpt')
     def test_load_ckpt(self):
         gqcnn = NeuralNetWork(self.config)
-        with gqcnn.graph.as_default():
-            with tf.Session() as sess:
-                gqcnn.load_weights(sess, MODEL_PATH, remap=True)
+        with tf.Session(graph=gqcnn.graph, config=self.gpu_config) as sess:
+            gqcnn.load_weights(sess, MODEL_PATH, remap=True)
 
-    @unittest.skip('skip test_save')
+    # @unittest.skip('skip test_save')
     def test_save(self):
         gqcnn = NeuralNetWork(self.config)
-        with gqcnn.graph.as_default():
-            with tf.Session() as sess:
-                gqcnn.load_weights(sess, MODEL_PATH, remap=True)
-                gqcnn.save_to_npz(sess, SAVE_PATH)
+        with tf.Session(graph=gqcnn.graph, config=self.gpu_config) as sess:
+            gqcnn.load_weights(sess, MODEL_PATH, remap=True)
+            gqcnn.save_to_npz(sess, SAVE_PATH)
 
-    @unittest.skip('skip test_load_npz')
+    # @unittest.skip('skip test_load_npz')
     def test_load_npz(self):
         gqcnn = NeuralNetWork(self.config)
-        with tf.Session(graph=gqcnn.graph) as sess:
+        with tf.Session(graph=gqcnn.graph, config=self.gpu_config) as sess:
             gqcnn.load_weights(sess, SAVE_PATH)
 
 

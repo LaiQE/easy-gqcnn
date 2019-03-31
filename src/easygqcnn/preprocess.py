@@ -1,9 +1,10 @@
 import os
 import glob
 import logging
+import random
 import numpy as np
 import cv2
-import scipy.misc as sm
+# import scipy.misc as sm
 import scipy.ndimage.filters as sf
 import scipy.ndimage.morphology as snm
 import scipy.stats as ss
@@ -17,8 +18,7 @@ class DataProcesser(object):
     2. 添加模拟噪声
     3. 计算均值和标准差进行标准化
     4. 保存到tfrecord
-    Note: 这里再步骤2的同时计算均值并添加到tfrecord,
-    然后再读取tfrecode中的数据计算标准差
+    Note: 这里计算标准差使用公式 平方的期望 - 期望的平方
     """
 
     def __init__(self, config, raw_path=None, out_path=None):
@@ -56,7 +56,7 @@ class DataProcesser(object):
             else:
                 return np.load(file)
         # TODO : 这里有一个bug文件名不一定对上
-        for d_name, p_name, l_name in zip(*self.file_list(is_dex)):
+        for d_name, p_name, l_name in self.file_list(self._raw_path, is_dex):
             depth = load(d_name, is_dex)
             pose = load(p_name, is_dex)
             label = load(l_name, is_dex)
@@ -70,6 +70,8 @@ class DataProcesser(object):
         self.save_validation()
         self.save_train()
         self.save_men_std()
+        datapoint_info = np.array([self._train_num, self._validation_num])
+        np.save(os.path.join(self._out_path, 'datapoint_info.npy'), datapoint_info)
         logging.info('output train datapoint : %d' % (self._train_num))
         logging.info('output validation datapoint : %d' %
                      (self._validation_num))
@@ -86,14 +88,15 @@ class DataProcesser(object):
         np.save(os.path.join(self._out_path, 'std.npy'), depth_std)
         np.save(os.path.join(self._out_path, 'pose_mean.npy'), pose_mean)
         np.save(os.path.join(self._out_path, 'pose_std.npy'), pose_std)
+        # logging.warning(str(pose_mean)+str(pose_mean.shape))
 
     def mean_counter(self, depth, pose):
         if self._depth_mean is None:
             self._depth_mean = np.zeros(depth.shape, dtype='float64')
             self._depth_square_mean = np.zeros(depth.shape, dtype='float64')
         if self._pose_mean is None:
-            self._pose_mean = np.zeros(depth.shape, dtype='float64')
-            self._pose_square_mean = np.zeros(depth.shape, dtype='float64')
+            self._pose_mean = np.zeros(pose.shape, dtype='float64')
+            self._pose_square_mean = np.zeros(pose.shape, dtype='float64')
         alpha = self._mean_num/(self._mean_num + 1)
         self._mean_num = self._mean_num + 1
         self._depth_mean = alpha*self._depth_mean + (1 - alpha)*depth
@@ -127,7 +130,7 @@ class DataProcesser(object):
             self._train_buffer = []
 
     def save_validation(self):
-        file_name = 'validation%06d.tfrecords' % (self._validation_file_num)
+        file_name = 'validation_%06d.tfrecord' % (self._validation_file_num)
         logging.debug('save file: ' + file_name)
         self._validation_file_num += 1
         file = os.path.join(self._out_path, 'validation', file_name)
@@ -139,7 +142,7 @@ class DataProcesser(object):
         writer.close()
 
     def save_train(self):
-        file_name = 'train%06d.tfrecords' % (self._train_file_num)
+        file_name = 'train_%06d.tfrecord' % (self._train_file_num)
         logging.debug('save file: ' + file_name)
         self._train_file_num += 1
         file = os.path.join(self._out_path, 'train', file_name)
@@ -166,25 +169,31 @@ class DataProcesser(object):
         # 千万不要写成return tf.train.Feature(float_list=tf.train.FloatList(value=[value]))
         return tf.train.Feature(float_list=tf.train.FloatList(value=value))
 
-    def file_list(self, is_dex=False):
+    def file_list(self, raw_path, is_dex=False):
         """ 读取文件名列表
             is_dex: 是否是以原始的dex-net定义的文件名
                     如果是否则使用easy-dexnet定义的文件名
         """
         if is_dex:
             depth_files = os.path.join(
-                self._raw_path, 'depth_ims_tf_table*.npz')
-            pose_files = os.path.join(self._raw_path, 'hand_poses*.npz')
-            label_files = os.path.join(
-                self._raw_path, 'robust_ferrari_canny*.npz')
+                raw_path, 'depth_ims_tf_table*.npz')
         else:
-            depth_files = os.path.join(self._raw_path, 'depth', '*.npy')
-            pose_files = os.path.join(self._raw_path, 'hand_pose', '*.npy')
-            label_files = os.path.join(self._raw_path, 'quality', '*.npy')
+            depth_files = os.path.join(raw_path, 'depth', '*.npy')
         depth_list = glob.glob(depth_files)
-        pose_list = glob.glob(pose_files)
-        label_list = glob.glob(label_files)
-        return depth_list, pose_list, label_list
+        random.shuffle(depth_list)
+        for depth_file in depth_list:
+            depth_name = os.path.split(depth_file)[1]
+            if is_dex:
+                pose_file_name = depth_name.replace('depth_ims_tf_table', 'hand_poses')
+                label_file_name = depth_name.replace('depth_ims_tf_table', 'robust_ferrari_canny')
+                pose_file = os.path.join(raw_path, pose_file_name)
+                label_file = os.path.join(raw_path, label_file_name)
+            else:
+                pose_file_name = depth_name.replace('depth', 'hand_pose')
+                label_file_name = depth_name.replace('depth', 'quality')
+                pose_file = os.path.join(raw_path, 'hand_pose', pose_file_name)
+                label_file = os.path.join(raw_path, 'quality', label_file_name)
+            yield (depth_file, pose_file, label_file)
 
     @staticmethod
     def distort(imgae, config):

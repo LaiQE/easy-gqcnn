@@ -1,3 +1,32 @@
+training:
+  data_path: path/to/tfrecords_data
+  model_file: path/to/model
+  out_path: path/to/out
+  im_height: 32
+  im_width: 32
+  im_channels: 1
+  pose_len: 1
+
+  dataset_buffer_size: 10000
+  train_batch_size: 16
+  val_batch_size: 16
+
+  base_lr: 0.01
+  decay_step_multiplier: .2   # number of times to go through training datapoints before stepping down decay rate
+  decay_rate: 0.95
+  metric_thresh: 0.002
+  train_drop_out: 0
+  train_l2_regularizer: 0.0005
+  optimizer: momentum
+  momentum_rate: 0.9
+
+  fine_tune: 0
+  update_fc_only: 1
+  update_conv0_only: 0
+  reinit_fc3: 0
+  reinit_fc4: 0
+  reinit_fc5: 0
+
 data_process:
   training_percent: 0.8
   validation_percent: 0.2

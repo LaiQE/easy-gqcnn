@@ -1,0 +1,43 @@
+2019-03-31 20:07:59,705 - DEBUG - save file: train_000000.tfrecord
+2019-03-31 20:08:05,332 - DEBUG - save file: train_000001.tfrecord
+2019-03-31 20:08:10,723 - DEBUG - save file: train_000002.tfrecord
+2019-03-31 20:08:16,304 - DEBUG - save file: validation_000000.tfrecord
+2019-03-31 20:08:17,263 - DEBUG - save file: train_000003.tfrecord
+2019-03-31 20:08:22,729 - DEBUG - save file: train_000004.tfrecord
+2019-03-31 20:08:28,153 - DEBUG - save file: train_000005.tfrecord
+2019-03-31 20:08:33,746 - DEBUG - save file: train_000006.tfrecord
+2019-03-31 20:08:39,110 - DEBUG - save file: train_000007.tfrecord
+2019-03-31 20:08:40,440 - DEBUG - save file: validation_000001.tfrecord
+2019-03-31 20:08:45,763 - DEBUG - save file: train_000008.tfrecord
+2019-03-31 20:08:51,390 - DEBUG - save file: train_000009.tfrecord
+2019-03-31 20:08:56,733 - DEBUG - save file: train_000010.tfrecord
+2019-03-31 20:09:02,257 - DEBUG - save file: validation_000002.tfrecord
+2019-03-31 20:09:03,245 - DEBUG - save file: train_000011.tfrecord
+2019-03-31 20:09:08,908 - DEBUG - save file: train_000012.tfrecord
+2019-03-31 20:09:14,559 - DEBUG - save file: train_000013.tfrecord
+2019-03-31 20:09:19,903 - DEBUG - save file: train_000014.tfrecord
+2019-03-31 20:09:25,039 - DEBUG - save file: validation_000003.tfrecord
+2019-03-31 20:09:26,434 - DEBUG - save file: train_000015.tfrecord
+2019-03-31 20:09:32,452 - DEBUG - save file: train_000016.tfrecord
+2019-03-31 20:09:38,416 - DEBUG - save file: train_000017.tfrecord
+2019-03-31 20:09:44,021 - DEBUG - save file: train_000018.tfrecord
+2019-03-31 20:09:48,908 - DEBUG - save file: validation_000004.tfrecord
+2019-03-31 20:09:50,609 - DEBUG - save file: train_000019.tfrecord
+2019-03-31 20:09:55,949 - DEBUG - save file: train_000020.tfrecord
+2019-03-31 20:10:01,622 - DEBUG - save file: train_000021.tfrecord
+2019-03-31 20:10:06,940 - DEBUG - save file: train_000022.tfrecord
+2019-03-31 20:10:11,681 - DEBUG - save file: validation_000005.tfrecord
+2019-03-31 20:10:13,582 - DEBUG - save file: train_000023.tfrecord
+2019-03-31 20:10:19,158 - DEBUG - save file: train_000024.tfrecord
+2019-03-31 20:10:24,591 - DEBUG - save file: train_000025.tfrecord
+2019-03-31 20:10:29,934 - DEBUG - save file: train_000026.tfrecord
+2019-03-31 20:10:34,408 - DEBUG - save file: validation_000006.tfrecord
+2019-03-31 20:10:36,168 - DEBUG - save file: train_000027.tfrecord
+2019-03-31 20:10:41,540 - DEBUG - save file: train_000028.tfrecord
+2019-03-31 20:10:46,871 - DEBUG - save file: train_000029.tfrecord
+2019-03-31 20:10:48,857 - DEBUG - save file: validation_000007.tfrecord
+2019-03-31 20:10:49,527 - DEBUG - save file: train_000030.tfrecord
+2019-03-31 20:10:49,889 - INFO - output train datapoint : 151236
+2019-03-31 20:10:49,890 - INFO - output validation datapoint : 38064
+2019-03-31 20:10:49,891 - INFO - output train files num : 31
+2019-03-31 20:10:49,892 - INFO - output validation files num : 8

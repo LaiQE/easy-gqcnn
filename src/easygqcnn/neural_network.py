@@ -7,13 +7,19 @@ class NeuralNetWork(object):
     """ 神经网络定义类
     """
 
-    def __init__(self, config):
+    def __init__(self, config, training=False):
         if 'gqcnn_config' in config.keys():
             self._config = config['gqcnn_config']
         else:
             self._config = config
         self._graph = tf.Graph()
-        self.initialize_network()
+        self._reuse = False
+        # 如果只是用于训练则不需要预测的相关功能
+        # TODO : 需要增加关于预测的函数
+        if not training:
+            self.initialize_network(True)
+            # self.load_weights()
+            # self.load_mean_std()
 
     @property
     def graph(self):
@@ -30,6 +36,14 @@ class NeuralNetWork(object):
                 self.image_input, self.pose_input, self._config)
             if add_softmax:
                 self.output = tf.nn.softmax(self.output)
+
+    def inference(self, image, pose, add_softmax=True):
+        """ 定义network的前向传播流 """
+        with self._graph.as_default():
+            output = self._build_network(image, pose, self._config)
+            if add_softmax:
+                output = tf.nn.softmax(output)
+        return output
 
     def load_weights(self, sess, file, remap=False):
         """ 从文件中加载神经网络权重
@@ -73,32 +87,37 @@ class NeuralNetWork(object):
         np.savez_compressed(file, **weights)
 
     def _build_network(self, image_node, pose_node, config):
-        conv_pool_1_1 = self._conv_pool(image_node, 'conv1_1', config)
-        conv_pool_1_2 = self._conv_pool(conv_pool_1_1, 'conv1_2', config)
-        conv_pool_2_1 = self._conv_pool(conv_pool_1_2, 'conv2_1', config)
-        conv_pool_2_2 = self._conv_pool(conv_pool_2_1, 'conv2_2', config)
+        reuse = self._reuse
+        self._reuse = True
+        conv_pool_1_1 = self._conv_pool(image_node, 'conv1_1', reuse, config)
+        conv_pool_1_2 = self._conv_pool(
+            conv_pool_1_1, 'conv1_2', reuse, config)
+        conv_pool_2_1 = self._conv_pool(
+            conv_pool_1_2, 'conv2_1', reuse, config)
+        conv_pool_2_2 = self._conv_pool(
+            conv_pool_2_1, 'conv2_2', reuse, config)
         fc_input = conv_pool_2_2
         if 'conv3_1' in config['architecture'].keys():
             conv_pool_3_1 = self._conv_pool(
-                conv_pool_2_2, 'conv3_1', config)
+                conv_pool_2_2, 'conv3_1', reuse, config)
             conv_pool_3_2 = self._conv_pool(
-                conv_pool_3_1, 'conv3_2', config)
+                conv_pool_3_1, 'conv3_2', reuse, config)
             fc_input = conv_pool_3_2
         fc_size = int(np.prod(fc_input.get_shape()[1:]))
         fc_input_falt = tf.reshape(fc_input, [-1, fc_size])
-        fc3 = self._fc(fc_input_falt, 'fc3', config)
-        pc1 = self._fc(pose_node, 'pc1', config)
+        fc3 = self._fc(fc_input_falt, 'fc3', reuse, config)
+        pc1 = self._fc(pose_node, 'pc1', reuse, config)
         pc_out = pc1
         if 'pc2' in config['architecture'].keys() and config['architecture']['pc2']['out_siz'] > 0:
-            pc2 = self._fc(pc1, 'pc2', config)
+            pc2 = self._fc(pc1, 'pc2', reuse, config)
             pc_out = pc2
         fc_concat = tf.concat([fc3, pc_out], axis=1)
-        fc4 = self._fc(fc_concat, 'fc4', config)
-        fc5 = self._fc(fc4, 'fc5', config, relu=False)
+        fc4 = self._fc(fc_concat, 'fc4', reuse, config)
+        fc5 = self._fc(fc4, 'fc5', reuse, config, relu=False)
         return fc5
 
     @staticmethod
-    def _conv_pool(x, name, config):
+    def _conv_pool(x, name, reuse, config):
         """ 通过配置文件生成一个卷积层和一个池化层 """
         # 结构配置
         try:
@@ -120,7 +139,7 @@ class NeuralNetWork(object):
 
         std = np.sqrt(2.0 / (filt_dim**2 * input_channels))
 
-        with tf.variable_scope(name):
+        with tf.variable_scope(name, reuse=reuse):
             weights = tf.get_variable('weights', shape=weights_shape,
                                       initializer=tf.truncated_normal_initializer(stddev=std))
             biases = tf.get_variable('biases', shape=[num_filt],
@@ -138,7 +157,7 @@ class NeuralNetWork(object):
         return pool
 
     @staticmethod
-    def _fc(x, name, config, relu=True):
+    def _fc(x, name, reuse, config, relu=True):
         """ 通过配置文件生成一个全连接层 """
         try:
             arc_config = config['architecture'][name]
@@ -147,7 +166,7 @@ class NeuralNetWork(object):
         input_size = int(x.get_shape()[-1])
         output_size = arc_config['out_size']
         std = np.sqrt(2.0 / input_size)
-        with tf.variable_scope(name):
+        with tf.variable_scope(name, reuse=reuse):
             weights = tf.get_variable('weights', shape=[input_size, output_size],
                                       initializer=tf.truncated_normal_initializer(stddev=std))
             biases = tf.get_variable('biases', shape=[output_size],

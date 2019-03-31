@@ -5,11 +5,13 @@ import tensorflow as tf
 from ruamel.yaml import YAML
 from easygqcnn import NeuralNetWork
 
-ROOT_PATH = r'H:\Robot\easy-gqcnn'
-MODEL_PATH = r'H:\Robot\template\GQ-Image-Wise\model.ckpt'
+# 当前文件所在位置
+file_path = os.path.split(__file__)[0]
+ROOT_PATH = os.path.abspath(os.path.join(file_path, '..'))
+MODEL_PATH = os.path.join(ROOT_PATH, 'data/test/models/ckpt/model.ckpt')
 TEST_LOG_FILE = os.path.join(ROOT_PATH, 'tests/logs/test_network.log')
 TEST_CFG_FILE = os.path.join(ROOT_PATH, 'config/test.yaml')
-SAVE_PATH = r'H:\Robot\template\model.npz'
+SAVE_PATH = os.path.join(ROOT_PATH, 'data/test/models/npz/model.npz')
 
 
 def config_logging(file=None, level=logging.DEBUG):
@@ -45,7 +47,7 @@ class NetworkTestCase(unittest.TestCase):
         gqcnn = NeuralNetWork(self.config)
         self.assertIsNotNone(gqcnn)
 
-    @unittest.skip('skip test_load_ckpt')
+    # @unittest.skip('skip test_load_ckpt')
     def test_load_ckpt(self):
         gqcnn = NeuralNetWork(self.config)
         with tf.Session(graph=gqcnn.graph, config=self.gpu_config) as sess:
@@ -63,6 +65,18 @@ class NetworkTestCase(unittest.TestCase):
         gqcnn = NeuralNetWork(self.config)
         with tf.Session(graph=gqcnn.graph, config=self.gpu_config) as sess:
             gqcnn.load_weights(sess, SAVE_PATH)
+
+    # @unittest.skip('skip test_inference')
+    def test_inference(self):
+        gqcnn = NeuralNetWork(self.config)
+        config_ = self.config['gqcnn_config']
+        with gqcnn.graph.as_default():
+            image = tf.placeholder(tf.float32, [None, config_['im_width'], config_['im_height'],
+                                                config_['im_channels']], name='image_input')
+            pose = tf.placeholder(
+                tf.float32, [None, config_['pose_dim']], name='pose_input')
+        out = gqcnn.inference(image, pose)
+        self.assertIsNotNone(out)
 
 
 if __name__ == "__main__":

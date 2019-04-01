@@ -1,6 +1,8 @@
-2019-03-31 20:29:37,701 - WARNING - <dtype: 'int64'>
-2019-03-31 20:29:37,710 - WARNING - <dtype: 'int64'>
-2019-03-31 20:29:40,932 - INFO - 1 epoch training is start!
-2019-03-31 20:36:38,960 - INFO - 1 epoch training is finish!
-2019-03-31 20:36:38,961 - INFO - 1 epoch validation is start!
-2019-03-31 20:37:21,288 - INFO - 1 epoch training is finish!
+2019-04-01 16:19:44,542 - INFO - 0 epoch validation is 89.499!
+2019-04-01 16:19:44,558 - INFO - 1 epoch training is start!
+2019-04-01 16:24:53,538 - INFO - 1 epoch training is finish!
+2019-04-01 16:25:27,469 - INFO - 1 epoch validation is 94.135!
+2019-04-01 16:25:30,342 - INFO - 2 epoch training is start!
+2019-04-01 16:30:41,762 - INFO - 2 epoch training is finish!
+2019-04-01 16:31:17,611 - INFO - 2 epoch validation is 95.668!
+2019-04-01 16:31:20,603 - INFO - 3 epoch training is start!

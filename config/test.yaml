@@ -2,14 +2,16 @@ training:
   data_path: path/to/tfrecords_data
   model_file: path/to/model
   out_path: path/to/out
+  summary_dir: path/to/summary
+  summary_step: 100
   im_height: 32
   im_width: 32
   im_channels: 1
   pose_len: 1
 
   dataset_buffer_size: 10000
-  train_batch_size: 16
-  val_batch_size: 16
+  train_batch_size: 32
+  val_batch_size: 32
 
   base_lr: 0.01
   decay_step_multiplier: .2   # number of times to go through training datapoints before stepping down decay rate

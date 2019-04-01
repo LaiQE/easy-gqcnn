@@ -26,6 +26,7 @@ def load_config(file):
         config = yaml.load(f)
     return config
 
+
 class TrainingTestCase(unittest.TestCase):
     @classmethod
     def setUp(cls):
@@ -39,6 +40,7 @@ class TrainingTestCase(unittest.TestCase):
     def test_create(self):
         network = NeuralNetWork(self.config, training=True)
         train = GQCNNTraing(self.config, network, DATA_PATH, OUT_PATH)
+        train.optimize(5)
         self.assertIsNotNone(train)
 
     # @unittest.skip('skip test_process')

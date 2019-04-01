@@ -40,7 +40,7 @@ class TrainingTestCase(unittest.TestCase):
     def test_create(self):
         network = NeuralNetWork(self.config, training=True)
         train = GQCNNTraing(self.config, network, DATA_PATH, OUT_PATH)
-        train.optimize(5)
+        train.optimize(10)
         self.assertIsNotNone(train)
 
     # @unittest.skip('skip test_process')

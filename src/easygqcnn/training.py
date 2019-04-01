@@ -26,9 +26,6 @@ class GQCNNTraing(object):
             out_path = self._config['out_path']
         self._out_path = out_path
         # 给tensorboard加上时间戳,参考https://blog.csdn.net/shahuzi/article/details/81223980
-        summary_time = "{0:%Y-%m-%dT%H-%M-%S/}".format(datetime.now())
-        self._summary_dir = os.path.join(
-            self._out_path, 'summary', summary_time)
         self._network = network
         # 先载入预处理生成的一些参数
         self.pre_load()
@@ -52,49 +49,77 @@ class GQCNNTraing(object):
         """
         gpu_config = tf.ConfigProto()
         gpu_config.gpu_options.allow_growth = True
-        step = 0
         mean_acc = 0
         mean_loss = 0
+        step_count = 0
         with self._network.graph.as_default():
             init = tf.global_variables_initializer()
             saver = tf.train.Saver(max_to_keep=3)
-            summary_writer = tf.summary.FileWriter(self._summary_dir)
+            # 检查是否需要恢复模型
+            start_epoch, summary_dir, model_file = self.check_restore()
+            summary_writer = tf.summary.FileWriter(summary_dir)
             summary_writer.add_graph(self._network.graph)
         with tf.Session(graph=self._network.graph, config=gpu_config) as sess:
-            sess.run(init)
+            if start_epoch == 0:
+                sess.run(init)
+            else:
+                saver.restore(sess, model_file)
             if self._config['fine_tune']:
                 self._network.load_weights(sess, self.config['model_file'])
             # 训练过程
-            self.validation(sess, 0, summary_writer)
-            for epoch in range(epoch_num):
+            self.validation(sess, start_epoch, summary_writer)
+            for epoch in range(start_epoch, epoch_num):
                 logging.info("%d epoch training is start!" % (epoch + 1))
                 sess.run(self._train_iterator.initializer)
                 while True:
                     try:
-                        _, acc, loss = sess.run(
-                            [self._optimizer, self._train_accuracy, self._loss])
+                        _, acc, loss, step = sess.run(
+                            [self._optimizer, self._train_accuracy, self._loss, self._global_step])
                         mean_acc += acc
                         mean_loss += loss
-                        step += 1
+                        step_count += 1
 
                         if step % self._config['summary_step'] == 0:
-                            mean_acc = mean_acc / self._config['summary_step']
-                            mean_loss = mean_loss / self._config['summary_step']
+                            mean_acc = mean_acc / step_count
+                            mean_loss = mean_loss / step_count
                             summary = sess.run(self._train_merged, {self._train_mean_acc: mean_acc,
                                                                     self._train_mean_loss: mean_loss})
                             summary_writer.add_summary(summary, step)
                             logging.debug('step: %d, mean_loss: %.4f, mean_acc: %.4f' %
                                           (step, mean_loss, mean_acc))
+                            step_count = 0
                             mean_acc = 0
                             mean_loss = 0
                     except tf.errors.OutOfRangeError:
-                        logging.info("%d epoch training is finish!" %
-                                     (epoch + 1))
+                        logging.info("%d epoch training is finish!" % (epoch + 1))
                         break
                 self.validation(sess, epoch + 1, summary_writer)
                 saver.save(sess, os.path.join(self._out_path, 'model.ckpt'), global_step=epoch)
             self._network.save_to_npz(sess, os.path.join(self._out_path, 'model.npz'))
             summary_writer.close()
+
+    def check_restore(self):
+        if os.path.exists(os.path.join(self._out_path, 'checkpoint')) and self._config['restore']:
+            with open(os.path.join(self._out_path, 'checkpoint')) as f:
+                model_file = f.readline().split('"')[1]
+            model_file = model_file.replace('\\\\', '/').replace('\\', '/')
+            model_name = os.path.split(model_file)[1]
+            start_epoch = int(model_name.split('-')[-1]) + 1
+            dirs = list(os.walk(os.path.join(self._out_path, 'summary')))[0][1]
+            summary_dir = sorted(dirs)[-1]
+            summary_dir = os.path.join(self._out_path, 'summary', summary_dir)
+            logging.info('find model ' + model_file)
+            logging.info('resore the model, start epoch from %d' % (start_epoch + 1))
+        else:
+            start_epoch = 0
+            logging.info('not find model, init variable random')
+            summary_time = "{0:%Y-%m-%dT%H-%M-%S/}".format(datetime.now())
+            summary_dir = os.path.join(self._out_path, 'summary', summary_time)
+            if not os.path.exists(os.path.join(self._out_path, 'summary')):
+                os.mkdir(os.path.join(self._out_path, 'summary'))
+            model_file = None
+        logging.info('summary to the dir: '+summary_dir)
+        return start_epoch, summary_dir, model_file
 
     def validation(self, sess, i, writer):
         acc = 0
@@ -187,6 +212,7 @@ class GQCNNTraing(object):
                     optimizer = tf.train.AdamOptimizer(learning_rate)
                 elif self._config['optimizer'] == 'rmsprop':
                     optimizer = tf.train.RMSPropOptimizer(learning_rate)
+                self._global_step = global_step
                 return optimizer.minimize(self._loss, global_step=global_step, var_list=var_list)
 
     def accuracy(self, label, out):

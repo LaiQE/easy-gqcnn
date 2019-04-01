@@ -53,9 +53,11 @@ class GQCNNTraing(object):
         gpu_config = tf.ConfigProto()
         gpu_config.gpu_options.allow_growth = True
         step = 0
+        mean_acc = 0
+        mean_loss = 0
         with self._network.graph.as_default():
             init = tf.global_variables_initializer()
-            saver = tf.train.Saver()
+            saver = tf.train.Saver(max_to_keep=3)
             summary_writer = tf.summary.FileWriter(self._summary_dir)
             summary_writer.add_graph(self._network.graph)
         with tf.Session(graph=self._network.graph, config=gpu_config) as sess:
@@ -69,23 +71,30 @@ class GQCNNTraing(object):
                 sess.run(self._train_iterator.initializer)
                 while True:
                     try:
-                        if step % self._config['summary_step'] == 0:
-                            _, summary, loss = sess.run(
-                                [self._optimizer, self._train_merged, self._loss])
-                            summary_writer.add_summary(summary, step)
-                            # summary_writer.flush()
-                            logging.debug('step: %d, loss: %.4f' % (step, loss))
-                        else:
-                            sess.run(self._optimizer)
+                        _, acc, loss = sess.run(
+                            [self._optimizer, self._train_accuracy, self._loss])
+                        mean_acc += acc
+                        mean_loss += loss
                         step += 1
+
+                        if step % self._config['summary_step'] == 0:
+                            mean_acc = mean_acc / self._config['summary_step']
+                            mean_loss = mean_loss / self._config['summary_step']
+                            summary = sess.run(self._train_merged, {self._train_mean_acc: mean_acc,
+                                                                    self._train_mean_loss: mean_loss})
+                            summary_writer.add_summary(summary, step)
+                            logging.debug('step: %d, mean_loss: %.4f, mean_acc: %.4f' %
+                                          (step, mean_loss, mean_acc))
+                            mean_acc = 0
+                            mean_loss = 0
                     except tf.errors.OutOfRangeError:
                         logging.info("%d epoch training is finish!" %
                                      (epoch + 1))
                         break
                 self.validation(sess, epoch + 1, summary_writer)
-                saver.save(sess, os.path.join(self._out_path,
-                                              'model.ckpt'), global_step=epoch)
-        summary_writer.close()
+                saver.save(sess, os.path.join(self._out_path, 'model.ckpt'), global_step=epoch)
+            self._network.save_to_npz(sess, os.path.join(self._out_path, 'model.npz'))
+            summary_writer.close()
 
     def validation(self, sess, i, writer):
         acc = 0
@@ -104,18 +113,23 @@ class GQCNNTraing(object):
 
     def setup_tensorboard(self):
         with self._network.graph.as_default():
-            validation_acc = tf.placeholder(tf.float32, [])
-            tf.summary.scalar('val_accuracy', validation_acc,
-                              collections=['val_summary'])
-            tf.summary.scalar('train_accuracy', self._train_accuracy,
-                              collections=['train_summary'])
-            tf.summary.scalar('train_loss', self._loss,
-                              collections=['train_summary'])
-            train_merged = tf.summary.merge_all('train_summary')
-            val_merged = tf.summary.merge_all('val_summary')
+            with tf.name_scope('summary'):
+                validation_acc = tf.placeholder(tf.float32, [])
+                train_mean_acc = tf.placeholder(tf.float32, [])
+                train_mean_loss = tf.placeholder(tf.float32, [])
+                tf.summary.scalar('val_accuracy', validation_acc,
+                                  collections=['val_summary'])
+                tf.summary.scalar('train_accuracy', train_mean_acc,
+                                  collections=['train_summary'])
+                tf.summary.scalar('train_loss', train_mean_loss,
+                                  collections=['train_summary'])
+                train_merged = tf.summary.merge_all('train_summary')
+                val_merged = tf.summary.merge_all('val_summary')
         self._train_merged = train_merged
         self._val_merged = val_merged
         self._validation_acc = validation_acc
+        self._train_mean_acc = train_mean_acc
+        self._train_mean_loss = train_mean_loss
 
     def pre_load(self):
         """ 预加载预处理好的数据信息

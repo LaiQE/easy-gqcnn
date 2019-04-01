@@ -21,11 +21,11 @@ def config_logging(file=None, level=logging.DEBUG):
     logger = logging.getLogger('')
     logger.setLevel(level)
     rf_handler = logging.StreamHandler()  # 默认是sys.stderr
-    rf_handler.setLevel(logging.DEBUG)
+    # rf_handler.setLevel(logging.DEBUG)
     rf_handler.setFormatter(logging.Formatter(LOG_FORMAT))
 
     f_handler = logging.FileHandler(file, mode='w')
-    f_handler.setLevel(logging.INFO)
+    # f_handler.setLevel(logging.INFO)
     f_handler.setFormatter(logging.Formatter(LOG_FORMAT))
 
     logger.addHandler(rf_handler)

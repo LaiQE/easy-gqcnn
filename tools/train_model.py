@@ -1,6 +1,7 @@
 import os
 import logging
 from ruamel.yaml import YAML
+import tensorflow as tf
 from easygqcnn import NeuralNetWork, GQCNNTraing
 
 file_path = os.path.split(__file__)[0]
@@ -46,6 +47,12 @@ def main():
     network = NeuralNetWork(config, training=True)
     train = GQCNNTraing(config, network, DATA_PATH, OUT_PATH)
     train.optimize(50)
+    # with tf.Session(graph=train._network.graph) as sess:
+    # init = tf.global_variables_initializer()
+    # sess.run(init)
+    # network.load_weights(sess, r'H:\Robot\GQ (from RSS 2017 paper)\model.ckpt', True)
+    # result = train.validation(sess, None, None)
+    # print(result)
 
 
 if __name__ == "__main__":

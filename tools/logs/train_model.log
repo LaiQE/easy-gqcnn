@@ -1,751 +1,764 @@
-2019-04-01 18:17:55,089 - INFO - 0 epoch validation is 11.330!
-2019-04-01 18:17:55,089 - INFO - 1 epoch training is start!
-2019-04-01 18:18:18,734 - DEBUG - step: 100, mean_loss: 1.2582, mean_acc: 0.8665
-2019-04-01 18:18:40,111 - DEBUG - step: 200, mean_loss: 1.1550, mean_acc: 0.8849
-2019-04-01 18:19:02,000 - DEBUG - step: 300, mean_loss: 1.0927, mean_acc: 0.9119
-2019-04-01 18:19:23,985 - DEBUG - step: 400, mean_loss: 1.0479, mean_acc: 0.9226
-2019-04-01 18:19:45,540 - DEBUG - step: 500, mean_loss: 1.0322, mean_acc: 0.9270
-2019-04-01 18:20:07,032 - DEBUG - step: 600, mean_loss: 1.0509, mean_acc: 0.9116
-2019-04-01 18:20:28,431 - DEBUG - step: 700, mean_loss: 1.0154, mean_acc: 0.9278
-2019-04-01 18:20:49,903 - DEBUG - step: 800, mean_loss: 0.9828, mean_acc: 0.9411
-2019-04-01 18:21:11,700 - DEBUG - step: 900, mean_loss: 0.9756, mean_acc: 0.9372
-2019-04-01 18:21:33,109 - DEBUG - step: 1000, mean_loss: 0.9438, mean_acc: 0.9503
-2019-04-01 18:21:54,591 - DEBUG - step: 1100, mean_loss: 0.9557, mean_acc: 0.9362
-2019-04-01 18:22:12,828 - INFO - 1 epoch training is finish!
-2019-04-01 18:22:43,575 - INFO - 1 epoch validation is 93.502!
-2019-04-01 18:22:46,448 - INFO - 2 epoch training is start!
-2019-04-01 18:22:50,498 - DEBUG - step: 1200, mean_loss: 0.9303, mean_acc: 0.9481
-2019-04-01 18:23:12,327 - DEBUG - step: 1300, mean_loss: 0.9786, mean_acc: 0.9195
-2019-04-01 18:23:33,970 - DEBUG - step: 1400, mean_loss: 0.9613, mean_acc: 0.9241
-2019-04-01 18:23:55,613 - DEBUG - step: 1500, mean_loss: 0.9275, mean_acc: 0.9382
-2019-04-01 18:24:17,209 - DEBUG - step: 1600, mean_loss: 0.8990, mean_acc: 0.9483
-2019-04-01 18:24:38,822 - DEBUG - step: 1700, mean_loss: 0.8915, mean_acc: 0.9475
-2019-04-01 18:25:00,452 - DEBUG - step: 1800, mean_loss: 0.9144, mean_acc: 0.9340
-2019-04-01 18:25:22,181 - DEBUG - step: 1900, mean_loss: 0.8696, mean_acc: 0.9525
-2019-04-01 18:25:43,794 - DEBUG - step: 2000, mean_loss: 0.8634, mean_acc: 0.9535
-2019-04-01 18:26:05,526 - DEBUG - step: 2100, mean_loss: 0.8382, mean_acc: 0.9611
-2019-04-01 18:26:27,185 - DEBUG - step: 2200, mean_loss: 0.8286, mean_acc: 0.9612
-2019-04-01 18:26:48,745 - DEBUG - step: 2300, mean_loss: 0.8305, mean_acc: 0.9563
-2019-04-01 18:27:04,303 - INFO - 2 epoch training is finish!
-2019-04-01 18:27:35,527 - INFO - 2 epoch validation is 95.044!
-2019-04-01 18:27:38,744 - INFO - 3 epoch training is start!
-2019-04-01 18:27:45,483 - DEBUG - step: 2400, mean_loss: 0.8252, mean_acc: 0.9555
-2019-04-01 18:28:07,459 - DEBUG - step: 2500, mean_loss: 0.8569, mean_acc: 0.9409
-2019-04-01 18:28:29,317 - DEBUG - step: 2600, mean_loss: 0.8402, mean_acc: 0.9452
-2019-04-01 18:28:51,280 - DEBUG - step: 2700, mean_loss: 0.8094, mean_acc: 0.9559
-2019-04-01 18:29:13,132 - DEBUG - step: 2800, mean_loss: 0.7799, mean_acc: 0.9673
-2019-04-01 18:29:34,914 - DEBUG - step: 2900, mean_loss: 0.7891, mean_acc: 0.9620
-2019-04-01 18:29:56,703 - DEBUG - step: 3000, mean_loss: 0.8021, mean_acc: 0.9508
-2019-04-01 18:30:18,597 - DEBUG - step: 3100, mean_loss: 0.7718, mean_acc: 0.9633
-2019-04-01 18:30:40,373 - DEBUG - step: 3200, mean_loss: 0.7627, mean_acc: 0.9658
-2019-04-01 18:31:02,149 - DEBUG - step: 3300, mean_loss: 0.7423, mean_acc: 0.9726
-2019-04-01 18:31:23,962 - DEBUG - step: 3400, mean_loss: 0.7355, mean_acc: 0.9712
-2019-04-01 18:31:45,526 - DEBUG - step: 3500, mean_loss: 0.7395, mean_acc: 0.9663
-2019-04-01 18:31:58,610 - INFO - 3 epoch training is finish!
-2019-04-01 18:32:30,394 - INFO - 3 epoch validation is 95.655!
-2019-04-01 18:32:33,488 - INFO - 4 epoch training is start!
-2019-04-01 18:32:42,963 - DEBUG - step: 3600, mean_loss: 0.7322, mean_acc: 0.9688
-2019-04-01 18:33:05,105 - DEBUG - step: 3700, mean_loss: 0.7575, mean_acc: 0.9570
-2019-04-01 18:33:27,201 - DEBUG - step: 3800, mean_loss: 0.7401, mean_acc: 0.9601
-2019-04-01 18:33:49,115 - DEBUG - step: 3900, mean_loss: 0.7200, mean_acc: 0.9677
-2019-04-01 18:34:11,051 - DEBUG - step: 4000, mean_loss: 0.6951, mean_acc: 0.9764
-2019-04-01 18:34:32,984 - DEBUG - step: 4100, mean_loss: 0.7016, mean_acc: 0.9721
-2019-04-01 18:34:54,981 - DEBUG - step: 4200, mean_loss: 0.7139, mean_acc: 0.9630
-2019-04-01 18:35:16,886 - DEBUG - step: 4300, mean_loss: 0.6807, mean_acc: 0.9756
-2019-04-01 18:35:38,791 - DEBUG - step: 4400, mean_loss: 0.6816, mean_acc: 0.9732
-2019-04-01 18:36:00,753 - DEBUG - step: 4500, mean_loss: 0.6631, mean_acc: 0.9789
-2019-04-01 18:36:22,644 - DEBUG - step: 4600, mean_loss: 0.6617, mean_acc: 0.9773
-2019-04-01 18:36:44,144 - DEBUG - step: 4700, mean_loss: 0.6572, mean_acc: 0.9773
-2019-04-01 18:36:54,897 - INFO - 4 epoch training is finish!
-2019-04-01 18:37:26,512 - INFO - 4 epoch validation is 96.332!
-2019-04-01 18:37:29,286 - INFO - 5 epoch training is start!
-2019-04-01 18:37:41,421 - DEBUG - step: 4800, mean_loss: 0.6652, mean_acc: 0.9726
-2019-04-01 18:38:03,463 - DEBUG - step: 4900, mean_loss: 0.6747, mean_acc: 0.9671
-2019-04-01 18:38:25,497 - DEBUG - step: 5000, mean_loss: 0.6581, mean_acc: 0.9707
-2019-04-01 18:38:47,498 - DEBUG - step: 5100, mean_loss: 0.6402, mean_acc: 0.9780
-2019-04-01 18:39:09,646 - DEBUG - step: 5200, mean_loss: 0.6244, mean_acc: 0.9826
-2019-04-01 18:39:31,614 - DEBUG - step: 5300, mean_loss: 0.6295, mean_acc: 0.9781
-2019-04-01 18:39:53,717 - DEBUG - step: 5400, mean_loss: 0.6358, mean_acc: 0.9740
-2019-04-01 18:40:15,721 - DEBUG - step: 5500, mean_loss: 0.6119, mean_acc: 0.9820
-2019-04-01 18:40:37,705 - DEBUG - step: 5600, mean_loss: 0.6132, mean_acc: 0.9798
-2019-04-01 18:40:59,655 - DEBUG - step: 5700, mean_loss: 0.5973, mean_acc: 0.9849
-2019-04-01 18:41:21,712 - DEBUG - step: 5800, mean_loss: 0.5945, mean_acc: 0.9831
-2019-04-01 18:41:43,167 - DEBUG - step: 5900, mean_loss: 0.5956, mean_acc: 0.9823
-2019-04-01 18:41:51,435 - INFO - 5 epoch training is finish!
-2019-04-01 18:42:23,146 - INFO - 5 epoch validation is 96.479!
-2019-04-01 18:42:26,022 - INFO - 6 epoch training is start!
-2019-04-01 18:42:40,890 - DEBUG - step: 6000, mean_loss: 0.6021, mean_acc: 0.9774
-2019-04-01 18:43:03,039 - DEBUG - step: 6100, mean_loss: 0.6065, mean_acc: 0.9745
-2019-04-01 18:43:25,382 - DEBUG - step: 6200, mean_loss: 0.5865, mean_acc: 0.9826
-2019-04-01 18:43:47,495 - DEBUG - step: 6300, mean_loss: 0.5785, mean_acc: 0.9830
-2019-04-01 18:44:09,712 - DEBUG - step: 6400, mean_loss: 0.5633, mean_acc: 0.9881
-2019-04-01 18:44:31,995 - DEBUG - step: 6500, mean_loss: 0.5733, mean_acc: 0.9827
-2019-04-01 18:44:54,240 - DEBUG - step: 6600, mean_loss: 0.5720, mean_acc: 0.9810
-2019-04-01 18:45:16,409 - DEBUG - step: 6700, mean_loss: 0.5560, mean_acc: 0.9870
-2019-04-01 18:45:38,584 - DEBUG - step: 6800, mean_loss: 0.5588, mean_acc: 0.9843
-2019-04-01 18:46:01,108 - DEBUG - step: 6900, mean_loss: 0.5418, mean_acc: 0.9882
-2019-04-01 18:46:23,283 - DEBUG - step: 7000, mean_loss: 0.5400, mean_acc: 0.9880
-2019-04-01 18:46:44,680 - DEBUG - step: 7100, mean_loss: 0.5396, mean_acc: 0.9874
-2019-04-01 18:46:50,361 - INFO - 6 epoch training is finish!
-2019-04-01 18:47:22,526 - INFO - 6 epoch validation is 96.573!
-2019-04-01 18:47:25,755 - INFO - 7 epoch training is start!
-2019-04-01 18:47:43,516 - DEBUG - step: 7200, mean_loss: 0.5450, mean_acc: 0.9842
-2019-04-01 18:48:05,778 - DEBUG - step: 7300, mean_loss: 0.5478, mean_acc: 0.9814
-2019-04-01 18:48:28,105 - DEBUG - step: 7400, mean_loss: 0.5315, mean_acc: 0.9866
-2019-04-01 18:48:50,296 - DEBUG - step: 7500, mean_loss: 0.5259, mean_acc: 0.9877
-2019-04-01 18:49:12,551 - DEBUG - step: 7600, mean_loss: 0.5134, mean_acc: 0.9927
-2019-04-01 18:49:34,828 - DEBUG - step: 7700, mean_loss: 0.5184, mean_acc: 0.9875
-2019-04-01 18:49:57,351 - DEBUG - step: 7800, mean_loss: 0.5182, mean_acc: 0.9856
-2019-04-01 18:50:19,569 - DEBUG - step: 7900, mean_loss: 0.5014, mean_acc: 0.9912
-2019-04-01 18:50:42,120 - DEBUG - step: 8000, mean_loss: 0.5097, mean_acc: 0.9870
-2019-04-01 18:51:04,733 - DEBUG - step: 8100, mean_loss: 0.4973, mean_acc: 0.9916
-2019-04-01 18:51:27,240 - DEBUG - step: 8200, mean_loss: 0.4977, mean_acc: 0.9891
-2019-04-01 18:51:48,942 - DEBUG - step: 8300, mean_loss: 0.4904, mean_acc: 0.9915
-2019-04-01 18:51:52,442 - INFO - 7 epoch training is finish!
-2019-04-01 18:52:25,859 - INFO - 7 epoch validation is 96.533!
-2019-04-01 18:52:28,525 - INFO - 8 epoch training is start!
-2019-04-01 18:52:49,241 - DEBUG - step: 8400, mean_loss: 0.5041, mean_acc: 0.9846
-2019-04-01 18:53:12,187 - DEBUG - step: 8500, mean_loss: 0.4989, mean_acc: 0.9866
-2019-04-01 18:53:34,969 - DEBUG - step: 8600, mean_loss: 0.4886, mean_acc: 0.9888
-2019-04-01 18:53:57,707 - DEBUG - step: 8700, mean_loss: 0.4803, mean_acc: 0.9916
-2019-04-01 18:54:20,602 - DEBUG - step: 8800, mean_loss: 0.4742, mean_acc: 0.9918
-2019-04-01 18:54:42,963 - DEBUG - step: 8900, mean_loss: 0.4778, mean_acc: 0.9887
-2019-04-01 18:55:05,306 - DEBUG - step: 9000, mean_loss: 0.4751, mean_acc: 0.9895
-2019-04-01 18:55:27,839 - DEBUG - step: 9100, mean_loss: 0.4635, mean_acc: 0.9938
-2019-04-01 18:55:50,205 - DEBUG - step: 9200, mean_loss: 0.4640, mean_acc: 0.9916
-2019-04-01 18:56:12,584 - DEBUG - step: 9300, mean_loss: 0.4551, mean_acc: 0.9939
-2019-04-01 18:56:35,215 - DEBUG - step: 9400, mean_loss: 0.4569, mean_acc: 0.9920
-2019-04-01 18:56:56,835 - DEBUG - step: 9500, mean_loss: 0.4542, mean_acc: 0.9930
-2019-04-01 18:56:57,512 - INFO - 8 epoch training is finish!
-2019-04-01 18:57:30,507 - INFO - 8 epoch validation is 96.658!
-2019-04-01 18:57:33,073 - INFO - 9 epoch training is start!
-2019-04-01 18:57:56,437 - DEBUG - step: 9600, mean_loss: 0.4552, mean_acc: 0.9910
-2019-04-01 18:58:19,092 - DEBUG - step: 9700, mean_loss: 0.4609, mean_acc: 0.9884
-2019-04-01 18:58:41,640 - DEBUG - step: 9800, mean_loss: 0.4461, mean_acc: 0.9923
-2019-04-01 18:59:04,152 - DEBUG - step: 9900, mean_loss: 0.4396, mean_acc: 0.9939
-2019-04-01 18:59:26,927 - DEBUG - step: 10000, mean_loss: 0.4335, mean_acc: 0.9957
-2019-04-01 18:59:49,419 - DEBUG - step: 10100, mean_loss: 0.4429, mean_acc: 0.9909
-2019-04-01 19:00:11,945 - DEBUG - step: 10200, mean_loss: 0.4375, mean_acc: 0.9923
-2019-04-01 19:00:34,349 - DEBUG - step: 10300, mean_loss: 0.4300, mean_acc: 0.9944
-2019-04-01 19:00:57,045 - DEBUG - step: 10400, mean_loss: 0.4274, mean_acc: 0.9937
-2019-04-01 19:01:19,495 - DEBUG - step: 10500, mean_loss: 0.4208, mean_acc: 0.9957
-2019-04-01 19:01:41,931 - DEBUG - step: 10600, mean_loss: 0.4197, mean_acc: 0.9948
-2019-04-01 19:02:01,318 - INFO - 9 epoch training is finish!
-2019-04-01 19:02:34,591 - INFO - 9 epoch validation is 96.724!
-2019-04-01 19:02:37,688 - INFO - 10 epoch training is start!
-2019-04-01 19:02:41,253 - DEBUG - step: 10700, mean_loss: 0.4180, mean_acc: 0.9943
-2019-04-01 19:03:04,150 - DEBUG - step: 10800, mean_loss: 0.4219, mean_acc: 0.9927
-2019-04-01 19:03:26,830 - DEBUG - step: 10900, mean_loss: 0.4184, mean_acc: 0.9926
-2019-04-01 19:03:49,551 - DEBUG - step: 11000, mean_loss: 0.4146, mean_acc: 0.9939
-2019-04-01 19:04:12,203 - DEBUG - step: 11100, mean_loss: 0.4090, mean_acc: 0.9946
-2019-04-01 19:04:34,828 - DEBUG - step: 11200, mean_loss: 0.4071, mean_acc: 0.9945
-2019-04-01 19:04:57,735 - DEBUG - step: 11300, mean_loss: 0.4116, mean_acc: 0.9927
-2019-04-01 19:05:20,362 - DEBUG - step: 11400, mean_loss: 0.4032, mean_acc: 0.9934
-2019-04-01 19:05:42,962 - DEBUG - step: 11500, mean_loss: 0.4006, mean_acc: 0.9942
-2019-04-01 19:06:05,922 - DEBUG - step: 11600, mean_loss: 0.3962, mean_acc: 0.9955
-2019-04-01 19:06:28,548 - DEBUG - step: 11700, mean_loss: 0.3914, mean_acc: 0.9969
-2019-04-01 19:06:51,226 - DEBUG - step: 11800, mean_loss: 0.3901, mean_acc: 0.9956
-2019-04-01 19:07:08,190 - INFO - 10 epoch training is finish!
-2019-04-01 19:07:42,026 - INFO - 10 epoch validation is 96.805!
-2019-04-01 19:07:45,287 - INFO - 11 epoch training is start!
-2019-04-01 19:07:51,729 - DEBUG - step: 11900, mean_loss: 0.3875, mean_acc: 0.9959
-2019-04-01 19:08:14,524 - DEBUG - step: 12000, mean_loss: 0.3912, mean_acc: 0.9930
-2019-04-01 19:08:37,392 - DEBUG - step: 12100, mean_loss: 0.3860, mean_acc: 0.9959
-2019-04-01 19:09:00,059 - DEBUG - step: 12200, mean_loss: 0.3828, mean_acc: 0.9955
-2019-04-01 19:09:22,763 - DEBUG - step: 12300, mean_loss: 0.3758, mean_acc: 0.9974
-2019-04-01 19:09:45,434 - DEBUG - step: 12400, mean_loss: 0.3767, mean_acc: 0.9963
-2019-04-01 19:10:08,109 - DEBUG - step: 12500, mean_loss: 0.3781, mean_acc: 0.9956
-2019-04-01 19:10:30,784 - DEBUG - step: 12600, mean_loss: 0.3731, mean_acc: 0.9964
-2019-04-01 19:10:53,426 - DEBUG - step: 12700, mean_loss: 0.3724, mean_acc: 0.9959
-2019-04-01 19:11:16,107 - DEBUG - step: 12800, mean_loss: 0.3703, mean_acc: 0.9955
-2019-04-01 19:11:38,832 - DEBUG - step: 12900, mean_loss: 0.3658, mean_acc: 0.9966
-2019-04-01 19:12:01,265 - DEBUG - step: 13000, mean_loss: 0.3636, mean_acc: 0.9968
-2019-04-01 19:12:15,590 - INFO - 11 epoch training is finish!
-2019-04-01 19:12:49,518 - INFO - 11 epoch validation is 96.950!
-2019-04-01 19:12:52,724 - INFO - 12 epoch training is start!
-2019-04-01 19:13:01,978 - DEBUG - step: 13100, mean_loss: 0.3622, mean_acc: 0.9961
-2019-04-01 19:13:25,029 - DEBUG - step: 13200, mean_loss: 0.3626, mean_acc: 0.9959
-2019-04-01 19:13:48,605 - DEBUG - step: 13300, mean_loss: 0.3615, mean_acc: 0.9957
-2019-04-01 19:14:11,613 - DEBUG - step: 13400, mean_loss: 0.3569, mean_acc: 0.9970
-2019-04-01 19:14:34,633 - DEBUG - step: 13500, mean_loss: 0.3536, mean_acc: 0.9975
-2019-04-01 19:14:57,679 - DEBUG - step: 13600, mean_loss: 0.3531, mean_acc: 0.9968
-2019-04-01 19:15:20,754 - DEBUG - step: 13700, mean_loss: 0.3544, mean_acc: 0.9952
-2019-04-01 19:15:43,848 - DEBUG - step: 13800, mean_loss: 0.3467, mean_acc: 0.9980
-2019-04-01 19:16:07,320 - DEBUG - step: 13900, mean_loss: 0.3480, mean_acc: 0.9966
-2019-04-01 19:16:30,378 - DEBUG - step: 14000, mean_loss: 0.3477, mean_acc: 0.9973
-2019-04-01 19:16:53,559 - DEBUG - step: 14100, mean_loss: 0.3411, mean_acc: 0.9980
-2019-04-01 19:17:16,162 - DEBUG - step: 14200, mean_loss: 0.3416, mean_acc: 0.9970
-2019-04-01 19:17:27,986 - INFO - 12 epoch training is finish!
-2019-04-01 19:18:02,124 - INFO - 12 epoch validation is 96.982!
-2019-04-01 19:18:04,931 - INFO - 13 epoch training is start!
-2019-04-01 19:18:16,949 - DEBUG - step: 14300, mean_loss: 0.3402, mean_acc: 0.9966
-2019-04-01 19:18:39,939 - DEBUG - step: 14400, mean_loss: 0.3398, mean_acc: 0.9966
-2019-04-01 19:19:02,906 - DEBUG - step: 14500, mean_loss: 0.3405, mean_acc: 0.9948
-2019-04-01 19:19:25,879 - DEBUG - step: 14600, mean_loss: 0.3341, mean_acc: 0.9973
-2019-04-01 19:19:48,827 - DEBUG - step: 14700, mean_loss: 0.3299, mean_acc: 0.9984
-2019-04-01 19:20:11,934 - DEBUG - step: 14800, mean_loss: 0.3296, mean_acc: 0.9980
-2019-04-01 19:20:35,052 - DEBUG - step: 14900, mean_loss: 0.3309, mean_acc: 0.9968
-2019-04-01 19:20:57,971 - DEBUG - step: 15000, mean_loss: 0.3274, mean_acc: 0.9970
-2019-04-01 19:21:20,941 - DEBUG - step: 15100, mean_loss: 0.3281, mean_acc: 0.9967
-2019-04-01 19:21:43,876 - DEBUG - step: 15200, mean_loss: 0.3217, mean_acc: 0.9984
-2019-04-01 19:22:06,809 - DEBUG - step: 15300, mean_loss: 0.3198, mean_acc: 0.9984
-2019-04-01 19:22:29,179 - DEBUG - step: 15400, mean_loss: 0.3179, mean_acc: 0.9987
-2019-04-01 19:22:38,566 - INFO - 13 epoch training is finish!
-2019-04-01 19:23:12,883 - INFO - 13 epoch validation is 97.029!
-2019-04-01 19:23:16,179 - INFO - 14 epoch training is start!
-2019-04-01 19:23:30,968 - DEBUG - step: 15500, mean_loss: 0.3216, mean_acc: 0.9967
-2019-04-01 19:23:53,967 - DEBUG - step: 15600, mean_loss: 0.3179, mean_acc: 0.9979
-2019-04-01 19:24:16,981 - DEBUG - step: 15700, mean_loss: 0.3148, mean_acc: 0.9978
-2019-04-01 19:24:40,031 - DEBUG - step: 15800, mean_loss: 0.3120, mean_acc: 0.9987
-2019-04-01 19:25:03,195 - DEBUG - step: 15900, mean_loss: 0.3085, mean_acc: 0.9996
-2019-04-01 19:25:26,267 - DEBUG - step: 16000, mean_loss: 0.3085, mean_acc: 0.9989
-2019-04-01 19:25:49,348 - DEBUG - step: 16100, mean_loss: 0.3097, mean_acc: 0.9978
-2019-04-01 19:26:12,385 - DEBUG - step: 16200, mean_loss: 0.3063, mean_acc: 0.9980
-2019-04-01 19:26:35,434 - DEBUG - step: 16300, mean_loss: 0.3068, mean_acc: 0.9975
-2019-04-01 19:26:58,494 - DEBUG - step: 16400, mean_loss: 0.3018, mean_acc: 0.9991
-2019-04-01 19:27:21,627 - DEBUG - step: 16500, mean_loss: 0.3008, mean_acc: 0.9985
-2019-04-01 19:27:43,918 - DEBUG - step: 16600, mean_loss: 0.3029, mean_acc: 0.9977
-2019-04-01 19:27:50,662 - INFO - 14 epoch training is finish!
-2019-04-01 19:28:25,219 - INFO - 14 epoch validation is 97.035!
-2019-04-01 19:28:28,181 - INFO - 15 epoch training is start!
-2019-04-01 19:28:45,829 - DEBUG - step: 16700, mean_loss: 0.3010, mean_acc: 0.9982
-2019-04-01 19:29:08,965 - DEBUG - step: 16800, mean_loss: 0.3000, mean_acc: 0.9977
-2019-04-01 19:29:32,141 - DEBUG - step: 16900, mean_loss: 0.2956, mean_acc: 0.9987
-2019-04-01 19:29:55,206 - DEBUG - step: 17000, mean_loss: 0.2933, mean_acc: 0.9991
-2019-04-01 19:30:18,247 - DEBUG - step: 17100, mean_loss: 0.2920, mean_acc: 0.9991
-2019-04-01 19:30:41,312 - DEBUG - step: 17200, mean_loss: 0.2921, mean_acc: 0.9984
-2019-04-01 19:31:04,355 - DEBUG - step: 17300, mean_loss: 0.2929, mean_acc: 0.9975
-2019-04-01 19:31:27,485 - DEBUG - step: 17400, mean_loss: 0.2903, mean_acc: 0.9987
-2019-04-01 19:31:50,674 - DEBUG - step: 17500, mean_loss: 0.2879, mean_acc: 0.9988
-2019-04-01 19:32:13,753 - DEBUG - step: 17600, mean_loss: 0.2868, mean_acc: 0.9985
-2019-04-01 19:32:36,835 - DEBUG - step: 17700, mean_loss: 0.2854, mean_acc: 0.9986
-2019-04-01 19:32:59,024 - DEBUG - step: 17800, mean_loss: 0.2841, mean_acc: 0.9984
-2019-04-01 19:33:03,161 - INFO - 15 epoch training is finish!
-2019-04-01 19:33:38,457 - INFO - 15 epoch validation is 96.992!
-2019-04-01 19:33:41,817 - INFO - 16 epoch training is start!
-2019-04-01 19:34:02,299 - DEBUG - step: 17900, mean_loss: 0.2838, mean_acc: 0.9987
-2019-04-01 19:34:25,555 - DEBUG - step: 18000, mean_loss: 0.2842, mean_acc: 0.9984
-2019-04-01 19:34:48,785 - DEBUG - step: 18100, mean_loss: 0.2806, mean_acc: 0.9988
-2019-04-01 19:35:12,008 - DEBUG - step: 18200, mean_loss: 0.2775, mean_acc: 0.9996
-2019-04-01 19:35:35,226 - DEBUG - step: 18300, mean_loss: 0.2763, mean_acc: 0.9993
-2019-04-01 19:35:58,429 - DEBUG - step: 18400, mean_loss: 0.2771, mean_acc: 0.9988
-2019-04-01 19:36:21,726 - DEBUG - step: 18500, mean_loss: 0.2770, mean_acc: 0.9984
-2019-04-01 19:36:44,918 - DEBUG - step: 18600, mean_loss: 0.2733, mean_acc: 0.9990
-2019-04-01 19:37:08,118 - DEBUG - step: 18700, mean_loss: 0.2713, mean_acc: 0.9995
-2019-04-01 19:37:31,345 - DEBUG - step: 18800, mean_loss: 0.2714, mean_acc: 0.9987
-2019-04-01 19:37:54,555 - DEBUG - step: 18900, mean_loss: 0.2697, mean_acc: 0.9990
-2019-04-01 19:38:16,617 - DEBUG - step: 19000, mean_loss: 0.2684, mean_acc: 0.9994
-2019-04-01 19:38:18,231 - INFO - 16 epoch training is finish!
-2019-04-01 19:38:53,292 - INFO - 16 epoch validation is 97.128!
-2019-04-01 19:38:55,930 - INFO - 17 epoch training is start!
-2019-04-01 19:39:19,372 - DEBUG - step: 19100, mean_loss: 0.2682, mean_acc: 0.9988
-2019-04-01 19:39:42,716 - DEBUG - step: 19200, mean_loss: 0.2673, mean_acc: 0.9988
-2019-04-01 19:40:06,051 - DEBUG - step: 19300, mean_loss: 0.2655, mean_acc: 0.9990
-2019-04-01 19:40:29,383 - DEBUG - step: 19400, mean_loss: 0.2638, mean_acc: 0.9995
-2019-04-01 19:40:52,739 - DEBUG - step: 19500, mean_loss: 0.2620, mean_acc: 0.9995
-2019-04-01 19:41:16,069 - DEBUG - step: 19600, mean_loss: 0.2623, mean_acc: 0.9991
-2019-04-01 19:41:39,449 - DEBUG - step: 19700, mean_loss: 0.2612, mean_acc: 0.9988
-2019-04-01 19:42:02,750 - DEBUG - step: 19800, mean_loss: 0.2588, mean_acc: 0.9994
-2019-04-01 19:42:26,058 - DEBUG - step: 19900, mean_loss: 0.2577, mean_acc: 0.9992
-2019-04-01 19:42:49,399 - DEBUG - step: 20000, mean_loss: 0.2573, mean_acc: 0.9992
-2019-04-01 19:43:12,828 - DEBUG - step: 20100, mean_loss: 0.2561, mean_acc: 0.9994
-2019-04-01 19:43:33,745 - INFO - 17 epoch training is finish!
-2019-04-01 19:44:09,113 - INFO - 17 epoch validation is 97.163!
-2019-04-01 19:44:11,951 - INFO - 18 epoch training is start!
-2019-04-01 19:44:14,939 - DEBUG - step: 20200, mean_loss: 0.2548, mean_acc: 0.9996
-2019-04-01 19:44:38,333 - DEBUG - step: 20300, mean_loss: 0.2552, mean_acc: 0.9991
-2019-04-01 19:45:01,730 - DEBUG - step: 20400, mean_loss: 0.2539, mean_acc: 0.9991
-2019-04-01 19:45:25,409 - DEBUG - step: 20500, mean_loss: 0.2525, mean_acc: 0.9992
-2019-04-01 19:45:48,825 - DEBUG - step: 20600, mean_loss: 0.2506, mean_acc: 0.9993
-2019-04-01 19:46:12,221 - DEBUG - step: 20700, mean_loss: 0.2494, mean_acc: 0.9995
-2019-04-01 19:46:35,634 - DEBUG - step: 20800, mean_loss: 0.2489, mean_acc: 0.9995
-2019-04-01 19:46:59,002 - DEBUG - step: 20900, mean_loss: 0.2482, mean_acc: 0.9991
-2019-04-01 19:47:22,377 - DEBUG - step: 21000, mean_loss: 0.2466, mean_acc: 0.9994
-2019-04-01 19:47:46,154 - DEBUG - step: 21100, mean_loss: 0.2460, mean_acc: 0.9995
-2019-04-01 19:48:09,664 - DEBUG - step: 21200, mean_loss: 0.2442, mean_acc: 0.9995
-2019-04-01 19:48:33,081 - DEBUG - step: 21300, mean_loss: 0.2437, mean_acc: 0.9995
-2019-04-01 19:48:51,151 - INFO - 18 epoch training is finish!
-2019-04-01 19:49:27,598 - INFO - 18 epoch validation is 97.127!
-2019-04-01 19:49:30,641 - INFO - 19 epoch training is start!
-2019-04-01 19:49:36,385 - DEBUG - step: 21400, mean_loss: 0.2424, mean_acc: 0.9996
-2019-04-01 19:49:59,618 - DEBUG - step: 21500, mean_loss: 0.2427, mean_acc: 0.9993
-2019-04-01 19:50:22,864 - DEBUG - step: 21600, mean_loss: 0.2409, mean_acc: 0.9995
-2019-04-01 19:50:46,123 - DEBUG - step: 21700, mean_loss: 0.2396, mean_acc: 0.9996
-2019-04-01 19:51:09,390 - DEBUG - step: 21800, mean_loss: 0.2381, mean_acc: 0.9997
-2019-04-01 19:51:32,649 - DEBUG - step: 21900, mean_loss: 0.2377, mean_acc: 0.9998
-2019-04-01 19:51:56,292 - DEBUG - step: 22000, mean_loss: 0.2372, mean_acc: 0.9995
-2019-04-01 19:52:19,623 - DEBUG - step: 22100, mean_loss: 0.2362, mean_acc: 0.9995
-2019-04-01 19:52:42,920 - DEBUG - step: 22200, mean_loss: 0.2348, mean_acc: 0.9998
-2019-04-01 19:53:06,195 - DEBUG - step: 22300, mean_loss: 0.2340, mean_acc: 0.9995
-2019-04-01 19:53:29,437 - DEBUG - step: 22400, mean_loss: 0.2332, mean_acc: 0.9995
-2019-04-01 19:53:52,555 - DEBUG - step: 22500, mean_loss: 0.2323, mean_acc: 0.9997
-2019-04-01 19:54:08,110 - INFO - 19 epoch training is finish!
-2019-04-01 19:54:44,061 - INFO - 19 epoch validation is 97.131!
-2019-04-01 19:54:47,148 - INFO - 20 epoch training is start!
-2019-04-01 19:54:55,732 - DEBUG - step: 22600, mean_loss: 0.2319, mean_acc: 0.9995
-2019-04-01 19:55:19,106 - DEBUG - step: 22700, mean_loss: 0.2314, mean_acc: 0.9995
-2019-04-01 19:55:42,468 - DEBUG - step: 22800, mean_loss: 0.2298, mean_acc: 0.9998
-2019-04-01 19:56:05,768 - DEBUG - step: 22900, mean_loss: 0.2282, mean_acc: 1.0000
-2019-04-01 19:56:29,465 - DEBUG - step: 23000, mean_loss: 0.2272, mean_acc: 0.9999
-2019-04-01 19:56:52,906 - DEBUG - step: 23100, mean_loss: 0.2270, mean_acc: 0.9998
-2019-04-01 19:57:16,350 - DEBUG - step: 23200, mean_loss: 0.2270, mean_acc: 0.9995
-2019-04-01 19:57:39,797 - DEBUG - step: 23300, mean_loss: 0.2253, mean_acc: 0.9999
-2019-04-01 19:58:03,212 - DEBUG - step: 23400, mean_loss: 0.2251, mean_acc: 0.9996
-2019-04-01 19:58:26,622 - DEBUG - step: 23500, mean_loss: 0.2235, mean_acc: 0.9999
-2019-04-01 19:58:50,357 - DEBUG - step: 23600, mean_loss: 0.2235, mean_acc: 0.9995
-2019-04-01 19:59:13,373 - DEBUG - step: 23700, mean_loss: 0.2225, mean_acc: 0.9996
-2019-04-01 19:59:26,279 - INFO - 20 epoch training is finish!
-2019-04-01 20:00:02,850 - INFO - 20 epoch validation is 97.156!
-2019-04-01 20:00:06,160 - INFO - 21 epoch training is start!
-2019-04-01 20:00:17,589 - DEBUG - step: 23800, mean_loss: 0.2213, mean_acc: 1.0000
-2019-04-01 20:00:40,985 - DEBUG - step: 23900, mean_loss: 0.2212, mean_acc: 0.9997
-2019-04-01 20:01:04,451 - DEBUG - step: 24000, mean_loss: 0.2201, mean_acc: 0.9998
-2019-04-01 20:01:27,888 - DEBUG - step: 24100, mean_loss: 0.2187, mean_acc: 0.9999
-2019-04-01 20:01:51,309 - DEBUG - step: 24200, mean_loss: 0.2177, mean_acc: 0.9999
-2019-04-01 20:02:14,646 - DEBUG - step: 24300, mean_loss: 0.2174, mean_acc: 0.9999
-2019-04-01 20:02:38,030 - DEBUG - step: 24400, mean_loss: 0.2174, mean_acc: 0.9997
-2019-04-01 20:03:01,400 - DEBUG - step: 24500, mean_loss: 0.2162, mean_acc: 0.9996
-2019-04-01 20:03:24,850 - DEBUG - step: 24600, mean_loss: 0.2153, mean_acc: 0.9999
-2019-04-01 20:03:48,232 - DEBUG - step: 24700, mean_loss: 0.2145, mean_acc: 0.9998
-2019-04-01 20:04:11,692 - DEBUG - step: 24800, mean_loss: 0.2144, mean_acc: 0.9998
-2019-04-01 20:04:34,498 - DEBUG - step: 24900, mean_loss: 0.2135, mean_acc: 0.9996
-2019-04-01 20:04:45,033 - INFO - 21 epoch training is finish!
-2019-04-01 20:05:22,074 - INFO - 21 epoch validation is 97.133!
-2019-04-01 20:05:25,148 - INFO - 22 epoch training is start!
-2019-04-01 20:05:39,482 - DEBUG - step: 25000, mean_loss: 0.2131, mean_acc: 0.9996
-2019-04-01 20:06:03,007 - DEBUG - step: 25100, mean_loss: 0.2120, mean_acc: 0.9998
-2019-04-01 20:06:26,504 - DEBUG - step: 25200, mean_loss: 0.2110, mean_acc: 0.9999
-2019-04-01 20:06:50,022 - DEBUG - step: 25300, mean_loss: 0.2099, mean_acc: 1.0000
-2019-04-01 20:07:13,539 - DEBUG - step: 25400, mean_loss: 0.2091, mean_acc: 0.9998
-2019-04-01 20:07:37,039 - DEBUG - step: 25500, mean_loss: 0.2091, mean_acc: 0.9995
-2019-04-01 20:08:00,587 - DEBUG - step: 25600, mean_loss: 0.2087, mean_acc: 0.9997
-2019-04-01 20:08:23,998 - DEBUG - step: 25700, mean_loss: 0.2075, mean_acc: 0.9998
-2019-04-01 20:08:47,435 - DEBUG - step: 25800, mean_loss: 0.2072, mean_acc: 0.9998
-2019-04-01 20:09:10,854 - DEBUG - step: 25900, mean_loss: 0.2063, mean_acc: 0.9997
-2019-04-01 20:09:34,272 - DEBUG - step: 26000, mean_loss: 0.2054, mean_acc: 0.9999
-2019-04-01 20:09:56,957 - DEBUG - step: 26100, mean_loss: 0.2051, mean_acc: 0.9998
-2019-04-01 20:10:04,777 - INFO - 22 epoch training is finish!
-2019-04-01 20:10:42,096 - INFO - 22 epoch validation is 97.061!
-2019-04-01 20:10:44,764 - INFO - 23 epoch training is start!
-2019-04-01 20:11:02,185 - DEBUG - step: 26200, mean_loss: 0.2047, mean_acc: 0.9997
-2019-04-01 20:11:25,863 - DEBUG - step: 26300, mean_loss: 0.2038, mean_acc: 0.9999
-2019-04-01 20:11:49,571 - DEBUG - step: 26400, mean_loss: 0.2028, mean_acc: 0.9998
-2019-04-01 20:12:13,272 - DEBUG - step: 26500, mean_loss: 0.2020, mean_acc: 0.9999
-2019-04-01 20:12:37,133 - DEBUG - step: 26600, mean_loss: 0.2012, mean_acc: 0.9999
-2019-04-01 20:13:00,886 - DEBUG - step: 26700, mean_loss: 0.2009, mean_acc: 1.0000
-2019-04-01 20:13:24,610 - DEBUG - step: 26800, mean_loss: 0.2007, mean_acc: 0.9997
-2019-04-01 20:13:48,342 - DEBUG - step: 26900, mean_loss: 0.1995, mean_acc: 0.9999
-2019-04-01 20:14:12,104 - DEBUG - step: 27000, mean_loss: 0.1993, mean_acc: 0.9997
-2019-04-01 20:14:35,850 - DEBUG - step: 27100, mean_loss: 0.1984, mean_acc: 0.9999
-2019-04-01 20:14:59,961 - DEBUG - step: 27200, mean_loss: 0.1979, mean_acc: 0.9999
-2019-04-01 20:15:22,696 - DEBUG - step: 27300, mean_loss: 0.1972, mean_acc: 0.9999
-2019-04-01 20:15:27,783 - INFO - 23 epoch training is finish!
-2019-04-01 20:16:04,706 - INFO - 23 epoch validation is 97.219!
-2019-04-01 20:16:07,477 - INFO - 24 epoch training is start!
-2019-04-01 20:16:27,727 - DEBUG - step: 27400, mean_loss: 0.1971, mean_acc: 0.9998
-2019-04-01 20:16:51,458 - DEBUG - step: 27500, mean_loss: 0.1965, mean_acc: 0.9999
-2019-04-01 20:17:15,242 - DEBUG - step: 27600, mean_loss: 0.1952, mean_acc: 1.0000
-2019-04-01 20:17:39,064 - DEBUG - step: 27700, mean_loss: 0.1946, mean_acc: 1.0000
-2019-04-01 20:18:02,810 - DEBUG - step: 27800, mean_loss: 0.1939, mean_acc: 1.0000
-2019-04-01 20:18:26,656 - DEBUG - step: 27900, mean_loss: 0.1938, mean_acc: 0.9999
-2019-04-01 20:18:50,506 - DEBUG - step: 28000, mean_loss: 0.1934, mean_acc: 0.9998
-2019-04-01 20:19:14,332 - DEBUG - step: 28100, mean_loss: 0.1925, mean_acc: 0.9998
-2019-04-01 20:19:38,271 - DEBUG - step: 28200, mean_loss: 0.1920, mean_acc: 0.9999
-2019-04-01 20:20:02,168 - DEBUG - step: 28300, mean_loss: 0.1915, mean_acc: 0.9996
-2019-04-01 20:20:26,036 - DEBUG - step: 28400, mean_loss: 0.1911, mean_acc: 0.9999
-2019-04-01 20:20:48,512 - DEBUG - step: 28500, mean_loss: 0.1902, mean_acc: 1.0000
-2019-04-01 20:20:50,955 - INFO - 24 epoch training is finish!
-2019-04-01 20:21:29,036 - INFO - 24 epoch validation is 97.212!
-2019-04-01 20:21:32,202 - INFO - 25 epoch training is start!
-2019-04-01 20:21:55,879 - DEBUG - step: 28600, mean_loss: 0.1901, mean_acc: 0.9999
-2019-04-01 20:22:20,704 - DEBUG - step: 28700, mean_loss: 0.1894, mean_acc: 1.0000
-2019-04-01 20:22:45,270 - DEBUG - step: 28800, mean_loss: 0.1887, mean_acc: 0.9999
-2019-04-01 20:23:09,004 - DEBUG - step: 28900, mean_loss: 0.1879, mean_acc: 0.9999
-2019-04-01 20:23:32,814 - DEBUG - step: 29000, mean_loss: 0.1874, mean_acc: 1.0000
-2019-04-01 20:23:57,806 - DEBUG - step: 29100, mean_loss: 0.1875, mean_acc: 0.9998
-2019-04-01 20:24:22,433 - DEBUG - step: 29200, mean_loss: 0.1869, mean_acc: 0.9998
-2019-04-01 20:24:46,269 - DEBUG - step: 29300, mean_loss: 0.1858, mean_acc: 1.0000
-2019-04-01 20:25:10,173 - DEBUG - step: 29400, mean_loss: 0.1856, mean_acc: 0.9999
-2019-04-01 20:25:34,363 - DEBUG - step: 29500, mean_loss: 0.1849, mean_acc: 0.9999
-2019-04-01 20:25:58,191 - DEBUG - step: 29600, mean_loss: 0.1848, mean_acc: 0.9998
-2019-04-01 20:26:20,242 - DEBUG - step: 29700, mean_loss: 0.1840, mean_acc: 0.9998
-2019-04-01 20:26:20,244 - INFO - 25 epoch training is finish!
-2019-04-01 20:26:57,159 - INFO - 25 epoch validation is 97.132!
-2019-04-01 20:26:59,947 - INFO - 26 epoch training is start!
-2019-04-01 20:27:25,747 - DEBUG - step: 29800, mean_loss: 0.1839, mean_acc: 0.9999
-2019-04-01 20:27:49,455 - DEBUG - step: 29900, mean_loss: 0.1836, mean_acc: 0.9998
-2019-04-01 20:28:13,656 - DEBUG - step: 30000, mean_loss: 0.1826, mean_acc: 0.9998
-2019-04-01 20:28:37,602 - DEBUG - step: 30100, mean_loss: 0.1821, mean_acc: 0.9999
-2019-04-01 20:29:01,118 - DEBUG - step: 30200, mean_loss: 0.1817, mean_acc: 0.9998
-2019-04-01 20:29:24,666 - DEBUG - step: 30300, mean_loss: 0.1825, mean_acc: 0.9996
-2019-04-01 20:29:48,478 - DEBUG - step: 30400, mean_loss: 0.1812, mean_acc: 0.9998
-2019-04-01 20:30:12,129 - DEBUG - step: 30500, mean_loss: 0.1804, mean_acc: 0.9998
-2019-04-01 20:30:35,829 - DEBUG - step: 30600, mean_loss: 0.1804, mean_acc: 0.9997
-2019-04-01 20:30:59,486 - DEBUG - step: 30700, mean_loss: 0.1793, mean_acc: 0.9998
-2019-04-01 20:31:23,145 - DEBUG - step: 30800, mean_loss: 0.1791, mean_acc: 0.9998
-2019-04-01 20:31:42,509 - INFO - 26 epoch training is finish!
-2019-04-01 20:32:19,572 - INFO - 26 epoch validation is 97.114!
-2019-04-01 20:32:22,761 - INFO - 27 epoch training is start!
-2019-04-01 20:32:27,979 - DEBUG - step: 30900, mean_loss: 0.1788, mean_acc: 0.9998
-2019-04-01 20:32:51,908 - DEBUG - step: 31000, mean_loss: 0.1783, mean_acc: 0.9999
-2019-04-01 20:33:15,891 - DEBUG - step: 31100, mean_loss: 0.1777, mean_acc: 0.9999
-2019-04-01 20:33:39,815 - DEBUG - step: 31200, mean_loss: 0.1784, mean_acc: 0.9994
-2019-04-01 20:34:03,704 - DEBUG - step: 31300, mean_loss: 0.1771, mean_acc: 0.9997
-2019-04-01 20:34:27,692 - DEBUG - step: 31400, mean_loss: 0.1765, mean_acc: 0.9998
-2019-04-01 20:34:52,082 - DEBUG - step: 31500, mean_loss: 0.1765, mean_acc: 0.9998
-2019-04-01 20:35:16,703 - DEBUG - step: 31600, mean_loss: 0.1753, mean_acc: 0.9999
-2019-04-01 20:35:41,256 - DEBUG - step: 31700, mean_loss: 0.1749, mean_acc: 1.0000
-2019-04-01 20:36:05,724 - DEBUG - step: 31800, mean_loss: 0.1743, mean_acc: 0.9999
-2019-04-01 20:36:29,817 - DEBUG - step: 31900, mean_loss: 0.1739, mean_acc: 0.9999
-2019-04-01 20:36:54,487 - DEBUG - step: 32000, mean_loss: 0.1736, mean_acc: 0.9999
-2019-04-01 20:37:11,668 - INFO - 27 epoch training is finish!
-2019-04-01 20:37:50,594 - INFO - 27 epoch validation is 97.227!
-2019-04-01 20:37:53,704 - INFO - 28 epoch training is start!
-2019-04-01 20:38:01,884 - DEBUG - step: 32100, mean_loss: 0.1733, mean_acc: 0.9998
-2019-04-01 20:38:25,982 - DEBUG - step: 32200, mean_loss: 0.1733, mean_acc: 0.9997
-2019-04-01 20:38:50,358 - DEBUG - step: 32300, mean_loss: 0.1724, mean_acc: 1.0000
-2019-04-01 20:39:14,976 - DEBUG - step: 32400, mean_loss: 0.1717, mean_acc: 0.9999
-2019-04-01 20:39:39,187 - DEBUG - step: 32500, mean_loss: 0.1713, mean_acc: 0.9998
-2019-04-01 20:40:03,968 - DEBUG - step: 32600, mean_loss: 0.1709, mean_acc: 1.0000
-2019-04-01 20:40:28,360 - DEBUG - step: 32700, mean_loss: 0.1709, mean_acc: 0.9999
-2019-04-01 20:40:52,327 - DEBUG - step: 32800, mean_loss: 0.1702, mean_acc: 0.9998
-2019-04-01 20:41:16,348 - DEBUG - step: 32900, mean_loss: 0.1700, mean_acc: 0.9999
-2019-04-01 20:41:40,275 - DEBUG - step: 33000, mean_loss: 0.1692, mean_acc: 1.0000
-2019-04-01 20:42:04,199 - DEBUG - step: 33100, mean_loss: 0.1689, mean_acc: 0.9999
-2019-04-01 20:42:27,818 - DEBUG - step: 33200, mean_loss: 0.1688, mean_acc: 0.9998
-2019-04-01 20:42:41,788 - INFO - 28 epoch training is finish!
-2019-04-01 20:43:19,003 - INFO - 28 epoch validation is 97.168!
-2019-04-01 20:43:22,015 - INFO - 29 epoch training is start!
-2019-04-01 20:43:32,894 - DEBUG - step: 33300, mean_loss: 0.1682, mean_acc: 1.0000
-2019-04-01 20:43:56,725 - DEBUG - step: 33400, mean_loss: 0.1682, mean_acc: 0.9999
-2019-04-01 20:44:20,565 - DEBUG - step: 33500, mean_loss: 0.1675, mean_acc: 1.0000
-2019-04-01 20:44:44,380 - DEBUG - step: 33600, mean_loss: 0.1670, mean_acc: 1.0000
-2019-04-01 20:45:08,249 - DEBUG - step: 33700, mean_loss: 0.1663, mean_acc: 1.0000
-2019-04-01 20:45:32,124 - DEBUG - step: 33800, mean_loss: 0.1662, mean_acc: 1.0000
-2019-04-01 20:45:56,117 - DEBUG - step: 33900, mean_loss: 0.1660, mean_acc: 1.0000
-2019-04-01 20:46:20,018 - DEBUG - step: 34000, mean_loss: 0.1654, mean_acc: 0.9999
-2019-04-01 20:46:43,947 - DEBUG - step: 34100, mean_loss: 0.1651, mean_acc: 1.0000
-2019-04-01 20:47:07,864 - DEBUG - step: 34200, mean_loss: 0.1646, mean_acc: 0.9999
-2019-04-01 20:47:31,826 - DEBUG - step: 34300, mean_loss: 0.1643, mean_acc: 0.9999
-2019-04-01 20:47:55,188 - DEBUG - step: 34400, mean_loss: 0.1641, mean_acc: 1.0000
-2019-04-01 20:48:06,875 - INFO - 29 epoch training is finish!
-2019-04-01 20:48:43,852 - INFO - 29 epoch validation is 97.196!
-2019-04-01 20:48:47,094 - INFO - 30 epoch training is start!
-2019-04-01 20:49:01,065 - DEBUG - step: 34500, mean_loss: 0.1638, mean_acc: 1.0000
-2019-04-01 20:49:25,245 - DEBUG - step: 34600, mean_loss: 0.1635, mean_acc: 1.0000
-2019-04-01 20:49:49,330 - DEBUG - step: 34700, mean_loss: 0.1629, mean_acc: 1.0000
-2019-04-01 20:50:13,396 - DEBUG - step: 34800, mean_loss: 0.1624, mean_acc: 1.0000
-2019-04-01 20:50:37,903 - DEBUG - step: 34900, mean_loss: 0.1619, mean_acc: 1.0000
-2019-04-01 20:51:01,961 - DEBUG - step: 35000, mean_loss: 0.1618, mean_acc: 1.0000
-2019-04-01 20:51:26,031 - DEBUG - step: 35100, mean_loss: 0.1617, mean_acc: 0.9998
-2019-04-01 20:51:50,131 - DEBUG - step: 35200, mean_loss: 0.1611, mean_acc: 1.0000
-2019-04-01 20:52:14,269 - DEBUG - step: 35300, mean_loss: 0.1608, mean_acc: 1.0000
-2019-04-01 20:52:38,729 - DEBUG - step: 35400, mean_loss: 0.1604, mean_acc: 0.9998
-2019-04-01 20:53:02,918 - DEBUG - step: 35500, mean_loss: 0.1600, mean_acc: 1.0000
-2019-04-01 20:53:26,194 - DEBUG - step: 35600, mean_loss: 0.1598, mean_acc: 1.0000
-2019-04-01 20:53:34,905 - INFO - 30 epoch training is finish!
-2019-04-01 20:54:12,273 - INFO - 30 epoch validation is 97.170!
-2019-04-01 20:54:15,444 - INFO - 31 epoch training is start!
-2019-04-01 20:54:32,161 - DEBUG - step: 35700, mean_loss: 0.1597, mean_acc: 1.0000
-2019-04-01 20:54:56,306 - DEBUG - step: 35800, mean_loss: 0.1593, mean_acc: 1.0000
-2019-04-01 20:55:20,261 - DEBUG - step: 35900, mean_loss: 0.1589, mean_acc: 1.0000
-2019-04-01 20:55:44,124 - DEBUG - step: 36000, mean_loss: 0.1584, mean_acc: 1.0000
-2019-04-01 20:56:08,048 - DEBUG - step: 36100, mean_loss: 0.1579, mean_acc: 1.0000
-2019-04-01 20:56:31,962 - DEBUG - step: 36200, mean_loss: 0.1579, mean_acc: 1.0000
-2019-04-01 20:56:55,979 - DEBUG - step: 36300, mean_loss: 0.1576, mean_acc: 0.9999
-2019-04-01 20:57:20,259 - DEBUG - step: 36400, mean_loss: 0.1571, mean_acc: 0.9999
-2019-04-01 20:57:44,229 - DEBUG - step: 36500, mean_loss: 0.1568, mean_acc: 1.0000
-2019-04-01 20:58:08,177 - DEBUG - step: 36600, mean_loss: 0.1564, mean_acc: 1.0000
-2019-04-01 20:58:32,177 - DEBUG - step: 36700, mean_loss: 0.1562, mean_acc: 1.0000
-2019-04-01 20:58:55,128 - DEBUG - step: 36800, mean_loss: 0.1560, mean_acc: 1.0000
-2019-04-01 20:59:01,174 - INFO - 31 epoch training is finish!
-2019-04-01 20:59:39,776 - INFO - 31 epoch validation is 97.160!
-2019-04-01 20:59:42,824 - INFO - 32 epoch training is start!
-2019-04-01 21:00:02,733 - DEBUG - step: 36900, mean_loss: 0.1559, mean_acc: 0.9999
-2019-04-01 21:00:26,857 - DEBUG - step: 37000, mean_loss: 0.1556, mean_acc: 0.9999
-2019-04-01 21:00:50,991 - DEBUG - step: 37100, mean_loss: 0.1550, mean_acc: 1.0000
-2019-04-01 21:01:15,134 - DEBUG - step: 37200, mean_loss: 0.1546, mean_acc: 1.0000
-2019-04-01 21:01:39,279 - DEBUG - step: 37300, mean_loss: 0.1543, mean_acc: 0.9999
-2019-04-01 21:02:03,516 - DEBUG - step: 37400, mean_loss: 0.1541, mean_acc: 1.0000
-2019-04-01 21:02:27,705 - DEBUG - step: 37500, mean_loss: 0.1541, mean_acc: 0.9998
-2019-04-01 21:02:51,894 - DEBUG - step: 37600, mean_loss: 0.1534, mean_acc: 0.9999
-2019-04-01 21:03:16,016 - DEBUG - step: 37700, mean_loss: 0.1531, mean_acc: 1.0000
-2019-04-01 21:03:40,198 - DEBUG - step: 37800, mean_loss: 0.1528, mean_acc: 0.9999
-2019-04-01 21:04:04,382 - DEBUG - step: 37900, mean_loss: 0.1525, mean_acc: 1.0000
-2019-04-01 21:04:27,350 - DEBUG - step: 38000, mean_loss: 0.1526, mean_acc: 0.9998
-2019-04-01 21:04:30,715 - INFO - 32 epoch training is finish!
-2019-04-01 21:05:10,126 - INFO - 32 epoch validation is 97.167!
-2019-04-01 21:05:13,016 - INFO - 33 epoch training is start!
-2019-04-01 21:05:35,983 - DEBUG - step: 38100, mean_loss: 0.1524, mean_acc: 1.0000
-2019-04-01 21:06:00,334 - DEBUG - step: 38200, mean_loss: 0.1521, mean_acc: 0.9998
-2019-04-01 21:06:24,745 - DEBUG - step: 38300, mean_loss: 0.1515, mean_acc: 1.0000
-2019-04-01 21:06:49,541 - DEBUG - step: 38400, mean_loss: 0.1511, mean_acc: 1.0000
-2019-04-01 21:07:13,932 - DEBUG - step: 38500, mean_loss: 0.1508, mean_acc: 1.0000
-2019-04-01 21:07:38,285 - DEBUG - step: 38600, mean_loss: 0.1507, mean_acc: 0.9999
-2019-04-01 21:08:02,566 - DEBUG - step: 38700, mean_loss: 0.1505, mean_acc: 0.9999
-2019-04-01 21:08:26,997 - DEBUG - step: 38800, mean_loss: 0.1500, mean_acc: 1.0000
-2019-04-01 21:08:51,784 - DEBUG - step: 38900, mean_loss: 0.1498, mean_acc: 0.9999
-2019-04-01 21:09:16,224 - DEBUG - step: 39000, mean_loss: 0.1495, mean_acc: 1.0000
-2019-04-01 21:09:40,649 - DEBUG - step: 39100, mean_loss: 0.1493, mean_acc: 1.0000
-2019-04-01 21:10:03,400 - DEBUG - step: 39200, mean_loss: 0.1489, mean_acc: 1.0000
-2019-04-01 21:10:04,111 - INFO - 33 epoch training is finish!
-2019-04-01 21:10:42,408 - INFO - 33 epoch validation is 97.171!
-2019-04-01 21:10:45,718 - INFO - 34 epoch training is start!
-2019-04-01 21:11:11,139 - DEBUG - step: 39300, mean_loss: 0.1491, mean_acc: 0.9998
-2019-04-01 21:11:35,139 - DEBUG - step: 39400, mean_loss: 0.1487, mean_acc: 0.9999
-2019-04-01 21:11:59,134 - DEBUG - step: 39500, mean_loss: 0.1481, mean_acc: 1.0000
-2019-04-01 21:12:23,127 - DEBUG - step: 39600, mean_loss: 0.1478, mean_acc: 1.0000
-2019-04-01 21:12:47,126 - DEBUG - step: 39700, mean_loss: 0.1476, mean_acc: 0.9999
-2019-04-01 21:13:11,389 - DEBUG - step: 39800, mean_loss: 0.1476, mean_acc: 0.9999
-2019-04-01 21:13:35,340 - DEBUG - step: 39900, mean_loss: 0.1473, mean_acc: 1.0000
-2019-04-01 21:14:00,022 - DEBUG - step: 40000, mean_loss: 0.1468, mean_acc: 1.0000
-2019-04-01 21:14:24,232 - DEBUG - step: 40100, mean_loss: 0.1466, mean_acc: 1.0000
-2019-04-01 21:14:49,395 - DEBUG - step: 40200, mean_loss: 0.1463, mean_acc: 1.0000
-2019-04-01 21:15:15,073 - DEBUG - step: 40300, mean_loss: 0.1461, mean_acc: 1.0000
-2019-04-01 21:15:36,369 - INFO - 34 epoch training is finish!
-2019-04-01 21:16:14,745 - INFO - 34 epoch validation is 97.163!
-2019-04-01 21:16:17,716 - INFO - 35 epoch training is start!
-2019-04-01 21:16:22,275 - DEBUG - step: 40400, mean_loss: 0.1458, mean_acc: 1.0000
-2019-04-01 21:16:46,591 - DEBUG - step: 40500, mean_loss: 0.1459, mean_acc: 1.0000
-2019-04-01 21:17:10,954 - DEBUG - step: 40600, mean_loss: 0.1456, mean_acc: 1.0000
-2019-04-01 21:17:35,468 - DEBUG - step: 40700, mean_loss: 0.1451, mean_acc: 1.0000
-2019-04-01 21:17:59,866 - DEBUG - step: 40800, mean_loss: 0.1448, mean_acc: 1.0000
-2019-04-01 21:18:24,270 - DEBUG - step: 40900, mean_loss: 0.1446, mean_acc: 0.9999
-2019-04-01 21:18:48,692 - DEBUG - step: 41000, mean_loss: 0.1446, mean_acc: 1.0000
-2019-04-01 21:19:13,123 - DEBUG - step: 41100, mean_loss: 0.1442, mean_acc: 0.9999
-2019-04-01 21:19:37,779 - DEBUG - step: 41200, mean_loss: 0.1439, mean_acc: 1.0000
-2019-04-01 21:20:02,201 - DEBUG - step: 41300, mean_loss: 0.1437, mean_acc: 1.0000
-2019-04-01 21:20:26,567 - DEBUG - step: 41400, mean_loss: 0.1433, mean_acc: 1.0000
-2019-04-01 21:20:50,937 - DEBUG - step: 41500, mean_loss: 0.1434, mean_acc: 0.9999
-2019-04-01 21:21:08,549 - INFO - 35 epoch training is finish!
-2019-04-01 21:21:47,928 - INFO - 35 epoch validation is 97.188!
-2019-04-01 21:21:50,669 - INFO - 36 epoch training is start!
-2019-04-01 21:21:58,379 - DEBUG - step: 41600, mean_loss: 0.1430, mean_acc: 1.0000
-2019-04-01 21:22:23,151 - DEBUG - step: 41700, mean_loss: 0.1430, mean_acc: 1.0000
-2019-04-01 21:22:47,960 - DEBUG - step: 41800, mean_loss: 0.1428, mean_acc: 1.0000
-2019-04-01 21:23:12,752 - DEBUG - step: 41900, mean_loss: 0.1423, mean_acc: 1.0000
-2019-04-01 21:23:37,479 - DEBUG - step: 42000, mean_loss: 0.1419, mean_acc: 1.0000
-2019-04-01 21:24:02,198 - DEBUG - step: 42100, mean_loss: 0.1419, mean_acc: 1.0000
-2019-04-01 21:24:27,105 - DEBUG - step: 42200, mean_loss: 0.1418, mean_acc: 1.0000
-2019-04-01 21:24:52,105 - DEBUG - step: 42300, mean_loss: 0.1414, mean_acc: 1.0000
-2019-04-01 21:25:16,943 - DEBUG - step: 42400, mean_loss: 0.1412, mean_acc: 1.0000
-2019-04-01 21:25:41,779 - DEBUG - step: 42500, mean_loss: 0.1409, mean_acc: 1.0000
-2019-04-01 21:26:06,597 - DEBUG - step: 42600, mean_loss: 0.1406, mean_acc: 1.0000
-2019-04-01 21:26:31,378 - DEBUG - step: 42700, mean_loss: 0.1406, mean_acc: 1.0000
-2019-04-01 21:26:46,382 - INFO - 36 epoch training is finish!
-2019-04-01 21:27:25,352 - INFO - 36 epoch validation is 97.164!
-2019-04-01 21:27:28,190 - INFO - 37 epoch training is start!
-2019-04-01 21:27:38,630 - DEBUG - step: 42800, mean_loss: 0.1405, mean_acc: 1.0000
-2019-04-01 21:28:02,998 - DEBUG - step: 42900, mean_loss: 0.1403, mean_acc: 1.0000
-2019-04-01 21:28:27,249 - DEBUG - step: 43000, mean_loss: 0.1401, mean_acc: 1.0000
-2019-04-01 21:28:52,385 - DEBUG - step: 43100, mean_loss: 0.1397, mean_acc: 1.0000
-2019-04-01 21:29:16,750 - DEBUG - step: 43200, mean_loss: 0.1393, mean_acc: 1.0000
-2019-04-01 21:29:41,110 - DEBUG - step: 43300, mean_loss: 0.1393, mean_acc: 1.0000
-2019-04-01 21:30:05,466 - DEBUG - step: 43400, mean_loss: 0.1393, mean_acc: 1.0000
-2019-04-01 21:30:29,772 - DEBUG - step: 43500, mean_loss: 0.1389, mean_acc: 0.9999
-2019-04-01 21:30:54,454 - DEBUG - step: 43600, mean_loss: 0.1387, mean_acc: 1.0000
-2019-04-01 21:31:18,879 - DEBUG - step: 43700, mean_loss: 0.1383, mean_acc: 1.0000
-2019-04-01 21:31:43,381 - DEBUG - step: 43800, mean_loss: 0.1382, mean_acc: 1.0000
-2019-04-01 21:32:07,283 - DEBUG - step: 43900, mean_loss: 0.1381, mean_acc: 1.0000
-2019-04-01 21:32:19,636 - INFO - 37 epoch training is finish!
-2019-04-01 21:32:58,847 - INFO - 37 epoch validation is 97.203!
-2019-04-01 21:33:01,655 - INFO - 38 epoch training is start!
-2019-04-01 21:33:15,147 - DEBUG - step: 44000, mean_loss: 0.1379, mean_acc: 1.0000
-2019-04-01 21:33:39,700 - DEBUG - step: 44100, mean_loss: 0.1379, mean_acc: 1.0000
-2019-04-01 21:34:04,259 - DEBUG - step: 44200, mean_loss: 0.1375, mean_acc: 1.0000
-2019-04-01 21:34:28,805 - DEBUG - step: 44300, mean_loss: 0.1372, mean_acc: 1.0000
-2019-04-01 21:34:53,353 - DEBUG - step: 44400, mean_loss: 0.1369, mean_acc: 1.0000
-2019-04-01 21:35:17,879 - DEBUG - step: 44500, mean_loss: 0.1369, mean_acc: 1.0000
-2019-04-01 21:35:42,553 - DEBUG - step: 44600, mean_loss: 0.1369, mean_acc: 0.9999
-2019-04-01 21:36:07,120 - DEBUG - step: 44700, mean_loss: 0.1363, mean_acc: 1.0000
-2019-04-01 21:36:31,701 - DEBUG - step: 44800, mean_loss: 0.1363, mean_acc: 1.0000
-2019-04-01 21:36:56,287 - DEBUG - step: 44900, mean_loss: 0.1359, mean_acc: 1.0000
-2019-04-01 21:37:20,787 - DEBUG - step: 45000, mean_loss: 0.1358, mean_acc: 1.0000
-2019-04-01 21:37:44,782 - DEBUG - step: 45100, mean_loss: 0.1358, mean_acc: 1.0000
-2019-04-01 21:37:54,466 - INFO - 38 epoch training is finish!
-2019-04-01 21:38:34,168 - INFO - 38 epoch validation is 97.200!
-2019-04-01 21:38:37,170 - INFO - 39 epoch training is start!
-2019-04-01 21:38:53,728 - DEBUG - step: 45200, mean_loss: 0.1358, mean_acc: 1.0000
-2019-04-01 21:39:18,541 - DEBUG - step: 45300, mean_loss: 0.1356, mean_acc: 1.0000
-2019-04-01 21:39:43,382 - DEBUG - step: 45400, mean_loss: 0.1353, mean_acc: 0.9999
-2019-04-01 21:40:08,654 - DEBUG - step: 45500, mean_loss: 0.1350, mean_acc: 1.0000
-2019-04-01 21:40:33,339 - DEBUG - step: 45600, mean_loss: 0.1347, mean_acc: 1.0000
-2019-04-01 21:40:57,953 - DEBUG - step: 45700, mean_loss: 0.1347, mean_acc: 1.0000
-2019-04-01 21:41:22,631 - DEBUG - step: 45800, mean_loss: 0.1346, mean_acc: 0.9999
-2019-04-01 21:41:47,327 - DEBUG - step: 45900, mean_loss: 0.1341, mean_acc: 1.0000
-2019-04-01 21:42:12,353 - DEBUG - step: 46000, mean_loss: 0.1341, mean_acc: 1.0000
-2019-04-01 21:42:37,533 - DEBUG - step: 46100, mean_loss: 0.1337, mean_acc: 1.0000
-2019-04-01 21:43:02,649 - DEBUG - step: 46200, mean_loss: 0.1337, mean_acc: 1.0000
-2019-04-01 21:43:26,182 - DEBUG - step: 46300, mean_loss: 0.1336, mean_acc: 1.0000
-2019-04-01 21:43:33,214 - INFO - 39 epoch training is finish!
-2019-04-01 21:44:13,082 - INFO - 39 epoch validation is 97.126!
-2019-04-01 21:44:16,277 - INFO - 40 epoch training is start!
-2019-04-01 21:44:36,282 - DEBUG - step: 46400, mean_loss: 0.1336, mean_acc: 1.0000
-2019-04-01 21:45:01,444 - DEBUG - step: 46500, mean_loss: 0.1334, mean_acc: 1.0000
-2019-04-01 21:45:27,029 - DEBUG - step: 46600, mean_loss: 0.1330, mean_acc: 1.0000
-2019-04-01 21:45:52,136 - DEBUG - step: 46700, mean_loss: 0.1328, mean_acc: 1.0000
-2019-04-01 21:46:17,444 - DEBUG - step: 46800, mean_loss: 0.1325, mean_acc: 1.0000
-2019-04-01 21:46:43,374 - DEBUG - step: 46900, mean_loss: 0.1326, mean_acc: 1.0000
-2019-04-01 21:47:08,895 - DEBUG - step: 47000, mean_loss: 0.1324, mean_acc: 1.0000
-2019-04-01 21:47:34,504 - DEBUG - step: 47100, mean_loss: 0.1321, mean_acc: 1.0000
-2019-04-01 21:48:00,352 - DEBUG - step: 47200, mean_loss: 0.1320, mean_acc: 1.0000
-2019-04-01 21:48:25,951 - DEBUG - step: 47300, mean_loss: 0.1318, mean_acc: 1.0000
-2019-04-01 21:48:51,551 - DEBUG - step: 47400, mean_loss: 0.1317, mean_acc: 1.0000
-2019-04-01 21:49:15,343 - DEBUG - step: 47500, mean_loss: 0.1315, mean_acc: 1.0000
-2019-04-01 21:49:19,676 - INFO - 40 epoch training is finish!
-2019-04-01 21:49:59,163 - INFO - 40 epoch validation is 97.172!
-2019-04-01 21:50:02,213 - INFO - 41 epoch training is start!
-2019-04-01 21:50:24,553 - DEBUG - step: 47600, mean_loss: 0.1315, mean_acc: 1.0000
-2019-04-01 21:50:49,501 - DEBUG - step: 47700, mean_loss: 0.1314, mean_acc: 1.0000
-2019-04-01 21:51:14,163 - DEBUG - step: 47800, mean_loss: 0.1311, mean_acc: 1.0000
-2019-04-01 21:51:38,754 - DEBUG - step: 47900, mean_loss: 0.1308, mean_acc: 1.0000
-2019-04-01 21:52:03,306 - DEBUG - step: 48000, mean_loss: 0.1306, mean_acc: 1.0000
-2019-04-01 21:52:27,920 - DEBUG - step: 48100, mean_loss: 0.1307, mean_acc: 1.0000
-2019-04-01 21:52:52,543 - DEBUG - step: 48200, mean_loss: 0.1305, mean_acc: 1.0000
-2019-04-01 21:53:17,237 - DEBUG - step: 48300, mean_loss: 0.1301, mean_acc: 1.0000
-2019-04-01 21:53:41,859 - DEBUG - step: 48400, mean_loss: 0.1301, mean_acc: 1.0000
-2019-04-01 21:54:06,441 - DEBUG - step: 48500, mean_loss: 0.1298, mean_acc: 1.0000
-2019-04-01 21:54:31,016 - DEBUG - step: 48600, mean_loss: 0.1299, mean_acc: 0.9999
-2019-04-01 21:54:54,070 - DEBUG - step: 48700, mean_loss: 0.1296, mean_acc: 1.0000
-2019-04-01 21:54:55,739 - INFO - 41 epoch training is finish!
-2019-04-01 21:55:35,777 - INFO - 41 epoch validation is 97.182!
-2019-04-01 21:55:38,625 - INFO - 42 epoch training is start!
-2019-04-01 21:56:04,181 - DEBUG - step: 48800, mean_loss: 0.1297, mean_acc: 1.0000
-2019-04-01 21:56:28,712 - DEBUG - step: 48900, mean_loss: 0.1295, mean_acc: 1.0000
-2019-04-01 21:56:53,540 - DEBUG - step: 49000, mean_loss: 0.1292, mean_acc: 1.0000
-2019-04-01 21:57:18,413 - DEBUG - step: 49100, mean_loss: 0.1290, mean_acc: 1.0000
-2019-04-01 21:57:43,364 - DEBUG - step: 49200, mean_loss: 0.1288, mean_acc: 1.0000
-2019-04-01 21:58:08,147 - DEBUG - step: 49300, mean_loss: 0.1288, mean_acc: 1.0000
-2019-04-01 21:58:32,884 - DEBUG - step: 49400, mean_loss: 0.1287, mean_acc: 1.0000
-2019-04-01 21:58:57,541 - DEBUG - step: 49500, mean_loss: 0.1283, mean_acc: 1.0000
-2019-04-01 21:59:22,216 - DEBUG - step: 49600, mean_loss: 0.1282, mean_acc: 1.0000
-2019-04-01 21:59:47,012 - DEBUG - step: 49700, mean_loss: 0.1281, mean_acc: 1.0000
-2019-04-01 22:00:11,751 - DEBUG - step: 49800, mean_loss: 0.1280, mean_acc: 1.0000
-2019-04-01 22:00:33,502 - INFO - 42 epoch training is finish!
-2019-04-01 22:01:12,621 - INFO - 42 epoch validation is 97.157!
-2019-04-01 22:01:15,545 - INFO - 43 epoch training is start!
-2019-04-01 22:01:19,425 - DEBUG - step: 49900, mean_loss: 0.1278, mean_acc: 1.0000
-2019-04-01 22:01:44,027 - DEBUG - step: 50000, mean_loss: 0.1279, mean_acc: 1.0000
-2019-04-01 22:02:08,945 - DEBUG - step: 50100, mean_loss: 0.1277, mean_acc: 1.0000
-2019-04-01 22:02:33,348 - DEBUG - step: 50200, mean_loss: 0.1274, mean_acc: 1.0000
-2019-04-01 22:02:57,973 - DEBUG - step: 50300, mean_loss: 0.1272, mean_acc: 1.0000
-2019-04-01 22:03:22,533 - DEBUG - step: 50400, mean_loss: 0.1271, mean_acc: 1.0000
-2019-04-01 22:03:47,752 - DEBUG - step: 50500, mean_loss: 0.1271, mean_acc: 1.0000
-2019-04-01 22:04:12,272 - DEBUG - step: 50600, mean_loss: 0.1268, mean_acc: 1.0000
-2019-04-01 22:04:36,727 - DEBUG - step: 50700, mean_loss: 0.1267, mean_acc: 1.0000
-2019-04-01 22:05:01,173 - DEBUG - step: 50800, mean_loss: 0.1265, mean_acc: 1.0000
-2019-04-01 22:05:25,701 - DEBUG - step: 50900, mean_loss: 0.1263, mean_acc: 1.0000
-2019-04-01 22:05:50,264 - DEBUG - step: 51000, mean_loss: 0.1264, mean_acc: 1.0000
-2019-04-01 22:06:09,468 - INFO - 43 epoch training is finish!
-2019-04-01 22:06:49,726 - INFO - 43 epoch validation is 97.156!
-2019-04-01 22:06:52,699 - INFO - 44 epoch training is start!
-2019-04-01 22:06:59,475 - DEBUG - step: 51100, mean_loss: 0.1262, mean_acc: 1.0000
-2019-04-01 22:07:24,252 - DEBUG - step: 51200, mean_loss: 0.1262, mean_acc: 1.0000
-2019-04-01 22:07:49,099 - DEBUG - step: 51300, mean_loss: 0.1261, mean_acc: 1.0000
-2019-04-01 22:08:14,797 - DEBUG - step: 51400, mean_loss: 0.1258, mean_acc: 1.0000
-2019-04-01 22:08:40,629 - DEBUG - step: 51500, mean_loss: 0.1255, mean_acc: 1.0000
-2019-04-01 22:09:06,000 - DEBUG - step: 51600, mean_loss: 0.1255, mean_acc: 1.0000
-2019-04-01 22:09:31,315 - DEBUG - step: 51700, mean_loss: 0.1255, mean_acc: 1.0000
-2019-04-01 22:09:56,630 - DEBUG - step: 51800, mean_loss: 0.1252, mean_acc: 1.0000
-2019-04-01 22:10:21,924 - DEBUG - step: 51900, mean_loss: 0.1252, mean_acc: 1.0000
-2019-04-01 22:10:47,545 - DEBUG - step: 52000, mean_loss: 0.1249, mean_acc: 1.0000
-2019-04-01 22:11:12,725 - DEBUG - step: 52100, mean_loss: 0.1248, mean_acc: 1.0000
-2019-04-01 22:11:37,828 - DEBUG - step: 52200, mean_loss: 0.1248, mean_acc: 1.0000
-2019-04-01 22:11:53,870 - INFO - 44 epoch training is finish!
-2019-04-01 22:12:34,215 - INFO - 44 epoch validation is 97.193!
-2019-04-01 22:12:37,166 - INFO - 45 epoch training is start!
-2019-04-01 22:12:47,582 - DEBUG - step: 52300, mean_loss: 0.1246, mean_acc: 1.0000
-2019-04-01 22:13:12,784 - DEBUG - step: 52400, mean_loss: 0.1248, mean_acc: 1.0000
-2019-04-01 22:13:37,997 - DEBUG - step: 52500, mean_loss: 0.1245, mean_acc: 1.0000
-2019-04-01 22:14:03,231 - DEBUG - step: 52600, mean_loss: 0.1243, mean_acc: 1.0000
-2019-04-01 22:14:28,445 - DEBUG - step: 52700, mean_loss: 0.1240, mean_acc: 1.0000
-2019-04-01 22:14:53,591 - DEBUG - step: 52800, mean_loss: 0.1240, mean_acc: 1.0000
-2019-04-01 22:15:19,247 - DEBUG - step: 52900, mean_loss: 0.1241, mean_acc: 1.0000
-2019-04-01 22:15:45,566 - DEBUG - step: 53000, mean_loss: 0.1237, mean_acc: 1.0000
-2019-04-01 22:16:11,659 - DEBUG - step: 53100, mean_loss: 0.1236, mean_acc: 1.0000
-2019-04-01 22:16:37,418 - DEBUG - step: 53200, mean_loss: 0.1234, mean_acc: 1.0000
-2019-04-01 22:17:03,821 - DEBUG - step: 53300, mean_loss: 0.1233, mean_acc: 1.0000
-2019-04-01 22:17:28,707 - DEBUG - step: 53400, mean_loss: 0.1233, mean_acc: 1.0000
-2019-04-01 23:14:36,307 - INFO - 45 epoch training is finish!
-2019-04-02 01:30:47,943 - INFO - find model H:/Robot/template/train_out/model.ckpt-43
-2019-04-02 01:30:47,943 - INFO - resore the model, start epoch from 45
-2019-04-02 01:30:47,943 - INFO - summary to the dir: H:\Robot\template\train_out\summary\2019-04-01T18-17-17
-2019-04-02 01:30:49,455 - INFO - Restoring parameters from H:/Robot/template/train_out/model.ckpt-43
-2019-04-02 01:31:25,313 - INFO - 44 epoch validation is 97.193!
-2019-04-02 01:31:25,313 - INFO - 45 epoch training is start!
-2019-04-02 01:31:34,140 - DEBUG - step: 52300, mean_loss: 0.0350, mean_acc: 0.2800
-2019-04-02 01:31:56,870 - DEBUG - step: 52400, mean_loss: 0.1247, mean_acc: 1.0000
-2019-04-02 01:32:18,712 - DEBUG - step: 52500, mean_loss: 0.1245, mean_acc: 1.0000
-2019-04-02 01:32:41,011 - DEBUG - step: 52600, mean_loss: 0.1243, mean_acc: 1.0000
-2019-04-02 01:33:03,395 - DEBUG - step: 52700, mean_loss: 0.1240, mean_acc: 1.0000
-2019-04-02 01:33:25,788 - DEBUG - step: 52800, mean_loss: 0.1240, mean_acc: 1.0000
-2019-04-02 01:33:48,357 - DEBUG - step: 52900, mean_loss: 0.1240, mean_acc: 1.0000
-2019-04-02 01:34:10,298 - DEBUG - step: 53000, mean_loss: 0.1237, mean_acc: 1.0000
-2019-04-02 01:34:32,353 - DEBUG - step: 53100, mean_loss: 0.1236, mean_acc: 1.0000
-2019-04-02 01:34:54,350 - DEBUG - step: 53200, mean_loss: 0.1234, mean_acc: 1.0000
-2019-04-02 01:35:16,649 - DEBUG - step: 53300, mean_loss: 0.1233, mean_acc: 1.0000
-2019-04-02 01:35:38,329 - DEBUG - step: 53400, mean_loss: 0.1233, mean_acc: 1.0000
-2019-04-02 01:35:50,744 - INFO - 45 epoch training is finish!
-2019-04-02 01:36:21,950 - INFO - 45 epoch validation is 97.159!
-2019-04-02 01:36:24,650 - INFO - 46 epoch training is start!
-2019-04-02 01:36:35,416 - DEBUG - step: 53500, mean_loss: 0.1233, mean_acc: 1.0000
-2019-04-02 01:36:57,488 - DEBUG - step: 53600, mean_loss: 0.1233, mean_acc: 1.0000
-2019-04-02 01:37:19,581 - DEBUG - step: 53700, mean_loss: 0.1230, mean_acc: 1.0000
-2019-04-02 01:37:41,339 - DEBUG - step: 53800, mean_loss: 0.1228, mean_acc: 1.0000
-2019-04-02 01:38:03,114 - DEBUG - step: 53900, mean_loss: 0.1226, mean_acc: 1.0000
-2019-04-02 01:38:25,116 - DEBUG - step: 54000, mean_loss: 0.1226, mean_acc: 1.0000
-2019-04-02 01:38:46,790 - DEBUG - step: 54100, mean_loss: 0.1226, mean_acc: 1.0000
-2019-04-02 01:39:08,463 - DEBUG - step: 54200, mean_loss: 0.1222, mean_acc: 1.0000
-2019-04-02 01:39:30,207 - DEBUG - step: 54300, mean_loss: 0.1223, mean_acc: 1.0000
-2019-04-02 01:39:51,991 - DEBUG - step: 54400, mean_loss: 0.1220, mean_acc: 1.0000
-2019-04-02 01:40:13,681 - DEBUG - step: 54500, mean_loss: 0.1219, mean_acc: 1.0000
-2019-04-02 01:40:34,976 - DEBUG - step: 54600, mean_loss: 0.1219, mean_acc: 1.0000
-2019-04-02 01:40:44,898 - INFO - 46 epoch training is finish!
-2019-04-02 01:41:16,497 - INFO - 46 epoch validation is 97.194!
-2019-04-02 01:41:19,743 - INFO - 47 epoch training is start!
-2019-04-02 01:41:32,822 - DEBUG - step: 54700, mean_loss: 0.1220, mean_acc: 1.0000
-2019-04-02 01:41:55,129 - DEBUG - step: 54800, mean_loss: 0.1219, mean_acc: 1.0000
-2019-04-02 01:42:17,313 - DEBUG - step: 54900, mean_loss: 0.1217, mean_acc: 1.0000
-2019-04-02 01:42:39,314 - DEBUG - step: 55000, mean_loss: 0.1214, mean_acc: 1.0000
-2019-04-02 01:43:01,250 - DEBUG - step: 55100, mean_loss: 0.1213, mean_acc: 1.0000
-2019-04-02 01:43:23,222 - DEBUG - step: 55200, mean_loss: 0.1213, mean_acc: 1.0000
-2019-04-02 01:43:45,467 - DEBUG - step: 55300, mean_loss: 0.1213, mean_acc: 1.0000
-2019-04-02 01:44:07,682 - DEBUG - step: 55400, mean_loss: 0.1209, mean_acc: 1.0000
-2019-04-02 01:44:29,744 - DEBUG - step: 55500, mean_loss: 0.1209, mean_acc: 1.0000
-2019-04-02 01:44:51,900 - DEBUG - step: 55600, mean_loss: 0.1206, mean_acc: 1.0000
-2019-04-02 01:45:14,066 - DEBUG - step: 55700, mean_loss: 0.1207, mean_acc: 1.0000
-2019-04-02 01:45:35,450 - DEBUG - step: 55800, mean_loss: 0.1207, mean_acc: 1.0000
-2019-04-02 01:45:42,849 - INFO - 47 epoch training is finish!
-2019-04-02 01:46:14,960 - INFO - 47 epoch validation is 97.154!
-2019-04-02 01:46:18,313 - INFO - 48 epoch training is start!
-2019-04-02 01:46:34,163 - DEBUG - step: 55900, mean_loss: 0.1206, mean_acc: 1.0000
-2019-04-02 01:46:56,606 - DEBUG - step: 56000, mean_loss: 0.1207, mean_acc: 1.0000
-2019-04-02 01:47:18,650 - DEBUG - step: 56100, mean_loss: 0.1203, mean_acc: 1.0000
-2019-04-02 01:47:40,912 - DEBUG - step: 56200, mean_loss: 0.1202, mean_acc: 1.0000
-2019-04-02 01:48:03,157 - DEBUG - step: 56300, mean_loss: 0.1200, mean_acc: 1.0000
-2019-04-02 01:48:25,264 - DEBUG - step: 56400, mean_loss: 0.1201, mean_acc: 1.0000
-2019-04-02 01:48:47,360 - DEBUG - step: 56500, mean_loss: 0.1200, mean_acc: 1.0000
-2019-04-02 01:49:09,515 - DEBUG - step: 56600, mean_loss: 0.1197, mean_acc: 1.0000
-2019-04-02 01:49:31,681 - DEBUG - step: 56700, mean_loss: 0.1197, mean_acc: 1.0000
-2019-04-02 01:49:53,650 - DEBUG - step: 56800, mean_loss: 0.1194, mean_acc: 1.0000
-2019-04-02 01:50:15,819 - DEBUG - step: 56900, mean_loss: 0.1195, mean_acc: 1.0000
-2019-04-02 01:50:37,450 - DEBUG - step: 57000, mean_loss: 0.1194, mean_acc: 1.0000
-2019-04-02 01:50:42,482 - INFO - 48 epoch training is finish!
-2019-04-02 01:51:14,924 - INFO - 48 epoch validation is 97.185!
-2019-04-02 01:51:17,583 - INFO - 49 epoch training is start!
-2019-04-02 01:51:36,947 - DEBUG - step: 57100, mean_loss: 0.1195, mean_acc: 1.0000
-2019-04-02 01:51:59,250 - DEBUG - step: 57200, mean_loss: 0.1194, mean_acc: 1.0000
-2019-04-02 01:52:21,482 - DEBUG - step: 57300, mean_loss: 0.1191, mean_acc: 1.0000
-2019-04-02 01:52:57,056 - INFO - find model H:/Robot/template/train_out/model.ckpt-47
-2019-04-02 01:52:57,057 - INFO - resore the model, start epoch from 49
-2019-04-02 01:52:57,058 - INFO - summary to the dir: H:\Robot\template\train_out\summary\2019-04-01T18-17-17
-2019-04-02 01:52:58,543 - INFO - Restoring parameters from H:/Robot/template/train_out/model.ckpt-47
-2019-04-02 01:53:30,741 - INFO - 48 epoch validation is 97.185!
-2019-04-02 01:53:30,742 - INFO - 49 epoch training is start!
-2019-04-02 01:53:49,604 - DEBUG - step: 57100, mean_loss: 0.1195, mean_acc: 1.0000
-2019-04-02 01:54:11,180 - DEBUG - step: 57200, mean_loss: 0.1194, mean_acc: 1.0000
-2019-04-02 01:54:32,733 - DEBUG - step: 57300, mean_loss: 0.1192, mean_acc: 1.0000
-2019-04-02 01:54:54,361 - DEBUG - step: 57400, mean_loss: 0.1190, mean_acc: 1.0000
-2019-04-02 01:55:15,850 - DEBUG - step: 57500, mean_loss: 0.1188, mean_acc: 1.0000
-2019-04-02 01:55:37,943 - DEBUG - step: 57600, mean_loss: 0.1189, mean_acc: 1.0000
-2019-04-02 01:55:59,635 - DEBUG - step: 57700, mean_loss: 0.1188, mean_acc: 1.0000
+2019-04-02 13:11:23,478 - INFO - not find model, init variable random
+2019-04-02 13:11:23,478 - INFO - summary to the dir: H:\Robot\template\train_out\summary\2019-04-02T13-11-23/
+2019-04-02 13:11:45,220 - INFO - 0 epoch validation is 50.243!
+2019-04-02 13:11:45,220 - INFO - 1 epoch training is start!
+2019-04-02 13:12:03,046 - DEBUG - step: 100, mean_loss: 1.2458, mean_acc: 0.8745
+2019-04-02 13:12:19,891 - DEBUG - step: 200, mean_loss: 1.1397, mean_acc: 0.8909
+2019-04-02 13:12:36,657 - DEBUG - step: 300, mean_loss: 1.0762, mean_acc: 0.9137
+2019-04-02 13:12:53,487 - DEBUG - step: 400, mean_loss: 1.0301, mean_acc: 0.9297
+2019-04-02 13:13:10,238 - DEBUG - step: 500, mean_loss: 1.0110, mean_acc: 0.9305
+2019-04-02 13:13:27,036 - DEBUG - step: 600, mean_loss: 1.0313, mean_acc: 0.9096
+2019-04-02 13:13:43,928 - DEBUG - step: 700, mean_loss: 0.9866, mean_acc: 0.9309
+2019-04-02 13:14:00,757 - DEBUG - step: 800, mean_loss: 0.9498, mean_acc: 0.9417
+2019-04-02 13:14:17,608 - DEBUG - step: 900, mean_loss: 0.9405, mean_acc: 0.9418
+2019-04-02 13:14:34,890 - DEBUG - step: 1000, mean_loss: 0.9089, mean_acc: 0.9505
+2019-04-02 13:14:52,390 - DEBUG - step: 1100, mean_loss: 0.9152, mean_acc: 0.9408
+2019-04-02 13:15:06,577 - INFO - 1 epoch training is finish!
+2019-04-02 13:15:24,607 - INFO - 1 epoch validation is 92.842!
+2019-04-02 13:15:27,795 - INFO - 2 epoch training is start!
+2019-04-02 13:15:30,264 - DEBUG - step: 1200, mean_loss: 0.8835, mean_acc: 0.9515
+2019-04-02 13:15:47,110 - DEBUG - step: 1300, mean_loss: 0.9246, mean_acc: 0.9279
+2019-04-02 13:16:03,923 - DEBUG - step: 1400, mean_loss: 0.9115, mean_acc: 0.9265
+2019-04-02 13:16:20,706 - DEBUG - step: 1500, mean_loss: 0.8786, mean_acc: 0.9416
+2019-04-02 13:16:37,488 - DEBUG - step: 1600, mean_loss: 0.8389, mean_acc: 0.9517
+2019-04-02 13:16:54,317 - DEBUG - step: 1700, mean_loss: 0.8342, mean_acc: 0.9508
+2019-04-02 13:17:11,083 - DEBUG - step: 1800, mean_loss: 0.8495, mean_acc: 0.9363
+2019-04-02 13:17:27,913 - DEBUG - step: 1900, mean_loss: 0.8046, mean_acc: 0.9572
+2019-04-02 13:17:44,712 - DEBUG - step: 2000, mean_loss: 0.7914, mean_acc: 0.9573
+2019-04-02 13:18:01,573 - DEBUG - step: 2100, mean_loss: 0.7719, mean_acc: 0.9623
+2019-04-02 13:18:18,340 - DEBUG - step: 2200, mean_loss: 0.7619, mean_acc: 0.9623
+2019-04-02 13:18:35,059 - DEBUG - step: 2300, mean_loss: 0.7625, mean_acc: 0.9579
+2019-04-02 13:18:47,138 - INFO - 2 epoch training is finish!
+2019-04-02 13:19:05,217 - INFO - 2 epoch validation is 95.227!
+2019-04-02 13:19:07,827 - INFO - 3 epoch training is start!
+2019-04-02 13:19:12,361 - DEBUG - step: 2400, mean_loss: 0.7445, mean_acc: 0.9620
+2019-04-02 13:19:29,158 - DEBUG - step: 2500, mean_loss: 0.7745, mean_acc: 0.9451
+2019-04-02 13:19:45,831 - DEBUG - step: 2600, mean_loss: 0.7562, mean_acc: 0.9520
+2019-04-02 13:20:02,865 - DEBUG - step: 2700, mean_loss: 0.7225, mean_acc: 0.9632
+2019-04-02 13:20:19,710 - DEBUG - step: 2800, mean_loss: 0.7026, mean_acc: 0.9668
+2019-04-02 13:20:36,492 - DEBUG - step: 2900, mean_loss: 0.6990, mean_acc: 0.9658
+2019-04-02 13:20:53,227 - DEBUG - step: 3000, mean_loss: 0.7137, mean_acc: 0.9560
+2019-04-02 13:21:10,013 - DEBUG - step: 3100, mean_loss: 0.6802, mean_acc: 0.9670
+2019-04-02 13:21:26,810 - DEBUG - step: 3200, mean_loss: 0.6744, mean_acc: 0.9646
+2019-04-02 13:21:43,624 - DEBUG - step: 3300, mean_loss: 0.6533, mean_acc: 0.9727
+2019-04-02 13:22:00,391 - DEBUG - step: 3400, mean_loss: 0.6410, mean_acc: 0.9738
+2019-04-02 13:22:17,095 - DEBUG - step: 3500, mean_loss: 0.6494, mean_acc: 0.9676
+2019-04-02 13:22:27,223 - INFO - 3 epoch training is finish!
+2019-04-02 13:22:45,209 - INFO - 3 epoch validation is 95.837!
+2019-04-02 13:22:47,647 - INFO - 4 epoch training is start!
+2019-04-02 13:22:54,163 - DEBUG - step: 3600, mean_loss: 0.6374, mean_acc: 0.9702
+2019-04-02 13:23:10,961 - DEBUG - step: 3700, mean_loss: 0.6548, mean_acc: 0.9593
+2019-04-02 13:23:27,822 - DEBUG - step: 3800, mean_loss: 0.6379, mean_acc: 0.9640
+2019-04-02 13:23:44,531 - DEBUG - step: 3900, mean_loss: 0.6171, mean_acc: 0.9708
+2019-04-02 13:24:01,298 - DEBUG - step: 4000, mean_loss: 0.5933, mean_acc: 0.9782
+2019-04-02 13:24:18,142 - DEBUG - step: 4100, mean_loss: 0.6016, mean_acc: 0.9727
+2019-04-02 13:24:34,878 - DEBUG - step: 4200, mean_loss: 0.6065, mean_acc: 0.9658
+2019-04-02 13:24:51,629 - DEBUG - step: 4300, mean_loss: 0.5772, mean_acc: 0.9774
+2019-04-02 13:25:08,411 - DEBUG - step: 4400, mean_loss: 0.5792, mean_acc: 0.9739
+2019-04-02 13:25:25,228 - DEBUG - step: 4500, mean_loss: 0.5544, mean_acc: 0.9811
+2019-04-02 13:25:42,010 - DEBUG - step: 4600, mean_loss: 0.5515, mean_acc: 0.9806
+2019-04-02 13:25:58,577 - DEBUG - step: 4700, mean_loss: 0.5529, mean_acc: 0.9774
+2019-04-02 13:26:06,812 - INFO - 4 epoch training is finish!
+2019-04-02 13:26:24,907 - INFO - 4 epoch validation is 96.361!
+2019-04-02 13:26:27,829 - INFO - 5 epoch training is start!
+2019-04-02 13:26:36,314 - DEBUG - step: 4800, mean_loss: 0.5583, mean_acc: 0.9712
+2019-04-02 13:26:53,128 - DEBUG - step: 4900, mean_loss: 0.5572, mean_acc: 0.9716
+2019-04-02 13:27:09,910 - DEBUG - step: 5000, mean_loss: 0.5434, mean_acc: 0.9741
+2019-04-02 13:27:26,709 - DEBUG - step: 5100, mean_loss: 0.5320, mean_acc: 0.9777
+2019-04-02 13:27:43,523 - DEBUG - step: 5200, mean_loss: 0.5131, mean_acc: 0.9842
+2019-04-02 13:28:00,338 - DEBUG - step: 5300, mean_loss: 0.5189, mean_acc: 0.9783
+2019-04-02 13:28:17,167 - DEBUG - step: 5400, mean_loss: 0.5191, mean_acc: 0.9752
+2019-04-02 13:28:33,965 - DEBUG - step: 5500, mean_loss: 0.5001, mean_acc: 0.9814
+2019-04-02 13:28:50,856 - DEBUG - step: 5600, mean_loss: 0.4989, mean_acc: 0.9817
+2019-04-02 13:29:07,592 - DEBUG - step: 5700, mean_loss: 0.4815, mean_acc: 0.9866
+2019-04-02 13:29:24,374 - DEBUG - step: 5800, mean_loss: 0.4799, mean_acc: 0.9844
+2019-04-02 13:29:40,862 - DEBUG - step: 5900, mean_loss: 0.4815, mean_acc: 0.9827
+2019-04-02 13:29:47,206 - INFO - 5 epoch training is finish!
+2019-04-02 13:30:05,239 - INFO - 5 epoch validation is 96.792!
+2019-04-02 13:30:07,973 - INFO - 6 epoch training is start!
+2019-04-02 13:30:18,474 - DEBUG - step: 6000, mean_loss: 0.4830, mean_acc: 0.9802
+2019-04-02 13:30:35,256 - DEBUG - step: 6100, mean_loss: 0.4821, mean_acc: 0.9794
+2019-04-02 13:30:52,151 - DEBUG - step: 6200, mean_loss: 0.4711, mean_acc: 0.9812
+2019-04-02 13:31:08,920 - DEBUG - step: 6300, mean_loss: 0.4599, mean_acc: 0.9845
+2019-04-02 13:31:25,607 - DEBUG - step: 6400, mean_loss: 0.4458, mean_acc: 0.9891
+2019-04-02 13:31:42,388 - DEBUG - step: 6500, mean_loss: 0.4562, mean_acc: 0.9810
+2019-04-02 13:31:59,268 - DEBUG - step: 6600, mean_loss: 0.4524, mean_acc: 0.9816
+2019-04-02 13:32:16,018 - DEBUG - step: 6700, mean_loss: 0.4344, mean_acc: 0.9884
+2019-04-02 13:32:32,707 - DEBUG - step: 6800, mean_loss: 0.4354, mean_acc: 0.9866
+2019-04-02 13:32:49,505 - DEBUG - step: 6900, mean_loss: 0.4248, mean_acc: 0.9875
+2019-04-02 13:33:06,381 - DEBUG - step: 7000, mean_loss: 0.4199, mean_acc: 0.9889
+2019-04-02 13:33:22,804 - DEBUG - step: 7100, mean_loss: 0.4185, mean_acc: 0.9880
+2019-04-02 13:33:27,195 - INFO - 6 epoch training is finish!
+2019-04-02 13:33:45,274 - INFO - 6 epoch validation is 96.471!
+2019-04-02 13:33:47,837 - INFO - 7 epoch training is start!
+2019-04-02 13:34:00,369 - DEBUG - step: 7200, mean_loss: 0.4253, mean_acc: 0.9838
+2019-04-02 13:34:17,157 - DEBUG - step: 7300, mean_loss: 0.4231, mean_acc: 0.9837
+2019-04-02 13:34:33,892 - DEBUG - step: 7400, mean_loss: 0.4118, mean_acc: 0.9862
+2019-04-02 13:34:50,674 - DEBUG - step: 7500, mean_loss: 0.4050, mean_acc: 0.9877
+2019-04-02 13:35:07,519 - DEBUG - step: 7600, mean_loss: 0.3934, mean_acc: 0.9899
+2019-04-02 13:35:24,272 - DEBUG - step: 7700, mean_loss: 0.4002, mean_acc: 0.9867
+2019-04-02 13:35:41,039 - DEBUG - step: 7800, mean_loss: 0.3966, mean_acc: 0.9862
+2019-04-02 13:35:57,825 - DEBUG - step: 7900, mean_loss: 0.3825, mean_acc: 0.9906
+2019-04-02 13:36:14,607 - DEBUG - step: 8000, mean_loss: 0.3876, mean_acc: 0.9880
+2019-04-02 13:36:31,420 - DEBUG - step: 8100, mean_loss: 0.3720, mean_acc: 0.9921
+2019-04-02 13:36:48,174 - DEBUG - step: 8200, mean_loss: 0.3708, mean_acc: 0.9916
+2019-04-02 13:37:04,518 - DEBUG - step: 8300, mean_loss: 0.3727, mean_acc: 0.9902
+2019-04-02 13:37:07,050 - INFO - 7 epoch training is finish!
+2019-04-02 13:37:25,020 - INFO - 7 epoch validation is 96.867!
+2019-04-02 13:37:27,942 - INFO - 8 epoch training is start!
+2019-04-02 13:37:42,480 - DEBUG - step: 8400, mean_loss: 0.3763, mean_acc: 0.9868
+2019-04-02 13:37:59,262 - DEBUG - step: 8500, mean_loss: 0.3739, mean_acc: 0.9871
+2019-04-02 13:38:16,029 - DEBUG - step: 8600, mean_loss: 0.3627, mean_acc: 0.9892
+2019-04-02 13:38:32,764 - DEBUG - step: 8700, mean_loss: 0.3580, mean_acc: 0.9904
+2019-04-02 13:38:49,520 - DEBUG - step: 8800, mean_loss: 0.3489, mean_acc: 0.9935
+2019-04-02 13:39:06,255 - DEBUG - step: 8900, mean_loss: 0.3535, mean_acc: 0.9905
+2019-04-02 13:39:23,100 - DEBUG - step: 9000, mean_loss: 0.3478, mean_acc: 0.9902
+2019-04-02 13:39:39,883 - DEBUG - step: 9100, mean_loss: 0.3415, mean_acc: 0.9924
+2019-04-02 13:39:56,618 - DEBUG - step: 9200, mean_loss: 0.3400, mean_acc: 0.9920
+2019-04-02 13:40:13,401 - DEBUG - step: 9300, mean_loss: 0.3325, mean_acc: 0.9930
+2019-04-02 13:40:30,261 - DEBUG - step: 9400, mean_loss: 0.3326, mean_acc: 0.9926
+2019-04-02 13:40:46,465 - DEBUG - step: 9500, mean_loss: 0.3284, mean_acc: 0.9935
+2019-04-02 13:40:46,996 - INFO - 8 epoch training is finish!
+2019-04-02 13:41:04,950 - INFO - 8 epoch validation is 96.907!
+2019-04-02 13:41:07,419 - INFO - 9 epoch training is start!
+2019-04-02 13:41:23,998 - DEBUG - step: 9600, mean_loss: 0.3317, mean_acc: 0.9905
+2019-04-02 13:41:40,796 - DEBUG - step: 9700, mean_loss: 0.3322, mean_acc: 0.9891
+2019-04-02 13:41:57,565 - DEBUG - step: 9800, mean_loss: 0.3245, mean_acc: 0.9907
+2019-04-02 13:42:14,315 - DEBUG - step: 9900, mean_loss: 0.3169, mean_acc: 0.9933
+2019-04-02 13:42:31,085 - DEBUG - step: 10000, mean_loss: 0.3158, mean_acc: 0.9934
+2019-04-02 13:42:47,899 - DEBUG - step: 10100, mean_loss: 0.3188, mean_acc: 0.9904
+2019-04-02 13:43:04,728 - DEBUG - step: 10200, mean_loss: 0.3097, mean_acc: 0.9934
+2019-04-02 13:43:21,526 - DEBUG - step: 10300, mean_loss: 0.3110, mean_acc: 0.9924
+2019-04-02 13:43:38,292 - DEBUG - step: 10400, mean_loss: 0.3027, mean_acc: 0.9945
+2019-04-02 13:43:55,199 - DEBUG - step: 10500, mean_loss: 0.2977, mean_acc: 0.9953
+2019-04-02 13:44:11,997 - DEBUG - step: 10600, mean_loss: 0.2948, mean_acc: 0.9949
+2019-04-02 13:44:26,748 - INFO - 9 epoch training is finish!
+2019-04-02 13:44:44,780 - INFO - 9 epoch validation is 96.959!
+2019-04-02 13:44:47,453 - INFO - 10 epoch training is start!
+2019-04-02 13:44:49,234 - DEBUG - step: 10700, mean_loss: 0.2960, mean_acc: 0.9944
+2019-04-02 13:45:06,001 - DEBUG - step: 10800, mean_loss: 0.2959, mean_acc: 0.9932
+2019-04-02 13:45:22,752 - DEBUG - step: 10900, mean_loss: 0.2981, mean_acc: 0.9908
+2019-04-02 13:45:39,549 - DEBUG - step: 11000, mean_loss: 0.2892, mean_acc: 0.9938
+2019-04-02 13:45:56,473 - DEBUG - step: 11100, mean_loss: 0.2833, mean_acc: 0.9957
+2019-04-02 13:46:13,242 - DEBUG - step: 11200, mean_loss: 0.2818, mean_acc: 0.9948
+2019-04-02 13:46:30,071 - DEBUG - step: 11300, mean_loss: 0.2855, mean_acc: 0.9925
+2019-04-02 13:46:46,916 - DEBUG - step: 11400, mean_loss: 0.2766, mean_acc: 0.9953
+2019-04-02 13:47:03,651 - DEBUG - step: 11500, mean_loss: 0.2750, mean_acc: 0.9952
+2019-04-02 13:47:20,449 - DEBUG - step: 11600, mean_loss: 0.2721, mean_acc: 0.9957
+2019-04-02 13:47:37,264 - DEBUG - step: 11700, mean_loss: 0.2682, mean_acc: 0.9964
+2019-04-02 13:47:54,046 - DEBUG - step: 11800, mean_loss: 0.2676, mean_acc: 0.9955
+2019-04-02 13:48:06,890 - INFO - 10 epoch training is finish!
+2019-04-02 13:48:24,829 - INFO - 10 epoch validation is 96.959!
+2019-04-02 13:48:27,361 - INFO - 11 epoch training is start!
+2019-04-02 13:48:31,220 - DEBUG - step: 11900, mean_loss: 0.2667, mean_acc: 0.9952
+2019-04-02 13:48:48,018 - DEBUG - step: 12000, mean_loss: 0.2718, mean_acc: 0.9920
+2019-04-02 13:49:04,800 - DEBUG - step: 12100, mean_loss: 0.2665, mean_acc: 0.9934
+2019-04-02 13:49:21,520 - DEBUG - step: 12200, mean_loss: 0.2618, mean_acc: 0.9953
+2019-04-02 13:49:38,334 - DEBUG - step: 12300, mean_loss: 0.2590, mean_acc: 0.9966
+2019-04-02 13:49:55,101 - DEBUG - step: 12400, mean_loss: 0.2572, mean_acc: 0.9951
+2019-04-02 13:50:11,945 - DEBUG - step: 12500, mean_loss: 0.2598, mean_acc: 0.9937
+2019-04-02 13:50:28,759 - DEBUG - step: 12600, mean_loss: 0.2522, mean_acc: 0.9956
+2019-04-02 13:50:45,541 - DEBUG - step: 12700, mean_loss: 0.2505, mean_acc: 0.9964
+2019-04-02 13:51:02,307 - DEBUG - step: 12800, mean_loss: 0.2470, mean_acc: 0.9967
+2019-04-02 13:51:19,045 - DEBUG - step: 12900, mean_loss: 0.2441, mean_acc: 0.9967
+2019-04-02 13:51:35,735 - DEBUG - step: 13000, mean_loss: 0.2430, mean_acc: 0.9967
+2019-04-02 13:51:46,517 - INFO - 11 epoch training is finish!
+2019-04-02 13:52:04,518 - INFO - 11 epoch validation is 97.036!
+2019-04-02 13:52:07,191 - INFO - 12 epoch training is start!
+2019-04-02 13:52:13,035 - DEBUG - step: 13100, mean_loss: 0.2417, mean_acc: 0.9961
+2019-04-02 13:52:29,864 - DEBUG - step: 13200, mean_loss: 0.2430, mean_acc: 0.9954
+2019-04-02 13:52:46,615 - DEBUG - step: 13300, mean_loss: 0.2403, mean_acc: 0.9958
+2019-04-02 13:53:03,429 - DEBUG - step: 13400, mean_loss: 0.2347, mean_acc: 0.9973
+2019-04-02 13:53:20,195 - DEBUG - step: 13500, mean_loss: 0.2322, mean_acc: 0.9970
+2019-04-02 13:53:36,962 - DEBUG - step: 13600, mean_loss: 0.2322, mean_acc: 0.9967
+2019-04-02 13:53:53,775 - DEBUG - step: 13700, mean_loss: 0.2353, mean_acc: 0.9950
+2019-04-02 13:54:10,620 - DEBUG - step: 13800, mean_loss: 0.2299, mean_acc: 0.9958
+2019-04-02 13:54:27,501 - DEBUG - step: 13900, mean_loss: 0.2291, mean_acc: 0.9961
+2019-04-02 13:54:44,252 - DEBUG - step: 14000, mean_loss: 0.2245, mean_acc: 0.9971
+2019-04-02 13:55:01,018 - DEBUG - step: 14100, mean_loss: 0.2231, mean_acc: 0.9973
+2019-04-02 13:55:17,617 - DEBUG - step: 14200, mean_loss: 0.2229, mean_acc: 0.9962
+2019-04-02 13:55:26,508 - INFO - 12 epoch training is finish!
+2019-04-02 13:55:44,478 - INFO - 12 epoch validation is 97.055!
+2019-04-02 13:55:47,541 - INFO - 13 epoch training is start!
+2019-04-02 13:55:55,403 - DEBUG - step: 14300, mean_loss: 0.2212, mean_acc: 0.9969
+2019-04-02 13:56:12,155 - DEBUG - step: 14400, mean_loss: 0.2192, mean_acc: 0.9977
+2019-04-02 13:56:29,031 - DEBUG - step: 14500, mean_loss: 0.2213, mean_acc: 0.9955
+2019-04-02 13:56:45,766 - DEBUG - step: 14600, mean_loss: 0.2172, mean_acc: 0.9966
+2019-04-02 13:57:02,501 - DEBUG - step: 14700, mean_loss: 0.2117, mean_acc: 0.9983
+2019-04-02 13:57:19,268 - DEBUG - step: 14800, mean_loss: 0.2159, mean_acc: 0.9959
+2019-04-02 13:57:36,050 - DEBUG - step: 14900, mean_loss: 0.2144, mean_acc: 0.9964
+2019-04-02 13:57:52,850 - DEBUG - step: 15000, mean_loss: 0.2090, mean_acc: 0.9977
+2019-04-02 13:58:09,632 - DEBUG - step: 15100, mean_loss: 0.2088, mean_acc: 0.9973
+2019-04-02 13:58:26,383 - DEBUG - step: 15200, mean_loss: 0.2048, mean_acc: 0.9981
+2019-04-02 13:58:43,212 - DEBUG - step: 15300, mean_loss: 0.2026, mean_acc: 0.9984
+2019-04-02 13:58:59,635 - DEBUG - step: 15400, mean_loss: 0.2032, mean_acc: 0.9972
+2019-04-02 13:59:06,588 - INFO - 13 epoch training is finish!
+2019-04-02 13:59:24,636 - INFO - 13 epoch validation is 97.107!
+2019-04-02 13:59:27,277 - INFO - 14 epoch training is start!
+2019-04-02 13:59:37,095 - DEBUG - step: 15500, mean_loss: 0.2043, mean_acc: 0.9966
+2019-04-02 13:59:53,893 - DEBUG - step: 15600, mean_loss: 0.2010, mean_acc: 0.9980
+2019-04-02 14:00:10,691 - DEBUG - step: 15700, mean_loss: 0.2015, mean_acc: 0.9962
+2019-04-02 14:00:27,492 - DEBUG - step: 15800, mean_loss: 0.1981, mean_acc: 0.9977
+2019-04-02 14:00:44,341 - DEBUG - step: 15900, mean_loss: 0.1950, mean_acc: 0.9982
+2019-04-02 14:01:01,139 - DEBUG - step: 16000, mean_loss: 0.1975, mean_acc: 0.9967
+2019-04-02 14:01:17,890 - DEBUG - step: 16100, mean_loss: 0.1959, mean_acc: 0.9966
+2019-04-02 14:01:34,612 - DEBUG - step: 16200, mean_loss: 0.1914, mean_acc: 0.9980
+2019-04-02 14:01:51,378 - DEBUG - step: 16300, mean_loss: 0.1907, mean_acc: 0.9982
+2019-04-02 14:02:08,192 - DEBUG - step: 16400, mean_loss: 0.1892, mean_acc: 0.9984
+2019-04-02 14:02:25,021 - DEBUG - step: 16500, mean_loss: 0.1868, mean_acc: 0.9985
+2019-04-02 14:02:41,506 - DEBUG - step: 16600, mean_loss: 0.1872, mean_acc: 0.9983
+2019-04-02 14:02:46,616 - INFO - 14 epoch training is finish!
+2019-04-02 14:03:04,648 - INFO - 14 epoch validation is 97.068!
+2019-04-02 14:03:07,258 - INFO - 15 epoch training is start!
+2019-04-02 14:03:19,118 - DEBUG - step: 16700, mean_loss: 0.1870, mean_acc: 0.9973
+2019-04-02 14:03:35,898 - DEBUG - step: 16800, mean_loss: 0.1863, mean_acc: 0.9972
+2019-04-02 14:03:52,664 - DEBUG - step: 16900, mean_loss: 0.1862, mean_acc: 0.9970
+2019-04-02 14:04:09,513 - DEBUG - step: 17000, mean_loss: 0.1833, mean_acc: 0.9981
+2019-04-02 14:04:26,264 - DEBUG - step: 17100, mean_loss: 0.1791, mean_acc: 0.9988
+2019-04-02 14:04:43,046 - DEBUG - step: 17200, mean_loss: 0.1809, mean_acc: 0.9976
+2019-04-02 14:04:59,859 - DEBUG - step: 17300, mean_loss: 0.1814, mean_acc: 0.9975
+2019-04-02 14:05:16,658 - DEBUG - step: 17400, mean_loss: 0.1778, mean_acc: 0.9978
+2019-04-02 14:05:33,315 - DEBUG - step: 17500, mean_loss: 0.1780, mean_acc: 0.9973
+2019-04-02 14:05:50,051 - DEBUG - step: 17600, mean_loss: 0.1755, mean_acc: 0.9981
+2019-04-02 14:06:06,864 - DEBUG - step: 17700, mean_loss: 0.1728, mean_acc: 0.9988
+2019-04-02 14:06:23,225 - DEBUG - step: 17800, mean_loss: 0.1735, mean_acc: 0.9980
+2019-04-02 14:06:26,303 - INFO - 15 epoch training is finish!
+2019-04-02 14:06:44,319 - INFO - 15 epoch validation is 97.040!
+2019-04-02 14:06:47,242 - INFO - 16 epoch training is start!
+2019-04-02 14:07:01,149 - DEBUG - step: 17900, mean_loss: 0.1748, mean_acc: 0.9977
+2019-04-02 14:07:17,900 - DEBUG - step: 18000, mean_loss: 0.1765, mean_acc: 0.9966
+2019-04-02 14:07:34,666 - DEBUG - step: 18100, mean_loss: 0.1712, mean_acc: 0.9984
+2019-04-02 14:07:51,433 - DEBUG - step: 18200, mean_loss: 0.1701, mean_acc: 0.9984
+2019-04-02 14:08:08,215 - DEBUG - step: 18300, mean_loss: 0.1665, mean_acc: 0.9992
+2019-04-02 14:08:24,966 - DEBUG - step: 18400, mean_loss: 0.1704, mean_acc: 0.9979
+2019-04-02 14:08:41,795 - DEBUG - step: 18500, mean_loss: 0.1687, mean_acc: 0.9973
+2019-04-02 14:08:58,577 - DEBUG - step: 18600, mean_loss: 0.1652, mean_acc: 0.9980
+2019-04-02 14:09:15,422 - DEBUG - step: 18700, mean_loss: 0.1646, mean_acc: 0.9981
+2019-04-02 14:09:32,220 - DEBUG - step: 18800, mean_loss: 0.1624, mean_acc: 0.9988
+2019-04-02 14:09:49,018 - DEBUG - step: 18900, mean_loss: 0.1626, mean_acc: 0.9984
+2019-04-02 14:10:05,316 - DEBUG - step: 19000, mean_loss: 0.1628, mean_acc: 0.9974
+2019-04-02 14:10:06,472 - INFO - 16 epoch training is finish!
+2019-04-02 14:10:24,457 - INFO - 16 epoch validation is 97.140!
+2019-04-02 14:10:27,177 - INFO - 17 epoch training is start!
+2019-04-02 14:10:43,068 - DEBUG - step: 19100, mean_loss: 0.1627, mean_acc: 0.9981
+2019-04-02 14:10:59,772 - DEBUG - step: 19200, mean_loss: 0.1618, mean_acc: 0.9976
+2019-04-02 14:11:16,695 - DEBUG - step: 19300, mean_loss: 0.1592, mean_acc: 0.9985
+2019-04-02 14:11:33,462 - DEBUG - step: 19400, mean_loss: 0.1560, mean_acc: 0.9995
+2019-04-02 14:11:50,213 - DEBUG - step: 19500, mean_loss: 0.1544, mean_acc: 0.9998
+2019-04-02 14:12:07,058 - DEBUG - step: 19600, mean_loss: 0.1563, mean_acc: 0.9984
+2019-04-02 14:12:23,777 - DEBUG - step: 19700, mean_loss: 0.1567, mean_acc: 0.9977
+2019-04-02 14:12:40,528 - DEBUG - step: 19800, mean_loss: 0.1534, mean_acc: 0.9989
+2019-04-02 14:12:57,358 - DEBUG - step: 19900, mean_loss: 0.1547, mean_acc: 0.9979
+2019-04-02 14:13:14,155 - DEBUG - step: 20000, mean_loss: 0.1513, mean_acc: 0.9994
+2019-04-02 14:13:30,985 - DEBUG - step: 20100, mean_loss: 0.1523, mean_acc: 0.9983
+2019-04-02 14:13:46,377 - INFO - 17 epoch training is finish!
+2019-04-02 14:14:04,471 - INFO - 17 epoch validation is 97.131!
+2019-04-02 14:14:07,284 - INFO - 18 epoch training is start!
+2019-04-02 14:14:08,456 - DEBUG - step: 20200, mean_loss: 0.1501, mean_acc: 0.9991
+2019-04-02 14:14:25,223 - DEBUG - step: 20300, mean_loss: 0.1505, mean_acc: 0.9987
+2019-04-02 14:14:42,005 - DEBUG - step: 20400, mean_loss: 0.1496, mean_acc: 0.9985
+2019-04-02 14:14:58,725 - DEBUG - step: 20500, mean_loss: 0.1493, mean_acc: 0.9987
+2019-04-02 14:15:15,507 - DEBUG - step: 20600, mean_loss: 0.1467, mean_acc: 0.9991
+2019-04-02 14:15:32,352 - DEBUG - step: 20700, mean_loss: 0.1452, mean_acc: 0.9991
+2019-04-02 14:15:49,056 - DEBUG - step: 20800, mean_loss: 0.1473, mean_acc: 0.9983
+2019-04-02 14:16:05,869 - DEBUG - step: 20900, mean_loss: 0.1453, mean_acc: 0.9990
+2019-04-02 14:16:22,683 - DEBUG - step: 21000, mean_loss: 0.1440, mean_acc: 0.9991
+2019-04-02 14:16:39,465 - DEBUG - step: 21100, mean_loss: 0.1431, mean_acc: 0.9990
+2019-04-02 14:16:56,184 - DEBUG - step: 21200, mean_loss: 0.1419, mean_acc: 0.9991
+2019-04-02 14:17:12,953 - DEBUG - step: 21300, mean_loss: 0.1415, mean_acc: 0.9988
+2019-04-02 14:17:26,375 - INFO - 18 epoch training is finish!
+2019-04-02 14:17:44,423 - INFO - 18 epoch validation is 97.096!
+2019-04-02 14:17:47,017 - INFO - 19 epoch training is start!
+2019-04-02 14:17:50,174 - DEBUG - step: 21400, mean_loss: 0.1405, mean_acc: 0.9991
+2019-04-02 14:18:06,940 - DEBUG - step: 21500, mean_loss: 0.1411, mean_acc: 0.9990
+2019-04-02 14:18:23,707 - DEBUG - step: 21600, mean_loss: 0.1408, mean_acc: 0.9987
+2019-04-02 14:18:40,504 - DEBUG - step: 21700, mean_loss: 0.1417, mean_acc: 0.9981
+2019-04-02 14:18:57,212 - DEBUG - step: 21800, mean_loss: 0.1374, mean_acc: 0.9994
+2019-04-02 14:19:13,963 - DEBUG - step: 21900, mean_loss: 0.1386, mean_acc: 0.9989
+2019-04-02 14:19:30,822 - DEBUG - step: 22000, mean_loss: 0.1387, mean_acc: 0.9987
+2019-04-02 14:19:47,607 - DEBUG - step: 22100, mean_loss: 0.1360, mean_acc: 0.9992
+2019-04-02 14:20:04,467 - DEBUG - step: 22200, mean_loss: 0.1353, mean_acc: 0.9991
+2019-04-02 14:20:21,280 - DEBUG - step: 22300, mean_loss: 0.1338, mean_acc: 0.9995
+2019-04-02 14:20:38,016 - DEBUG - step: 22400, mean_loss: 0.1331, mean_acc: 0.9995
+2019-04-02 14:20:54,830 - DEBUG - step: 22500, mean_loss: 0.1328, mean_acc: 0.9992
+2019-04-02 14:21:06,284 - INFO - 19 epoch training is finish!
+2019-04-02 14:21:24,238 - INFO - 19 epoch validation is 96.995!
+2019-04-02 14:21:26,785 - INFO - 20 epoch training is start!
+2019-04-02 14:21:31,941 - DEBUG - step: 22600, mean_loss: 0.1322, mean_acc: 0.9992
+2019-04-02 14:21:48,708 - DEBUG - step: 22700, mean_loss: 0.1326, mean_acc: 0.9990
+2019-04-02 14:22:05,490 - DEBUG - step: 22800, mean_loss: 0.1318, mean_acc: 0.9989
+2019-04-02 14:22:22,241 - DEBUG - step: 22900, mean_loss: 0.1296, mean_acc: 0.9996
+2019-04-02 14:22:39,055 - DEBUG - step: 23000, mean_loss: 0.1283, mean_acc: 0.9996
+2019-04-02 14:22:55,822 - DEBUG - step: 23100, mean_loss: 0.1305, mean_acc: 0.9987
+2019-04-02 14:23:12,576 - DEBUG - step: 23200, mean_loss: 0.1294, mean_acc: 0.9992
+2019-04-02 14:23:29,372 - DEBUG - step: 23300, mean_loss: 0.1280, mean_acc: 0.9991
+2019-04-02 14:23:46,201 - DEBUG - step: 23400, mean_loss: 0.1269, mean_acc: 0.9994
+2019-04-02 14:24:02,908 - DEBUG - step: 23500, mean_loss: 0.1276, mean_acc: 0.9987
+2019-04-02 14:24:19,768 - DEBUG - step: 23600, mean_loss: 0.1254, mean_acc: 0.9994
+2019-04-02 14:24:36,379 - DEBUG - step: 23700, mean_loss: 0.1269, mean_acc: 0.9985
+2019-04-02 14:24:45,848 - INFO - 20 epoch training is finish!
+2019-04-02 14:25:03,880 - INFO - 20 epoch validation is 97.157!
+2019-04-02 14:25:06,459 - INFO - 21 epoch training is start!
+2019-04-02 14:25:13,647 - DEBUG - step: 23800, mean_loss: 0.1249, mean_acc: 0.9995
+2019-04-02 14:25:30,507 - DEBUG - step: 23900, mean_loss: 0.1242, mean_acc: 0.9996
+2019-04-02 14:25:47,321 - DEBUG - step: 24000, mean_loss: 0.1228, mean_acc: 0.9997
+2019-04-02 14:26:04,071 - DEBUG - step: 24100, mean_loss: 0.1227, mean_acc: 0.9995
+2019-04-02 14:26:20,965 - DEBUG - step: 24200, mean_loss: 0.1226, mean_acc: 0.9993
+2019-04-02 14:26:37,747 - DEBUG - step: 24300, mean_loss: 0.1243, mean_acc: 0.9986
+2019-04-02 14:26:54,565 - DEBUG - step: 24400, mean_loss: 0.1231, mean_acc: 0.9991
+2019-04-02 14:27:11,331 - DEBUG - step: 24500, mean_loss: 0.1222, mean_acc: 0.9991
+2019-04-02 14:27:28,098 - DEBUG - step: 24600, mean_loss: 0.1199, mean_acc: 0.9994
+2019-04-02 14:27:44,802 - DEBUG - step: 24700, mean_loss: 0.1190, mean_acc: 0.9996
+2019-04-02 14:28:01,568 - DEBUG - step: 24800, mean_loss: 0.1188, mean_acc: 0.9995
+2019-04-02 14:28:18,085 - DEBUG - step: 24900, mean_loss: 0.1182, mean_acc: 0.9996
+2019-04-02 14:28:25,742 - INFO - 21 epoch training is finish!
+2019-04-02 14:28:43,805 - INFO - 21 epoch validation is 97.122!
+2019-04-02 14:28:46,415 - INFO - 22 epoch training is start!
+2019-04-02 14:28:55,637 - DEBUG - step: 25000, mean_loss: 0.1181, mean_acc: 0.9995
+2019-04-02 14:29:12,419 - DEBUG - step: 25100, mean_loss: 0.1181, mean_acc: 0.9995
+2019-04-02 14:29:29,248 - DEBUG - step: 25200, mean_loss: 0.1171, mean_acc: 0.9996
+2019-04-02 14:29:45,983 - DEBUG - step: 25300, mean_loss: 0.1165, mean_acc: 0.9994
+2019-04-02 14:30:02,812 - DEBUG - step: 25400, mean_loss: 0.1149, mean_acc: 0.9997
+2019-04-02 14:30:19,644 - DEBUG - step: 25500, mean_loss: 0.1158, mean_acc: 0.9994
+2019-04-02 14:30:36,536 - DEBUG - step: 25600, mean_loss: 0.1159, mean_acc: 0.9993
+2019-04-02 14:30:53,306 - DEBUG - step: 25700, mean_loss: 0.1142, mean_acc: 0.9993
+2019-04-02 14:31:10,120 - DEBUG - step: 25800, mean_loss: 0.1141, mean_acc: 0.9995
+2019-04-02 14:31:26,839 - DEBUG - step: 25900, mean_loss: 0.1125, mean_acc: 0.9997
+2019-04-02 14:31:43,653 - DEBUG - step: 26000, mean_loss: 0.1119, mean_acc: 0.9999
+2019-04-02 14:32:00,107 - DEBUG - step: 26100, mean_loss: 0.1122, mean_acc: 0.9995
+2019-04-02 14:32:05,763 - INFO - 22 epoch training is finish!
+2019-04-02 14:32:23,811 - INFO - 22 epoch validation is 97.111!
+2019-04-02 14:32:26,296 - INFO - 23 epoch training is start!
+2019-04-02 14:32:37,547 - DEBUG - step: 26200, mean_loss: 0.1124, mean_acc: 0.9995
+2019-04-02 14:32:54,282 - DEBUG - step: 26300, mean_loss: 0.1112, mean_acc: 0.9998
+2019-04-02 14:33:11,080 - DEBUG - step: 26400, mean_loss: 0.1106, mean_acc: 0.9998
+2019-04-02 14:33:27,862 - DEBUG - step: 26500, mean_loss: 0.1094, mean_acc: 0.9999
+2019-04-02 14:33:44,550 - DEBUG - step: 26600, mean_loss: 0.1086, mean_acc: 0.9998
+2019-04-02 14:34:01,351 - DEBUG - step: 26700, mean_loss: 0.1096, mean_acc: 0.9995
+2019-04-02 14:34:18,135 - DEBUG - step: 26800, mean_loss: 0.1089, mean_acc: 0.9995
+2019-04-02 14:34:34,905 - DEBUG - step: 26900, mean_loss: 0.1091, mean_acc: 0.9988
+2019-04-02 14:34:51,672 - DEBUG - step: 27000, mean_loss: 0.1091, mean_acc: 0.9992
+2019-04-02 14:35:08,422 - DEBUG - step: 27100, mean_loss: 0.1079, mean_acc: 0.9992
+2019-04-02 14:35:25,254 - DEBUG - step: 27200, mean_loss: 0.1072, mean_acc: 0.9998
+2019-04-02 14:35:41,695 - DEBUG - step: 27300, mean_loss: 0.1077, mean_acc: 0.9994
+2019-04-02 14:35:45,414 - INFO - 23 epoch training is finish!
+2019-04-02 14:36:03,462 - INFO - 23 epoch validation is 97.049!
+2019-04-02 14:36:05,931 - INFO - 24 epoch training is start!
+2019-04-02 14:36:19,185 - DEBUG - step: 27400, mean_loss: 0.1081, mean_acc: 0.9991
+2019-04-02 14:36:35,936 - DEBUG - step: 27500, mean_loss: 0.1070, mean_acc: 0.9995
+2019-04-02 14:36:52,781 - DEBUG - step: 27600, mean_loss: 0.1051, mean_acc: 0.9998
+2019-04-02 14:37:09,534 - DEBUG - step: 27700, mean_loss: 0.1054, mean_acc: 0.9995
+2019-04-02 14:37:26,300 - DEBUG - step: 27800, mean_loss: 0.1039, mean_acc: 0.9998
+2019-04-02 14:37:43,082 - DEBUG - step: 27900, mean_loss: 0.1044, mean_acc: 0.9996
+2019-04-02 14:37:59,849 - DEBUG - step: 28000, mean_loss: 0.1037, mean_acc: 0.9998
+2019-04-02 14:38:16,662 - DEBUG - step: 28100, mean_loss: 0.1029, mean_acc: 0.9996
+2019-04-02 14:38:33,460 - DEBUG - step: 28200, mean_loss: 0.1043, mean_acc: 0.9993
+2019-04-02 14:38:50,258 - DEBUG - step: 28300, mean_loss: 0.1026, mean_acc: 0.9994
+2019-04-02 14:39:07,149 - DEBUG - step: 28400, mean_loss: 0.1018, mean_acc: 0.9998
+2019-04-02 14:39:23,435 - DEBUG - step: 28500, mean_loss: 0.1019, mean_acc: 0.9995
+2019-04-02 14:39:25,251 - INFO - 24 epoch training is finish!
+2019-04-02 14:39:43,267 - INFO - 24 epoch validation is 97.222!
+2019-04-02 14:39:45,846 - INFO - 25 epoch training is start!
+2019-04-02 14:40:01,112 - DEBUG - step: 28600, mean_loss: 0.1018, mean_acc: 0.9995
+2019-04-02 14:40:17,915 - DEBUG - step: 28700, mean_loss: 0.1008, mean_acc: 0.9998
+2019-04-02 14:40:34,728 - DEBUG - step: 28800, mean_loss: 0.1011, mean_acc: 0.9996
+2019-04-02 14:40:51,511 - DEBUG - step: 28900, mean_loss: 0.0997, mean_acc: 0.9999
+2019-04-02 14:41:08,293 - DEBUG - step: 29000, mean_loss: 0.0989, mean_acc: 0.9998
+2019-04-02 14:41:25,122 - DEBUG - step: 29100, mean_loss: 0.1003, mean_acc: 0.9993
+2019-04-02 14:41:41,889 - DEBUG - step: 29200, mean_loss: 0.0986, mean_acc: 0.9999
+2019-04-02 14:41:58,671 - DEBUG - step: 29300, mean_loss: 0.0984, mean_acc: 0.9995
+2019-04-02 14:42:15,500 - DEBUG - step: 29400, mean_loss: 0.0978, mean_acc: 0.9999
+2019-04-02 14:42:32,253 - DEBUG - step: 29500, mean_loss: 0.0973, mean_acc: 0.9999
+2019-04-02 14:42:48,988 - DEBUG - step: 29600, mean_loss: 0.0972, mean_acc: 0.9998
+2019-04-02 14:43:05,136 - DEBUG - step: 29700, mean_loss: 0.0974, mean_acc: 0.9995
+2019-04-02 14:43:05,214 - INFO - 25 epoch training is finish!
+2019-04-02 14:43:23,262 - INFO - 25 epoch validation is 97.131!
+2019-04-02 14:43:26,012 - INFO - 26 epoch training is start!
+2019-04-02 14:43:43,200 - DEBUG - step: 29800, mean_loss: 0.0971, mean_acc: 0.9997
+2019-04-02 14:43:59,905 - DEBUG - step: 29900, mean_loss: 0.0970, mean_acc: 0.9996
+2019-04-02 14:44:16,687 - DEBUG - step: 30000, mean_loss: 0.0955, mean_acc: 1.0000
+2019-04-02 14:44:33,455 - DEBUG - step: 30100, mean_loss: 0.0949, mean_acc: 1.0000
+2019-04-02 14:44:50,268 - DEBUG - step: 30200, mean_loss: 0.0944, mean_acc: 0.9999
+2019-04-02 14:45:07,019 - DEBUG - step: 30300, mean_loss: 0.0951, mean_acc: 0.9997
+2019-04-02 14:45:23,926 - DEBUG - step: 30400, mean_loss: 0.0955, mean_acc: 0.9992
+2019-04-02 14:45:40,692 - DEBUG - step: 30500, mean_loss: 0.0946, mean_acc: 0.9994
+2019-04-02 14:45:57,506 - DEBUG - step: 30600, mean_loss: 0.0939, mean_acc: 0.9996
+2019-04-02 14:46:14,257 - DEBUG - step: 30700, mean_loss: 0.0932, mean_acc: 0.9998
+2019-04-02 14:46:31,086 - DEBUG - step: 30800, mean_loss: 0.0932, mean_acc: 0.9998
+2019-04-02 14:46:45,134 - INFO - 26 epoch training is finish!
+2019-04-02 14:47:03,166 - INFO - 26 epoch validation is 97.125!
+2019-04-02 14:47:06,104 - INFO - 27 epoch training is start!
+2019-04-02 14:47:08,557 - DEBUG - step: 30900, mean_loss: 0.0934, mean_acc: 0.9996
+2019-04-02 14:47:25,451 - DEBUG - step: 31000, mean_loss: 0.0929, mean_acc: 0.9998
+2019-04-02 14:47:42,240 - DEBUG - step: 31100, mean_loss: 0.0926, mean_acc: 0.9997
+2019-04-02 14:47:58,928 - DEBUG - step: 31200, mean_loss: 0.0917, mean_acc: 0.9998
+2019-04-02 14:48:15,695 - DEBUG - step: 31300, mean_loss: 0.0909, mean_acc: 0.9999
+2019-04-02 14:48:32,493 - DEBUG - step: 31400, mean_loss: 0.0905, mean_acc: 1.0000
+2019-04-02 14:48:49,337 - DEBUG - step: 31500, mean_loss: 0.0921, mean_acc: 0.9993
+2019-04-02 14:49:06,119 - DEBUG - step: 31600, mean_loss: 0.0911, mean_acc: 0.9996
+2019-04-02 14:49:22,922 - DEBUG - step: 31700, mean_loss: 0.0903, mean_acc: 0.9997
+2019-04-02 14:49:39,813 - DEBUG - step: 31800, mean_loss: 0.0900, mean_acc: 0.9998
+2019-04-02 14:49:56,611 - DEBUG - step: 31900, mean_loss: 0.0894, mean_acc: 0.9998
+2019-04-02 14:50:13,346 - DEBUG - step: 32000, mean_loss: 0.0892, mean_acc: 1.0000
+2019-04-02 14:50:25,444 - INFO - 27 epoch training is finish!
+2019-04-02 14:50:43,553 - INFO - 27 epoch validation is 97.135!
+2019-04-02 14:50:46,708 - INFO - 28 epoch training is start!
+2019-04-02 14:50:51,248 - DEBUG - step: 32100, mean_loss: 0.0892, mean_acc: 0.9997
+2019-04-02 14:51:08,093 - DEBUG - step: 32200, mean_loss: 0.0894, mean_acc: 0.9998
+2019-04-02 14:51:24,951 - DEBUG - step: 32300, mean_loss: 0.0885, mean_acc: 1.0000
+2019-04-02 14:51:41,864 - DEBUG - step: 32400, mean_loss: 0.0877, mean_acc: 1.0000
+2019-04-02 14:51:58,693 - DEBUG - step: 32500, mean_loss: 0.0874, mean_acc: 0.9999
+2019-04-02 14:52:15,553 - DEBUG - step: 32600, mean_loss: 0.0872, mean_acc: 0.9998
+2019-04-02 14:52:32,367 - DEBUG - step: 32700, mean_loss: 0.0873, mean_acc: 0.9998
+2019-04-02 14:52:49,175 - DEBUG - step: 32800, mean_loss: 0.0867, mean_acc: 0.9998
+2019-04-02 14:53:06,572 - DEBUG - step: 32900, mean_loss: 0.0872, mean_acc: 0.9997
+2019-04-02 14:53:23,416 - DEBUG - step: 33000, mean_loss: 0.0865, mean_acc: 0.9996
+2019-04-02 14:53:40,214 - DEBUG - step: 33100, mean_loss: 0.0861, mean_acc: 0.9998
+2019-04-02 14:53:57,022 - DEBUG - step: 33200, mean_loss: 0.0861, mean_acc: 0.9998
+2019-04-02 14:54:07,249 - INFO - 28 epoch training is finish!
+2019-04-02 14:54:25,565 - INFO - 28 epoch validation is 97.081!
+2019-04-02 14:54:28,200 - INFO - 29 epoch training is start!
+2019-04-02 14:54:34,745 - DEBUG - step: 33300, mean_loss: 0.0862, mean_acc: 0.9996
+2019-04-02 14:54:51,704 - DEBUG - step: 33400, mean_loss: 0.0858, mean_acc: 0.9999
+2019-04-02 14:55:08,600 - DEBUG - step: 33500, mean_loss: 0.0854, mean_acc: 0.9998
+2019-04-02 14:55:25,538 - DEBUG - step: 33600, mean_loss: 0.0850, mean_acc: 0.9998
+2019-04-02 14:55:42,480 - DEBUG - step: 33700, mean_loss: 0.0841, mean_acc: 0.9998
+2019-04-02 14:55:59,585 - DEBUG - step: 33800, mean_loss: 0.0840, mean_acc: 1.0000
+2019-04-02 14:56:16,509 - DEBUG - step: 33900, mean_loss: 0.0843, mean_acc: 0.9998
+2019-04-02 14:56:33,359 - DEBUG - step: 34000, mean_loss: 0.0837, mean_acc: 0.9998
+2019-04-02 14:56:50,255 - DEBUG - step: 34100, mean_loss: 0.0834, mean_acc: 1.0000
+2019-04-02 14:57:07,088 - DEBUG - step: 34200, mean_loss: 0.0831, mean_acc: 0.9997
+2019-04-02 14:57:23,856 - DEBUG - step: 34300, mean_loss: 0.0834, mean_acc: 0.9997
+2019-04-02 14:57:40,624 - DEBUG - step: 34400, mean_loss: 0.0841, mean_acc: 0.9993
+2019-04-02 14:57:48,922 - INFO - 29 epoch training is finish!
+2019-04-02 14:58:07,290 - INFO - 29 epoch validation is 97.029!
+2019-04-02 14:58:10,425 - INFO - 30 epoch training is start!
+2019-04-02 14:58:19,114 - DEBUG - step: 34500, mean_loss: 0.0841, mean_acc: 0.9995
+2019-04-02 14:58:36,020 - DEBUG - step: 34600, mean_loss: 0.0834, mean_acc: 0.9996
+2019-04-02 14:58:52,875 - DEBUG - step: 34700, mean_loss: 0.0824, mean_acc: 0.9999
+2019-04-02 14:59:09,815 - DEBUG - step: 34800, mean_loss: 0.0817, mean_acc: 0.9999
+2019-04-02 14:59:26,720 - DEBUG - step: 34900, mean_loss: 0.0813, mean_acc: 0.9999
+2019-04-02 14:59:43,518 - DEBUG - step: 35000, mean_loss: 0.0820, mean_acc: 0.9997
+2019-04-02 15:00:00,398 - DEBUG - step: 35100, mean_loss: 0.0816, mean_acc: 0.9999
+2019-04-02 15:00:17,273 - DEBUG - step: 35200, mean_loss: 0.0809, mean_acc: 0.9998
+2019-04-02 15:00:34,261 - DEBUG - step: 35300, mean_loss: 0.0812, mean_acc: 0.9996
+2019-04-02 15:00:51,297 - DEBUG - step: 35400, mean_loss: 0.0811, mean_acc: 0.9995
+2019-04-02 15:01:08,256 - DEBUG - step: 35500, mean_loss: 0.0803, mean_acc: 0.9997
+2019-04-02 15:01:24,852 - DEBUG - step: 35600, mean_loss: 0.0802, mean_acc: 0.9998
+2019-04-02 15:01:31,215 - INFO - 30 epoch training is finish!
+2019-04-02 15:01:49,426 - INFO - 30 epoch validation is 97.111!
+2019-04-02 15:01:52,069 - INFO - 31 epoch training is start!
+2019-04-02 15:02:02,775 - DEBUG - step: 35700, mean_loss: 0.0804, mean_acc: 0.9998
+2019-04-02 15:02:20,542 - DEBUG - step: 35800, mean_loss: 0.0804, mean_acc: 0.9998
+2019-04-02 15:02:37,611 - DEBUG - step: 35900, mean_loss: 0.0793, mean_acc: 1.0000
+2019-04-02 15:02:54,500 - DEBUG - step: 36000, mean_loss: 0.0790, mean_acc: 0.9998
+2019-04-02 15:03:11,545 - DEBUG - step: 36100, mean_loss: 0.0787, mean_acc: 0.9999
+2019-04-02 15:03:28,380 - DEBUG - step: 36200, mean_loss: 0.0790, mean_acc: 0.9999
+2019-04-02 15:03:45,199 - DEBUG - step: 36300, mean_loss: 0.0789, mean_acc: 0.9997
+2019-04-02 15:04:01,911 - DEBUG - step: 36400, mean_loss: 0.0784, mean_acc: 0.9996
+2019-04-02 15:04:18,882 - DEBUG - step: 36500, mean_loss: 0.0787, mean_acc: 0.9996
+2019-04-02 15:04:35,867 - DEBUG - step: 36600, mean_loss: 0.0778, mean_acc: 0.9998
+2019-04-02 15:04:52,845 - DEBUG - step: 36700, mean_loss: 0.0779, mean_acc: 0.9997
+2019-04-02 15:05:09,292 - DEBUG - step: 36800, mean_loss: 0.0775, mean_acc: 0.9998
+2019-04-02 15:05:13,699 - INFO - 31 epoch training is finish!
+2019-04-02 15:05:31,935 - INFO - 31 epoch validation is 97.132!
+2019-04-02 15:05:34,404 - INFO - 32 epoch training is start!
+2019-04-02 15:05:46,952 - DEBUG - step: 36900, mean_loss: 0.0780, mean_acc: 0.9997
+2019-04-02 15:06:03,765 - DEBUG - step: 37000, mean_loss: 0.0776, mean_acc: 0.9998
+2019-04-02 15:06:20,532 - DEBUG - step: 37100, mean_loss: 0.0771, mean_acc: 0.9998
+2019-04-02 15:06:37,327 - DEBUG - step: 37200, mean_loss: 0.0766, mean_acc: 0.9998
+2019-04-02 15:06:54,218 - DEBUG - step: 37300, mean_loss: 0.0761, mean_acc: 0.9999
+2019-04-02 15:07:11,003 - DEBUG - step: 37400, mean_loss: 0.0768, mean_acc: 0.9998
+2019-04-02 15:07:27,771 - DEBUG - step: 37500, mean_loss: 0.0766, mean_acc: 0.9998
+2019-04-02 15:07:44,557 - DEBUG - step: 37600, mean_loss: 0.0761, mean_acc: 0.9997
+2019-04-02 15:08:01,325 - DEBUG - step: 37700, mean_loss: 0.0758, mean_acc: 0.9999
+2019-04-02 15:08:18,169 - DEBUG - step: 37800, mean_loss: 0.0755, mean_acc: 0.9998
+2019-04-02 15:08:34,951 - DEBUG - step: 37900, mean_loss: 0.0755, mean_acc: 0.9998
+2019-04-02 15:08:51,327 - DEBUG - step: 38000, mean_loss: 0.0753, mean_acc: 0.9998
+2019-04-02 15:08:53,843 - INFO - 32 epoch training is finish!
+2019-04-02 15:09:11,875 - INFO - 32 epoch validation is 97.121!
+2019-04-02 15:09:14,688 - INFO - 33 epoch training is start!
+2019-04-02 15:09:29,236 - DEBUG - step: 38100, mean_loss: 0.0755, mean_acc: 0.9998
+2019-04-02 15:09:46,080 - DEBUG - step: 38200, mean_loss: 0.0749, mean_acc: 0.9999
+2019-04-02 15:10:02,847 - DEBUG - step: 38300, mean_loss: 0.0744, mean_acc: 1.0000
+2019-04-02 15:10:19,648 - DEBUG - step: 38400, mean_loss: 0.0741, mean_acc: 0.9999
+2019-04-02 15:10:36,415 - DEBUG - step: 38500, mean_loss: 0.0738, mean_acc: 0.9999
+2019-04-02 15:10:53,182 - DEBUG - step: 38600, mean_loss: 0.0739, mean_acc: 0.9999
+2019-04-02 15:11:09,948 - DEBUG - step: 38700, mean_loss: 0.0740, mean_acc: 0.9999
+2019-04-02 15:11:26,730 - DEBUG - step: 38800, mean_loss: 0.0735, mean_acc: 0.9997
+2019-04-02 15:11:43,512 - DEBUG - step: 38900, mean_loss: 0.0735, mean_acc: 0.9999
+2019-04-02 15:12:00,284 - DEBUG - step: 39000, mean_loss: 0.0730, mean_acc: 0.9999
+2019-04-02 15:12:17,113 - DEBUG - step: 39100, mean_loss: 0.0731, mean_acc: 0.9998
+2019-04-02 15:12:33,348 - DEBUG - step: 39200, mean_loss: 0.0728, mean_acc: 0.9999
+2019-04-02 15:12:33,864 - INFO - 33 epoch training is finish!
+2019-04-02 15:12:51,927 - INFO - 33 epoch validation is 97.214!
+2019-04-02 15:12:54,599 - INFO - 34 epoch training is start!
+2019-04-02 15:13:11,100 - DEBUG - step: 39300, mean_loss: 0.0738, mean_acc: 0.9998
+2019-04-02 15:13:27,914 - DEBUG - step: 39400, mean_loss: 0.0738, mean_acc: 0.9995
+2019-04-02 15:13:44,743 - DEBUG - step: 39500, mean_loss: 0.0723, mean_acc: 0.9999
+2019-04-02 15:14:01,494 - DEBUG - step: 39600, mean_loss: 0.0722, mean_acc: 0.9999
+2019-04-02 15:14:18,261 - DEBUG - step: 39700, mean_loss: 0.0719, mean_acc: 1.0000
+2019-04-02 15:14:35,012 - DEBUG - step: 39800, mean_loss: 0.0721, mean_acc: 0.9999
+2019-04-02 15:14:51,747 - DEBUG - step: 39900, mean_loss: 0.0722, mean_acc: 0.9999
+2019-04-02 15:15:08,498 - DEBUG - step: 40000, mean_loss: 0.0716, mean_acc: 0.9999
+2019-04-02 15:15:25,315 - DEBUG - step: 40100, mean_loss: 0.0715, mean_acc: 0.9998
+2019-04-02 15:15:42,145 - DEBUG - step: 40200, mean_loss: 0.0712, mean_acc: 0.9998
+2019-04-02 15:15:58,849 - DEBUG - step: 40300, mean_loss: 0.0713, mean_acc: 0.9998
+2019-04-02 15:16:13,631 - INFO - 34 epoch training is finish!
+2019-04-02 15:16:31,648 - INFO - 34 epoch validation is 97.136!
+2019-04-02 15:16:34,227 - INFO - 35 epoch training is start!
+2019-04-02 15:16:36,023 - DEBUG - step: 40400, mean_loss: 0.0708, mean_acc: 0.9999
+2019-04-02 15:16:52,821 - DEBUG - step: 40500, mean_loss: 0.0717, mean_acc: 0.9997
+2019-04-02 15:17:09,650 - DEBUG - step: 40600, mean_loss: 0.0711, mean_acc: 0.9999
+2019-04-02 15:17:26,479 - DEBUG - step: 40700, mean_loss: 0.0704, mean_acc: 1.0000
+2019-04-02 15:17:43,357 - DEBUG - step: 40800, mean_loss: 0.0700, mean_acc: 1.0000
+2019-04-02 15:18:00,077 - DEBUG - step: 40900, mean_loss: 0.0698, mean_acc: 0.9999
+2019-04-02 15:18:16,784 - DEBUG - step: 41000, mean_loss: 0.0706, mean_acc: 0.9998
+2019-04-02 15:18:33,553 - DEBUG - step: 41100, mean_loss: 0.0705, mean_acc: 0.9995
+2019-04-02 15:18:50,382 - DEBUG - step: 41200, mean_loss: 0.0695, mean_acc: 1.0000
+2019-04-02 15:19:07,164 - DEBUG - step: 41300, mean_loss: 0.0695, mean_acc: 0.9999
+2019-04-02 15:19:23,930 - DEBUG - step: 41400, mean_loss: 0.0691, mean_acc: 1.0000
+2019-04-02 15:19:40,759 - DEBUG - step: 41500, mean_loss: 0.0693, mean_acc: 1.0000
+2019-04-02 15:19:53,619 - INFO - 35 epoch training is finish!
+2019-04-02 15:20:11,605 - INFO - 35 epoch validation is 97.144!
+2019-04-02 15:20:14,277 - INFO - 36 epoch training is start!
+2019-04-02 15:20:18,106 - DEBUG - step: 41600, mean_loss: 0.0689, mean_acc: 1.0000
+2019-04-02 15:20:34,856 - DEBUG - step: 41700, mean_loss: 0.0692, mean_acc: 1.0000
+2019-04-02 15:20:51,701 - DEBUG - step: 41800, mean_loss: 0.0688, mean_acc: 1.0000
+2019-04-02 15:21:08,499 - DEBUG - step: 41900, mean_loss: 0.0692, mean_acc: 0.9998
+2019-04-02 15:21:25,265 - DEBUG - step: 42000, mean_loss: 0.0683, mean_acc: 1.0000
+2019-04-02 15:21:42,016 - DEBUG - step: 42100, mean_loss: 0.0682, mean_acc: 1.0000
+2019-04-02 15:21:58,798 - DEBUG - step: 42200, mean_loss: 0.0686, mean_acc: 0.9999
+2019-04-02 15:22:15,565 - DEBUG - step: 42300, mean_loss: 0.0695, mean_acc: 0.9993
+2019-04-02 15:22:32,381 - DEBUG - step: 42400, mean_loss: 0.0694, mean_acc: 0.9995
+2019-04-02 15:22:49,132 - DEBUG - step: 42500, mean_loss: 0.0705, mean_acc: 0.9993
+2019-04-02 15:23:05,963 - DEBUG - step: 42600, mean_loss: 0.0707, mean_acc: 0.9991
+2019-04-02 15:23:22,666 - DEBUG - step: 42700, mean_loss: 0.0684, mean_acc: 0.9998
+2019-04-02 15:23:33,482 - INFO - 36 epoch training is finish!
+2019-04-02 15:23:51,597 - INFO - 36 epoch validation is 97.023!
+2019-04-02 15:23:54,363 - INFO - 37 epoch training is start!
+2019-04-02 15:24:00,176 - DEBUG - step: 42800, mean_loss: 0.0693, mean_acc: 0.9995
+2019-04-02 15:24:16,960 - DEBUG - step: 42900, mean_loss: 0.0684, mean_acc: 0.9998
+2019-04-02 15:24:33,775 - DEBUG - step: 43000, mean_loss: 0.0678, mean_acc: 1.0000
+2019-04-02 15:24:50,526 - DEBUG - step: 43100, mean_loss: 0.0676, mean_acc: 0.9999
+2019-04-02 15:25:07,326 - DEBUG - step: 43200, mean_loss: 0.0682, mean_acc: 0.9998
+2019-04-02 15:25:24,077 - DEBUG - step: 43300, mean_loss: 0.0672, mean_acc: 0.9999
+2019-04-02 15:25:40,875 - DEBUG - step: 43400, mean_loss: 0.0684, mean_acc: 0.9997
+2019-04-02 15:25:57,610 - DEBUG - step: 43500, mean_loss: 0.0680, mean_acc: 0.9994
+2019-04-02 15:26:14,517 - DEBUG - step: 43600, mean_loss: 0.0671, mean_acc: 0.9998
+2019-04-02 15:26:31,362 - DEBUG - step: 43700, mean_loss: 0.0664, mean_acc: 1.0000
+2019-04-02 15:26:48,098 - DEBUG - step: 43800, mean_loss: 0.0667, mean_acc: 0.9998
+2019-04-02 15:27:04,817 - DEBUG - step: 43900, mean_loss: 0.0668, mean_acc: 0.9998
+2019-04-02 15:27:13,727 - INFO - 37 epoch training is finish!
+2019-04-02 15:27:31,712 - INFO - 37 epoch validation is 97.115!
+2019-04-02 15:27:34,525 - INFO - 38 epoch training is start!
+2019-04-02 15:27:42,323 - DEBUG - step: 44000, mean_loss: 0.0665, mean_acc: 1.0000
+2019-04-02 15:27:59,105 - DEBUG - step: 44100, mean_loss: 0.0665, mean_acc: 0.9999
+2019-04-02 15:28:15,996 - DEBUG - step: 44200, mean_loss: 0.0659, mean_acc: 1.0000
+2019-04-02 15:28:32,763 - DEBUG - step: 44300, mean_loss: 0.0656, mean_acc: 1.0000
+2019-04-02 15:28:49,529 - DEBUG - step: 44400, mean_loss: 0.0652, mean_acc: 1.0000
+2019-04-02 15:29:06,327 - DEBUG - step: 44500, mean_loss: 0.0654, mean_acc: 1.0000
+2019-04-02 15:29:23,046 - DEBUG - step: 44600, mean_loss: 0.0659, mean_acc: 0.9998
+2019-04-02 15:29:39,814 - DEBUG - step: 44700, mean_loss: 0.0657, mean_acc: 0.9995
+2019-04-02 15:29:56,596 - DEBUG - step: 44800, mean_loss: 0.0653, mean_acc: 0.9999
+2019-04-02 15:30:13,394 - DEBUG - step: 44900, mean_loss: 0.0647, mean_acc: 1.0000
+2019-04-02 15:30:30,270 - DEBUG - step: 45000, mean_loss: 0.0655, mean_acc: 0.9997
+2019-04-02 15:30:46,787 - DEBUG - step: 45100, mean_loss: 0.0669, mean_acc: 0.9995
+2019-04-02 15:30:53,756 - INFO - 38 epoch training is finish!
+2019-04-02 15:31:11,789 - INFO - 38 epoch validation is 97.096!
+2019-04-02 15:31:14,352 - INFO - 39 epoch training is start!
+2019-04-02 15:31:24,227 - DEBUG - step: 45200, mean_loss: 0.0654, mean_acc: 0.9998
+2019-04-02 15:31:40,994 - DEBUG - step: 45300, mean_loss: 0.0650, mean_acc: 0.9999
+2019-04-02 15:31:57,792 - DEBUG - step: 45400, mean_loss: 0.0646, mean_acc: 1.0000
+2019-04-02 15:32:14,605 - DEBUG - step: 45500, mean_loss: 0.0651, mean_acc: 0.9998
+2019-04-02 15:32:31,497 - DEBUG - step: 45600, mean_loss: 0.0641, mean_acc: 1.0000
+2019-04-02 15:32:48,328 - DEBUG - step: 45700, mean_loss: 0.0644, mean_acc: 0.9998
+2019-04-02 15:33:05,079 - DEBUG - step: 45800, mean_loss: 0.0650, mean_acc: 0.9998
+2019-04-02 15:33:21,830 - DEBUG - step: 45900, mean_loss: 0.0639, mean_acc: 0.9998
+2019-04-02 15:33:38,661 - DEBUG - step: 46000, mean_loss: 0.0643, mean_acc: 0.9998
+2019-04-02 15:33:55,381 - DEBUG - step: 46100, mean_loss: 0.0638, mean_acc: 0.9998
+2019-04-02 15:34:12,178 - DEBUG - step: 46200, mean_loss: 0.0636, mean_acc: 1.0000
+2019-04-02 15:34:28,679 - DEBUG - step: 46300, mean_loss: 0.0636, mean_acc: 0.9999
+2019-04-02 15:34:33,742 - INFO - 39 epoch training is finish!
+2019-04-02 15:34:51,759 - INFO - 39 epoch validation is 97.171!
+2019-04-02 15:34:54,228 - INFO - 40 epoch training is start!
+2019-04-02 15:35:06,089 - DEBUG - step: 46400, mean_loss: 0.0639, mean_acc: 0.9998
+2019-04-02 15:35:22,871 - DEBUG - step: 46500, mean_loss: 0.0635, mean_acc: 1.0000
+2019-04-02 15:35:39,716 - DEBUG - step: 46600, mean_loss: 0.0630, mean_acc: 1.0000
+2019-04-02 15:35:56,451 - DEBUG - step: 46700, mean_loss: 0.0631, mean_acc: 0.9998
+2019-04-02 15:36:13,233 - DEBUG - step: 46800, mean_loss: 0.0627, mean_acc: 1.0000
+2019-04-02 15:36:30,018 - DEBUG - step: 46900, mean_loss: 0.0627, mean_acc: 0.9999
+2019-04-02 15:36:46,941 - DEBUG - step: 47000, mean_loss: 0.0629, mean_acc: 0.9998
+2019-04-02 15:37:03,754 - DEBUG - step: 47100, mean_loss: 0.0625, mean_acc: 0.9998
+2019-04-02 15:37:20,538 - DEBUG - step: 47200, mean_loss: 0.0624, mean_acc: 1.0000
+2019-04-02 15:37:37,306 - DEBUG - step: 47300, mean_loss: 0.0622, mean_acc: 0.9999
+2019-04-02 15:37:54,010 - DEBUG - step: 47400, mean_loss: 0.0623, mean_acc: 1.0000
+2019-04-02 15:38:10,355 - DEBUG - step: 47500, mean_loss: 0.0627, mean_acc: 0.9997
+2019-04-02 15:38:13,464 - INFO - 40 epoch training is finish!
+2019-04-02 15:38:31,465 - INFO - 40 epoch validation is 97.126!
+2019-04-02 15:38:34,528 - INFO - 41 epoch training is start!
+2019-04-02 15:38:48,404 - DEBUG - step: 47600, mean_loss: 0.0624, mean_acc: 0.9999
+2019-04-02 15:39:05,155 - DEBUG - step: 47700, mean_loss: 0.0622, mean_acc: 1.0000
+2019-04-02 15:39:21,935 - DEBUG - step: 47800, mean_loss: 0.0617, mean_acc: 1.0000
+2019-04-02 15:39:38,737 - DEBUG - step: 47900, mean_loss: 0.0615, mean_acc: 1.0000
+2019-04-02 15:39:55,459 - DEBUG - step: 48000, mean_loss: 0.0614, mean_acc: 1.0000
+2019-04-02 15:40:12,304 - DEBUG - step: 48100, mean_loss: 0.0616, mean_acc: 0.9999
+2019-04-02 15:40:29,023 - DEBUG - step: 48200, mean_loss: 0.0619, mean_acc: 0.9998
+2019-04-02 15:40:45,759 - DEBUG - step: 48300, mean_loss: 0.0611, mean_acc: 1.0000
+2019-04-02 15:41:02,840 - DEBUG - step: 48400, mean_loss: 0.0612, mean_acc: 1.0000
+2019-04-02 15:41:19,560 - DEBUG - step: 48500, mean_loss: 0.0609, mean_acc: 1.0000
+2019-04-02 15:41:36,248 - DEBUG - step: 48600, mean_loss: 0.0610, mean_acc: 0.9999
+2019-04-02 15:41:52,500 - DEBUG - step: 48700, mean_loss: 0.0610, mean_acc: 0.9999
+2019-04-02 15:41:53,656 - INFO - 41 epoch training is finish!
+2019-04-02 15:42:11,673 - INFO - 41 epoch validation is 97.081!
+2019-04-02 15:42:14,564 - INFO - 42 epoch training is start!
+2019-04-02 15:42:30,471 - DEBUG - step: 48800, mean_loss: 0.0612, mean_acc: 1.0000
+2019-04-02 15:42:47,300 - DEBUG - step: 48900, mean_loss: 0.0611, mean_acc: 0.9999
+2019-04-02 15:43:04,160 - DEBUG - step: 49000, mean_loss: 0.0605, mean_acc: 1.0000
+2019-04-02 15:43:20,880 - DEBUG - step: 49100, mean_loss: 0.0604, mean_acc: 1.0000
+2019-04-02 15:43:37,615 - DEBUG - step: 49200, mean_loss: 0.0603, mean_acc: 0.9999
+2019-04-02 15:43:54,382 - DEBUG - step: 49300, mean_loss: 0.0605, mean_acc: 0.9999
+2019-04-02 15:44:11,242 - DEBUG - step: 49400, mean_loss: 0.0603, mean_acc: 1.0000
+2019-04-02 15:44:28,040 - DEBUG - step: 49500, mean_loss: 0.0602, mean_acc: 0.9999
+2019-04-02 15:44:44,838 - DEBUG - step: 49600, mean_loss: 0.0600, mean_acc: 1.0000
+2019-04-02 15:45:01,667 - DEBUG - step: 49700, mean_loss: 0.0599, mean_acc: 0.9999
+2019-04-02 15:45:18,746 - DEBUG - step: 49800, mean_loss: 0.0599, mean_acc: 1.0000
+2019-04-02 15:45:34,184 - INFO - 42 epoch training is finish!
+2019-04-02 15:45:52,185 - INFO - 42 epoch validation is 97.085!
+2019-04-02 15:45:54,920 - INFO - 43 epoch training is start!
+2019-04-02 15:45:56,045 - DEBUG - step: 49900, mean_loss: 0.0597, mean_acc: 1.0000
+2019-04-02 15:46:12,765 - DEBUG - step: 50000, mean_loss: 0.0600, mean_acc: 1.0000
+2019-04-02 15:46:29,563 - DEBUG - step: 50100, mean_loss: 0.0599, mean_acc: 1.0000
+2019-04-02 15:46:46,298 - DEBUG - step: 50200, mean_loss: 0.0595, mean_acc: 1.0000
+2019-04-02 15:47:03,049 - DEBUG - step: 50300, mean_loss: 0.0593, mean_acc: 1.0000
+2019-04-02 15:47:20,149 - DEBUG - step: 50400, mean_loss: 0.0592, mean_acc: 1.0000
+2019-04-02 15:47:36,969 - DEBUG - step: 50500, mean_loss: 0.0595, mean_acc: 0.9998
+2019-04-02 15:47:53,751 - DEBUG - step: 50600, mean_loss: 0.0592, mean_acc: 1.0000
+2019-04-02 15:48:10,567 - DEBUG - step: 50700, mean_loss: 0.0590, mean_acc: 1.0000
+2019-04-02 15:48:27,382 - DEBUG - step: 50800, mean_loss: 0.0589, mean_acc: 1.0000
+2019-04-02 15:48:44,211 - DEBUG - step: 50900, mean_loss: 0.0587, mean_acc: 1.0000
+2019-04-02 15:49:00,978 - DEBUG - step: 51000, mean_loss: 0.0589, mean_acc: 1.0000
+2019-04-02 15:49:14,385 - INFO - 43 epoch training is finish!
+2019-04-02 15:49:32,339 - INFO - 43 epoch validation is 97.064!
+2019-04-02 15:49:35,167 - INFO - 44 epoch training is start!
+2019-04-02 15:49:38,308 - DEBUG - step: 51100, mean_loss: 0.0588, mean_acc: 0.9999
+2019-04-02 15:49:55,059 - DEBUG - step: 51200, mean_loss: 0.0591, mean_acc: 1.0000
+2019-04-02 15:50:11,778 - DEBUG - step: 51300, mean_loss: 0.0587, mean_acc: 1.0000
+2019-04-02 15:50:28,561 - DEBUG - step: 51400, mean_loss: 0.0585, mean_acc: 1.0000
+2019-04-02 15:50:45,312 - DEBUG - step: 51500, mean_loss: 0.0582, mean_acc: 1.0000
+2019-04-02 15:51:02,141 - DEBUG - step: 51600, mean_loss: 0.0582, mean_acc: 1.0000
+2019-04-02 15:51:18,955 - DEBUG - step: 51700, mean_loss: 0.0588, mean_acc: 0.9998
+2019-04-02 15:51:35,740 - DEBUG - step: 51800, mean_loss: 0.0582, mean_acc: 1.0000
+2019-04-02 15:51:52,803 - DEBUG - step: 51900, mean_loss: 0.0581, mean_acc: 1.0000
+2019-04-02 15:52:09,585 - DEBUG - step: 52000, mean_loss: 0.0579, mean_acc: 1.0000
+2019-04-02 15:52:26,446 - DEBUG - step: 52100, mean_loss: 0.0578, mean_acc: 1.0000
+2019-04-02 15:52:43,169 - DEBUG - step: 52200, mean_loss: 0.0580, mean_acc: 1.0000
+2019-04-02 15:52:54,625 - INFO - 44 epoch training is finish!
+2019-04-02 15:53:12,627 - INFO - 44 epoch validation is 97.132!
+2019-04-02 15:53:15,158 - INFO - 45 epoch training is start!
+2019-04-02 15:53:20,299 - DEBUG - step: 52300, mean_loss: 0.0579, mean_acc: 1.0000
+2019-04-02 15:53:37,144 - DEBUG - step: 52400, mean_loss: 0.0583, mean_acc: 0.9998
+2019-04-02 15:53:54,004 - DEBUG - step: 52500, mean_loss: 0.0578, mean_acc: 1.0000
+2019-04-02 15:54:10,771 - DEBUG - step: 52600, mean_loss: 0.0576, mean_acc: 1.0000
+2019-04-02 15:54:27,600 - DEBUG - step: 52700, mean_loss: 0.0573, mean_acc: 0.9999
+2019-04-02 15:54:44,398 - DEBUG - step: 52800, mean_loss: 0.0574, mean_acc: 1.0000
+2019-04-02 15:55:01,133 - DEBUG - step: 52900, mean_loss: 0.0576, mean_acc: 0.9999
+2019-04-02 15:55:17,946 - DEBUG - step: 53000, mean_loss: 0.0574, mean_acc: 0.9998
+2019-04-02 15:55:34,697 - DEBUG - step: 53100, mean_loss: 0.0572, mean_acc: 1.0000
+2019-04-02 15:55:51,451 - DEBUG - step: 53200, mean_loss: 0.0570, mean_acc: 1.0000
+2019-04-02 15:56:08,361 - DEBUG - step: 53300, mean_loss: 0.0568, mean_acc: 1.0000
+2019-04-02 15:56:25,005 - DEBUG - step: 53400, mean_loss: 0.0571, mean_acc: 1.0000
+2019-04-02 15:56:34,537 - INFO - 45 epoch training is finish!
+2019-04-02 15:56:52,507 - INFO - 45 epoch validation is 97.063!
+2019-04-02 15:56:55,539 - INFO - 46 epoch training is start!
+2019-04-02 15:57:02,680 - DEBUG - step: 53500, mean_loss: 0.0571, mean_acc: 1.0000
+2019-04-02 15:57:19,416 - DEBUG - step: 53600, mean_loss: 0.0571, mean_acc: 1.0000
+2019-04-02 15:57:36,120 - DEBUG - step: 53700, mean_loss: 0.0569, mean_acc: 1.0000
+2019-04-02 15:57:52,917 - DEBUG - step: 53800, mean_loss: 0.0567, mean_acc: 1.0000
+2019-04-02 15:58:09,762 - DEBUG - step: 53900, mean_loss: 0.0564, mean_acc: 1.0000
+2019-04-02 15:58:26,529 - DEBUG - step: 54000, mean_loss: 0.0565, mean_acc: 1.0000
+2019-04-02 15:58:43,311 - DEBUG - step: 54100, mean_loss: 0.0566, mean_acc: 1.0000
+2019-04-02 15:59:00,124 - DEBUG - step: 54200, mean_loss: 0.0563, mean_acc: 1.0000
+2019-04-02 15:59:16,969 - DEBUG - step: 54300, mean_loss: 0.0564, mean_acc: 1.0000
+2019-04-02 15:59:33,798 - DEBUG - step: 54400, mean_loss: 0.0561, mean_acc: 1.0000
+2019-04-02 15:59:50,518 - DEBUG - step: 54500, mean_loss: 0.0561, mean_acc: 1.0000
+2019-04-02 16:00:07,081 - DEBUG - step: 54600, mean_loss: 0.0562, mean_acc: 1.0000
+2019-04-02 16:00:14,738 - INFO - 46 epoch training is finish!
+2019-04-02 16:00:32,739 - INFO - 46 epoch validation is 97.089!
+2019-04-02 16:00:35,130 - INFO - 47 epoch training is start!
+2019-04-02 16:00:44,302 - DEBUG - step: 54700, mean_loss: 0.0563, mean_acc: 1.0000
+2019-04-02 16:01:01,100 - DEBUG - step: 54800, mean_loss: 0.0564, mean_acc: 0.9999
+2019-04-02 16:01:17,882 - DEBUG - step: 54900, mean_loss: 0.0561, mean_acc: 1.0000
+2019-04-02 16:01:34,696 - DEBUG - step: 55000, mean_loss: 0.0558, mean_acc: 1.0000
+2019-04-02 16:01:51,387 - DEBUG - step: 55100, mean_loss: 0.0556, mean_acc: 1.0000
+2019-04-02 16:02:08,203 - DEBUG - step: 55200, mean_loss: 0.0558, mean_acc: 1.0000
+2019-04-02 16:02:25,126 - DEBUG - step: 55300, mean_loss: 0.0558, mean_acc: 1.0000
+2019-04-02 16:02:42,096 - DEBUG - step: 55400, mean_loss: 0.0555, mean_acc: 0.9999
+2019-04-02 16:02:58,991 - DEBUG - step: 55500, mean_loss: 0.0557, mean_acc: 1.0000
+2019-04-02 16:03:15,914 - DEBUG - step: 55600, mean_loss: 0.0553, mean_acc: 1.0000
+2019-04-02 16:03:32,806 - DEBUG - step: 55700, mean_loss: 0.0554, mean_acc: 1.0000
+2019-04-02 16:03:49,416 - DEBUG - step: 55800, mean_loss: 0.0554, mean_acc: 1.0000
+2019-04-02 16:03:55,105 - INFO - 47 epoch training is finish!
+2019-04-02 16:04:13,622 - INFO - 47 epoch validation is 97.082!
+2019-04-02 16:04:16,263 - INFO - 48 epoch training is start!
+2019-04-02 16:04:27,451 - DEBUG - step: 55900, mean_loss: 0.0557, mean_acc: 1.0000
+2019-04-02 16:04:44,233 - DEBUG - step: 56000, mean_loss: 0.0556, mean_acc: 1.0000
+2019-04-02 16:05:00,953 - DEBUG - step: 56100, mean_loss: 0.0552, mean_acc: 1.0000
+2019-04-02 16:05:17,735 - DEBUG - step: 56200, mean_loss: 0.0551, mean_acc: 1.0000
+2019-04-02 16:05:34,564 - DEBUG - step: 56300, mean_loss: 0.0549, mean_acc: 1.0000
+2019-04-02 16:05:51,347 - DEBUG - step: 56400, mean_loss: 0.0551, mean_acc: 1.0000
+2019-04-02 16:06:08,160 - DEBUG - step: 56500, mean_loss: 0.0551, mean_acc: 1.0000
+2019-04-02 16:06:24,864 - DEBUG - step: 56600, mean_loss: 0.0548, mean_acc: 1.0000
+2019-04-02 16:06:41,974 - DEBUG - step: 56700, mean_loss: 0.0548, mean_acc: 1.0000
+2019-04-02 16:06:59,022 - DEBUG - step: 56800, mean_loss: 0.0546, mean_acc: 1.0000
+2019-04-02 16:07:16,127 - DEBUG - step: 56900, mean_loss: 0.0547, mean_acc: 1.0000
+2019-04-02 16:10:33,244 - INFO - find model H:/Robot/template/train_out/model.ckpt-46
+2019-04-02 16:10:33,244 - INFO - resore the model, start epoch from 48
+2019-04-02 16:10:33,244 - INFO - summary to the dir: H:\Robot\template\train_out\summary\2019-04-02T13-11-23
+2019-04-02 16:10:36,328 - INFO - Restoring parameters from H:/Robot/template/train_out/model.ckpt-46
+2019-04-02 16:11:00,242 - INFO - 47 epoch validation is 97.082!
+2019-04-02 16:11:00,242 - INFO - 48 epoch training is start!
+2019-04-02 16:11:12,294 - DEBUG - step: 55900, mean_loss: 0.0557, mean_acc: 1.0000
+2019-04-02 16:11:28,629 - DEBUG - step: 56000, mean_loss: 0.0556, mean_acc: 1.0000
+2019-04-02 16:11:45,063 - DEBUG - step: 56100, mean_loss: 0.0552, mean_acc: 1.0000
+2019-04-02 16:12:01,263 - DEBUG - step: 56200, mean_loss: 0.0551, mean_acc: 1.0000
+2019-04-02 16:12:17,694 - DEBUG - step: 56300, mean_loss: 0.0549, mean_acc: 1.0000
+2019-04-02 16:12:34,020 - DEBUG - step: 56400, mean_loss: 0.0552, mean_acc: 1.0000
+2019-04-02 16:12:50,469 - DEBUG - step: 56500, mean_loss: 0.0550, mean_acc: 1.0000
+2019-04-02 16:13:06,749 - DEBUG - step: 56600, mean_loss: 0.0547, mean_acc: 1.0000
+2019-04-02 16:13:22,960 - DEBUG - step: 56700, mean_loss: 0.0549, mean_acc: 1.0000
+2019-04-02 16:13:39,160 - DEBUG - step: 56800, mean_loss: 0.0546, mean_acc: 1.0000
+2019-04-02 16:13:55,551 - DEBUG - step: 56900, mean_loss: 0.0547, mean_acc: 1.0000
+2019-04-02 16:14:11,196 - DEBUG - step: 57000, mean_loss: 0.0547, mean_acc: 1.0000
+2019-04-02 16:14:14,772 - INFO - 48 epoch training is finish!
+2019-04-02 16:14:32,019 - INFO - 48 epoch validation is 97.094!
+2019-04-02 16:14:34,605 - INFO - 49 epoch training is start!
+2019-04-02 16:14:47,161 - DEBUG - step: 57100, mean_loss: 0.0548, mean_acc: 1.0000
+2019-04-02 16:15:03,230 - DEBUG - step: 57200, mean_loss: 0.0548, mean_acc: 1.0000
+2019-04-02 16:15:19,234 - DEBUG - step: 57300, mean_loss: 0.0545, mean_acc: 1.0000
+2019-04-02 16:15:35,237 - DEBUG - step: 57400, mean_loss: 0.0544, mean_acc: 1.0000
+2019-04-02 16:15:51,251 - DEBUG - step: 57500, mean_loss: 0.0542, mean_acc: 1.0000
+2019-04-02 16:16:07,209 - DEBUG - step: 57600, mean_loss: 0.0544, mean_acc: 1.0000
+2019-04-02 16:16:23,212 - DEBUG - step: 57700, mean_loss: 0.0544, mean_acc: 1.0000
+2019-04-02 16:16:39,240 - DEBUG - step: 57800, mean_loss: 0.0540, mean_acc: 1.0000
+2019-04-02 16:16:55,263 - DEBUG - step: 57900, mean_loss: 0.0542, mean_acc: 1.0000
+2019-04-02 16:17:11,365 - DEBUG - step: 58000, mean_loss: 0.0540, mean_acc: 1.0000
+2019-04-02 16:17:27,325 - DEBUG - step: 58100, mean_loss: 0.0540, mean_acc: 1.0000
+2019-04-02 16:17:42,659 - DEBUG - step: 58200, mean_loss: 0.0540, mean_acc: 1.0000
+2019-04-02 16:17:44,361 - INFO - 49 epoch training is finish!
+2019-04-02 16:18:01,611 - INFO - 49 epoch validation is 97.040!
+2019-04-02 16:18:04,197 - INFO - 50 epoch training is start!
+2019-04-02 16:18:18,702 - DEBUG - step: 58300, mean_loss: 0.0543, mean_acc: 1.0000
+2019-04-02 16:18:34,822 - DEBUG - step: 58400, mean_loss: 0.0542, mean_acc: 1.0000
+2019-04-02 16:18:50,802 - DEBUG - step: 58500, mean_loss: 0.0538, mean_acc: 1.0000
+2019-04-02 16:19:06,852 - DEBUG - step: 58600, mean_loss: 0.0537, mean_acc: 1.0000
+2019-04-02 16:19:22,906 - DEBUG - step: 58700, mean_loss: 0.0535, mean_acc: 1.0000
+2019-04-02 16:19:38,901 - DEBUG - step: 58800, mean_loss: 0.0539, mean_acc: 1.0000
+2019-04-02 16:19:54,889 - DEBUG - step: 58900, mean_loss: 0.0538, mean_acc: 0.9999
+2019-04-02 16:20:10,884 - DEBUG - step: 59000, mean_loss: 0.0534, mean_acc: 1.0000
+2019-04-02 16:20:26,861 - DEBUG - step: 59100, mean_loss: 0.0535, mean_acc: 1.0000
+2019-04-02 16:20:42,835 - DEBUG - step: 59200, mean_loss: 0.0533, mean_acc: 1.0000
+2019-04-02 16:20:58,778 - DEBUG - step: 59300, mean_loss: 0.0534, mean_acc: 1.0000
+2019-04-02 16:21:13,915 - DEBUG - step: 59400, mean_loss: 0.0533, mean_acc: 1.0000
+2019-04-02 16:21:13,973 - INFO - 50 epoch training is finish!
+2019-04-02 16:21:31,198 - INFO - 50 epoch validation is 97.037!

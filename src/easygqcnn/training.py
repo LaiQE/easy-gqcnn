@@ -132,6 +132,7 @@ class GQCNNTraing(object):
             except tf.errors.OutOfRangeError:
                 break
         final_acc = acc / con * 100
+        # return final_acc
         summary = sess.run(self._val_merged, {self._validation_acc: final_acc})
         writer.add_summary(summary, i)
         logging.info("%d epoch validation is %.3f!" % (i, final_acc))
@@ -161,11 +162,15 @@ class GQCNNTraing(object):
         datapoint个数, mean, std
         Note: 这个函数会修改6个私有属性
         """
+        depth_size = (self._config['im_height'],
+                      self._config['im_width'], self._config['im_channels'])
         info = np.load(os.path.join(self._data_path, 'datapoint_info.npy'))
         self._train_num = info[0]
         self._val_num = info[1]
-        self._im_mean = np.load(os.path.join(self._data_path, 'mean.npy'))
-        self._im_std = np.load(os.path.join(self._data_path, 'std.npy'))
+        self._im_mean = np.load(os.path.join(self._data_path, 'mean.npy')).reshape(depth_size)
+        self._im_std = np.load(os.path.join(self._data_path, 'std.npy')).reshape(depth_size)
+        # self._im_mean = np.mean(np.load(os.path.join(self._data_path, 'mean.npy')))
+        # self._im_std = np.mean(np.load(os.path.join(self._data_path, 'std.npy')))
         self._pose_mean = np.load(os.path.join(
             self._data_path, 'pose_mean.npy'))
         self._pose_std = np.load(os.path.join(self._data_path, 'pose_std.npy'))
@@ -271,9 +276,7 @@ class GQCNNTraing(object):
         pose = parsed_features['pose']
         pose = pose - tf.constant(self._pose_mean.astype('float32'))
         pose = pose / tf.constant(self._pose_std.astype('float32'))
-        condition = tf.less(
-            parsed_features['label'], self._config['metric_thresh'])
-        label = tf.where(condition, tf.constant(
-            [1], tf.int64), tf.constant([0], tf.int64))
+        condition = tf.less(parsed_features['label'], self._config['metric_thresh'])
+        label = tf.where(condition, tf.constant([0], tf.int64), tf.constant([1], tf.int64))
         label = tf.reshape(label, ())
         return depth, pose, label

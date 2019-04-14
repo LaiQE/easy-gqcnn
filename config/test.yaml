@@ -1,3 +1,30 @@
+grasp_mapper:
+  # 这个参数用于缩放夹爪到最后的tensor上
+  max_width_px_in_tensor: 15
+  min_width_px_in_tensor: 8
+  final_width: 32
+  final_height: 32
+
+policy:
+  num_seed_samples: 200
+  num_gmm_samples: 50
+  num_iters: 3
+  gmm_refit_p: 0.25
+  gmm_component_frac: 0.4
+  gmm_reg_covar: 0.01
+  
+sampler:
+  max_grasp_width_px: 32
+  friction_coef: 0.8
+  depth_grad_thresh: 0.05
+  min_grasp_dist: 0.025
+  angle_dist_weight: 0.025
+  min_depth_offset: 0.015
+  max_depth_offset: 0.015
+  depth_sample_win_height: 1
+  depth_sample_win_width: 1
+  depth_samples_per_grasp: 1
+  
 training:
   data_path: path/to/tfrecords_data
   model_file: path/to/model
@@ -86,6 +113,8 @@ gqcnn_config:
   im_height: 32
   im_width: 32
   im_channels: 1
+
+  model_path: H:/Robot/easy-gqcnn/data/test/out_data
   # needs to match input data mode that was used for training, determines the pose dimensions for the network
   pose_dim: 1
 

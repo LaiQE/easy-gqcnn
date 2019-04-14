@@ -17,6 +17,10 @@ class Grasp2D(object):
         self._width_px = width
 
     @property
+    def width_px(self):
+        return self._width_px
+
+    @property
     def center(self):
         return self._center.astype(np.int)
 
@@ -50,8 +54,8 @@ class Grasp2D(object):
     def feature_vec(self):
         """ 生成抓取的特征向量，由两个端点和中心距离组成
         """
-        p1, p2 = self.endpoints
-        return np.r_[p1, p2, self._depth]
+        p0, p1 = self.endpoints
+        return np.r_[p0, p1, self._depth]
 
     @staticmethod
     def from_feature_vec(v, width=None):
@@ -88,4 +92,3 @@ class Grasp2D(object):
         axis_dist = np.arccos(np.abs(g1.axis.dot(g2.axis)))
 
         return point_dist + alpha * axis_dist
-

@@ -5,9 +5,12 @@ import tensorflow as tf
 
 class NeuralNetWork(object):
     """ 神经网络定义类
+    training : 是否用于训练, 如果用于训练则不会载入模型并配置预测程序
+    model_path : 模型路径, 如果为None且用于预测, 则会使用配置文件中配置的模型路径
+    use_raw : 是否重映射原始gqcnn的模型到easy-gqcnn, 这个参数用于直接使用伯克利训练的模型
     """
 
-    def __init__(self, config, training=False, model_path=None):
+    def __init__(self, config, training=False, model_path=None, use_raw=False):
         if 'gqcnn_config' in config.keys():
             self._config = config['gqcnn_config']
         else:
@@ -19,12 +22,12 @@ class NeuralNetWork(object):
         else:
             self._model_path = self._config['model_path']
         # 如果只是用于训练则不需要预测的相关功能
-        # TODO : 需要增加关于预测的函数
         if not training:
             self.initialize_network(True)
-            self.pre_load()
+            self.pre_load(use_raw)
             self._sess = tf.InteractiveSession(graph=self._graph)
-            self.load_weights(self._sess, os.path.join(self._model_path, 'model.npz'))
+            model_file = self.find_model(self._model_path)
+            self.load_weights(self._sess, model_file, remap=use_raw)
 
     def __del__(self):
         self._sess.close()
@@ -54,20 +57,30 @@ class NeuralNetWork(object):
                 output = tf.nn.softmax(output)
         return output
 
-    def pre_load(self):
+    def pre_load(self, use_raw=False):
         """ 预加载预处理好的数据信息
         mean, std
+        use_raw : 是否使用原始的gqcnn训练数据
         Note: 这个函数会修改6个私有属性
         """
-        image_size = [self._config['im_width'],
-                      self._config['im_height'], self._config['im_channels']]
-        self._image_mean = np.load(os.path.join(self._model_path, 'mean.npy')).reshape(image_size)
-        self._image_std = np.load(os.path.join(self._model_path, 'std.npy')).reshape(image_size)
-        pose_size = [self._config['pose_dim']]
-        self._pose_mean = np.load(os.path.join(
-            self._model_path, 'pose_mean.npy')).reshape(pose_size)
-        self._pose_std = np.load(os.path.join(
-            self._model_path, 'pose_std.npy')).reshape(pose_size)
+        image_mean = np.load(os.path.join(self._model_path, 'mean.npy'))
+        image_std = np.load(os.path.join(self._model_path, 'std.npy'))
+        pose_mean = np.load(os.path.join(self._model_path, 'pose_mean.npy'))
+        pose_std = np.load(os.path.join(self._model_path, 'pose_std.npy'))
+        if use_raw:
+            self._image_mean = image_mean
+            self._image_std = image_std
+            self._pose_mean = pose_mean[2]
+            self._pose_std = pose_std[2]
+        else:
+            image_size = [self._config['im_width'],
+                        self._config['im_height'], self._config['im_channels']]
+            self._image_mean = image_mean.reshape(image_size)
+            self._image_std = image_std.reshape(image_size)
+            pose_size = [self._config['pose_dim']]
+            self._pose_mean = pose_mean.reshape(pose_size)
+            self._pose_std = pose_std.reshape(pose_size)
+
 
     def predict(self, image_list, pose_list):
         """ 使用训练好的网络进行预测
@@ -149,7 +162,24 @@ class NeuralNetWork(object):
                         # var = tf.get_variable(v, trainable=False)
                         var = tf.get_variable(v)
                         sess.run(var.assign(w))
-
+    
+    def find_model(self, path):
+        """ 在给定的文件夹中寻找模型文件, npz或者ckpt, 文件名必须为model"""
+        files = os.walk(path).__next__()[-1]
+        model_ext = [f.split('.')[1] for f in files if 'model' in f]
+        if len(model_ext) == 0:
+                raise KeyError('没有找到合适的模型文件')
+        if 'npz' in model_ext:
+            file = 'model.npz'
+        elif 'ckpt' in model_ext:
+            file = 'model.ckpt'
+        else:
+            model_ext.sort(reverse=True)
+            if 'ckpt' not in model_ext[0]:
+                raise KeyError('模型文件仅支持npz和ckpt格式')
+            file = 'model.' + model_ext[0]
+        return os.path.join(path, file)
+        
     def save_to_npz(self, sess, file):
         weights = {}
         for name in self._config['architecture'].keys():

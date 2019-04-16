@@ -30,7 +30,7 @@ class GraspMapper(object):
         out_size = [self._config['final_width'], self._config['final_height']]
         max_width_px = self._config['max_width_px_in_tensor']
         min_width_px = self._config['min_width_px_in_tensor']
-        out_image = np.zeros(tuple(len(grasp)) + tuple(out_size))
+        out_image = np.zeros(tuple(np.r_[len(grasp), out_size]))
         out_pose = np.zeros((len(grasp), 1))
         # 均匀采样抓取在最终图像中的宽度
         width_list = np.random.uniform(min_width_px, max_width_px, len(grasp))
@@ -90,6 +90,6 @@ class GraspMapper(object):
     def resize_image(image, resize_rate):
         """ 缩放图片大小 """
         image_size = np.array(image.shape[:2][::-1]).astype(np.int)
-        out_size = np.ceil(image_size * resize_rate)
+        out_size = np.ceil(image_size * resize_rate).astype(np.int)
         image_out = cv2.resize(image, tuple(out_size))
         return image_out

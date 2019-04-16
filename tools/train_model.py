@@ -8,8 +8,8 @@ file_path = os.path.split(__file__)[0]
 ROOT_PATH = os.path.abspath(os.path.join(file_path, '..'))
 TEST_LOG_FILE = os.path.join(ROOT_PATH, 'tools/logs/train_model.log')
 TEST_CFG_FILE = os.path.join(ROOT_PATH, 'config/test.yaml')
-DATA_PATH = os.path.join(r'H:\Robot\template\out')
-OUT_PATH = os.path.join(r'H:\Robot\template\train_out')
+DATA_PATH = os.path.join(r'H:\Robot\template\out_more')
+OUT_PATH = os.path.join(r'H:\Robot\template\train_out_more')
 
 
 def config_logging(file=None, level=logging.DEBUG):
@@ -25,7 +25,7 @@ def config_logging(file=None, level=logging.DEBUG):
     # rf_handler.setLevel(logging.DEBUG)
     rf_handler.setFormatter(logging.Formatter(LOG_FORMAT))
 
-    f_handler = logging.FileHandler(file, mode='a')
+    f_handler = logging.FileHandler(file, mode='w')
     # f_handler.setLevel(logging.INFO)
     f_handler.setFormatter(logging.Formatter(LOG_FORMAT))
 
@@ -46,7 +46,7 @@ def main():
     config = load_config(TEST_CFG_FILE)
     network = NeuralNetWork(config, training=True)
     train = GQCNNTraing(config, network, DATA_PATH, OUT_PATH)
-    train.optimize(50)
+    train.optimize(5)
     # with tf.Session(graph=train._network.graph) as sess:
     # init = tf.global_variables_initializer()
     # sess.run(init)

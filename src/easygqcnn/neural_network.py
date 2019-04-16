@@ -17,14 +17,18 @@ class NeuralNetWork(object):
         if model_path is not None:
             self._model_path = model_path
         else:
-            self._model_path = config['model_path']
+            self._model_path = self._config['model_path']
         # 如果只是用于训练则不需要预测的相关功能
         # TODO : 需要增加关于预测的函数
         if not training:
             self.initialize_network(True)
             self.pre_load()
             self._sess = tf.InteractiveSession(graph=self._graph)
-            self.load_weights(self._sess, os.path.join(self._path, 'model.npz'))
+            self.load_weights(self._sess, os.path.join(self._model_path, 'model.npz'))
+
+    def __del__(self):
+        self._sess.close()
+        del self
 
     @property
     def graph(self):
@@ -71,17 +75,19 @@ class NeuralNetWork(object):
         pose_list : 提供的姿势数组
         return : 一个表示正确概率的数组
         """
-        image_size = [self._config['im_width'],
-                      self._config['im_height'], self._config['im_channels']]
+        image_list = image_list.copy()
+        pose_list = pose_list.copy()
+        image_size = (self._config['im_width'],
+                      self._config['im_height'], self._config['im_channels'])
         if image_list.shape[1:] != image_size:
             raise IndexError('data shape is error')
-        data_len = image_size.shape[0]
-        image_size = (image_size - self._image_mean) / self._image_std
+        data_len = image_list.shape[0]
+        image_list = (image_list - self._image_mean) / self._image_std
         pose_list = (pose_list - self._pose_mean) / self._pose_std
         point = 0
         result_list = np.zeros(data_len)
         while point < data_len:
-            batch_image = image_size[point: point + self._config['batch_size']]
+            batch_image = image_list[point: point + self._config['batch_size']]
             batch_pose = pose_list[point: point + self._config['batch_size']]
             result = self._sess.run(self.output, {self.image_input: batch_image,
                                                   self.pose_input: batch_pose})

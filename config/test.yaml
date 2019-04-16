@@ -1,7 +1,7 @@
 grasp_mapper:
   # 这个参数用于缩放夹爪到最后的tensor上
   max_width_px_in_tensor: 15
-  min_width_px_in_tensor: 8
+  min_width_px_in_tensor: 10
   final_width: 32
   final_height: 32
 
@@ -14,7 +14,7 @@ policy:
   gmm_reg_covar: 0.01
   
 sampler:
-  max_grasp_width_px: 32
+  max_grasp_width_px: 30
   friction_coef: 0.8
   depth_grad_thresh: 0.05
   min_grasp_dist: 0.025
@@ -30,7 +30,7 @@ training:
   model_file: path/to/model
   out_path: path/to/out
   summary_dir: path/to/summary
-  restore: 1
+  restore: 0
   summary_step: 100
   im_height: 32
   im_width: 32
@@ -38,8 +38,8 @@ training:
   pose_len: 1
 
   dataset_buffer_size: 10000
-  train_batch_size: 128
-  val_batch_size: 128
+  train_batch_size: 64
+  val_batch_size: 64
 
   base_lr: 0.015
   decay_step_multiplier: .2   # number of times to go through training datapoints before stepping down decay rate
@@ -114,7 +114,7 @@ gqcnn_config:
   im_width: 32
   im_channels: 1
 
-  model_path: H:/Robot/easy-gqcnn/data/test/out_data
+  model_path: H:/Robot/template/out
   # needs to match input data mode that was used for training, determines the pose dimensions for the network
   pose_dim: 1
 

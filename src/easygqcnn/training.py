@@ -125,7 +125,7 @@ class GQCNNTraing(object):
         acc = 0
         con = 0
         sess.run(self._val_iterator.initializer)
-        while True:
+        while con < 1000:
             try:
                 acc += sess.run(self._val_accuracy)
                 con += 1
@@ -253,8 +253,8 @@ class GQCNNTraing(object):
     def dataset(self, path, batch_size):
         with tf.name_scope('dataset'):
             filenames = glob.glob(os.path.join(path, '*.tfrecord'))
-            dataset = tf.data.TFRecordDataset(filenames, num_parallel_reads=2)
-            dataset = dataset.map(self._parse_dataset, num_parallel_calls=2)
+            dataset = tf.data.TFRecordDataset(filenames, num_parallel_reads=4)
+            dataset = dataset.map(self._parse_dataset, num_parallel_calls=4)
             dataset = dataset.shuffle(
                 buffer_size=self._config['dataset_buffer_size'])
             dataset = dataset.batch(batch_size)

@@ -8,8 +8,10 @@ file_path = os.path.split(__file__)[0]
 ROOT_PATH = os.path.abspath(os.path.join(file_path, '..'))
 LOG_FILE = os.path.join(ROOT_PATH, 'tools/logs/DataPreprocess.log')
 CFG_FILE = os.path.join(ROOT_PATH, 'config/test.yaml')
-RAW_PATH = r'H:\Robot\Dex-Net\DataSet\mini_dexnet_all_trans_01_20_17'
-OUT_PATH = r'H:\Robot\template\out'
+# RAW_PATH = r'H:\Robot\Dex-Net\DataSet\mini_dexnet_all_trans_01_20_17'
+# OUT_PATH = r'H:\Robot\template\out'
+RAW_PATH = r'J:\Dex-Net资料\DexNet_Data\3dnet_kit_06_13_17'
+OUT_PATH = r'H:\Robot\template\out_more'
 
 
 def config_logging(file=None, level=logging.DEBUG):

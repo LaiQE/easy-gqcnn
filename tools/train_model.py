@@ -25,7 +25,7 @@ def config_logging(file=None, level=logging.DEBUG):
     # rf_handler.setLevel(logging.DEBUG)
     rf_handler.setFormatter(logging.Formatter(LOG_FORMAT))
 
-    f_handler = logging.FileHandler(file, mode='w')
+    f_handler = logging.FileHandler(file, mode='a')
     # f_handler.setLevel(logging.INFO)
     f_handler.setFormatter(logging.Formatter(LOG_FORMAT))
 

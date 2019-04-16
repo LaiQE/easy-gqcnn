@@ -30,7 +30,7 @@ training:
   model_file: path/to/model
   out_path: path/to/out
   summary_dir: path/to/summary
-  restore: 0
+  restore: 1
   summary_step: 100
   im_height: 32
   im_width: 32

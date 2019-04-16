@@ -1,6 +1,6 @@
 grasp_mapper:
   # 这个参数用于缩放夹爪到最后的tensor上
-  max_width_px_in_tensor: 15
+  max_width_px_in_tensor: 10
   min_width_px_in_tensor: 10
   final_width: 32
   final_height: 32
@@ -114,7 +114,9 @@ gqcnn_config:
   im_width: 32
   im_channels: 1
 
-  model_path: H:/Robot/template/out
+  use_raw: 1
+
+  model_path: C:/Users/13111/Documents/Robot/test/gqcnn-test/GQ-Image-Wise
   # needs to match input data mode that was used for training, determines the pose dimensions for the network
   pose_dim: 1
 

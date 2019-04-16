@@ -21,6 +21,7 @@ class NeuralNetWork(object):
             self._model_path = model_path
         else:
             self._model_path = self._config['model_path']
+        use_raw = use_raw or self._config['use_raw']
         # 如果只是用于训练则不需要预测的相关功能
         if not training:
             self.initialize_network(True)

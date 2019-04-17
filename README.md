@@ -27,4 +27,4 @@ python setup.py develop
 easy-gqcnn预计会在0.2版本增加ROS服务和相关的ROS接口
 
 ### 参考
-http://berkeleyautomation.github.io/dex-net/
+http://berkeleyautomation.github.io/gqcnn/

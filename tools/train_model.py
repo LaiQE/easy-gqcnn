@@ -7,7 +7,7 @@ from easygqcnn import NeuralNetWork, GQCNNTraing
 file_path = os.path.split(__file__)[0]
 ROOT_PATH = os.path.abspath(os.path.join(file_path, '..'))
 TEST_LOG_FILE = os.path.join(ROOT_PATH, 'tools/logs/train_model.log')
-TEST_CFG_FILE = os.path.join(ROOT_PATH, 'config/test.yaml')
+TEST_CFG_FILE = os.path.join(ROOT_PATH, 'config/training.yaml')
 DATA_PATH = os.path.join(r'H:\Robot\template\out_more')
 OUT_PATH = os.path.join(r'H:\Robot\template\train_out_more')
 

@@ -64,8 +64,18 @@ class ImageGraspSampler():
 
         # compute cone membership
         alpha = np.arctan(mu)
-        in_cone_1 = (np.arccos(n1.dot(-v)) < alpha)
-        in_cone_2 = (np.arccos(n2.dot(v)) < alpha)
+        v1 = n1.dot(-v)
+        if v1 > 1:
+            v1 = 1
+        elif v1 < -1:
+            v1 = -1
+        v2 = n2.dot(v)
+        if v2 > 1:
+            v2 = 1
+        elif v2 < -1:
+            v2 = -1
+        in_cone_1 = (np.arccos(v1) < alpha)
+        in_cone_2 = (np.arccos(v2) < alpha)
         return (in_cone_1 and in_cone_2)
 
     def _surface_normals(self, depth_im, edge_pixels):

@@ -1,4 +1,5 @@
 import numpy as np
+import logging
 
 
 class Grasp2D(object):
@@ -89,6 +90,9 @@ class Grasp2D(object):
         point_dist = np.linalg.norm(g1.center - g2.center)
 
         # axis distances
-        axis_dist = np.arccos(np.abs(g1.axis.dot(g2.axis)))
+        dot = np.abs(g1.axis.dot(g2.axis))
+        if dot > 1:
+            dot = 1
+        axis_dist = np.arccos(dot)
 
         return point_dist + alpha * axis_dist

@@ -1,0 +1,47 @@
+data_process:
+  training_percent: 0.8
+  validation_percent: 0.2
+
+  raw_path: path/to/npz_data
+  out_path: path/to/tfrecords_data
+
+  datapoint_pre_file: 5000
+  # gamma分布的参数
+  multiplicative_denoising: 1
+  gamma_shape: 1000.00
+
+  symmetrize: 1
+
+  morphological: 0
+  morph_open_rate: 0.25
+  morph_poisson_mean: 1.5
+
+  image_dropout: 0
+  image_dropout_rate: 0.25
+  dropout_poisson_mean: 1.0
+  dropout_radius_shape: 3.0
+  dropout_radius_scale: 1.0
+
+  gradient_dropout: 0
+  gradient_dropout_rate: 0.1
+  gradient_dropout_sigma: 0.5
+  gradient_dropout_shape: 15
+  gradient_dropout_scale: 0.001
+
+  gaussian_process_denoising: 1
+  gaussian_process_rate: 0.5
+  gaussian_process_scaling_factor: 4.0
+  gaussian_process_sigma: 0.005
+
+  border_distortion: 0
+  border_grad_sigma: 1.0
+  border_grad_thresh: 0.075
+  border_poisson_mean: 5.0
+  border_radius_shape: 5
+  border_radius_scale: 0.4
+
+  background_denoising: 0
+  background_rate: 0.25
+  background_min_depth: 0.0
+  background_max_depth: 0.65
+

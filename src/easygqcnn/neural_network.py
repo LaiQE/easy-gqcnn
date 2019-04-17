@@ -31,7 +31,8 @@ class NeuralNetWork(object):
             self.load_weights(self._sess, model_file, remap=use_raw)
 
     def __del__(self):
-        self._sess.close()
+        if hasattr(self, '_sess'):
+            self._sess.close()
         del self
 
     @property

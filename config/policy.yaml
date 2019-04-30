@@ -6,9 +6,9 @@ grasp_mapper:
   final_height: 32
 
 policy:
-  num_seed_samples: 100
+  num_seed_samples: 200
   num_gmm_samples: 50
-  num_iters: 5
+  num_iters: 3
   gmm_refit_p: 0.35
   gmm_component_frac: 0.4
   gmm_reg_covar: 0.01
@@ -23,7 +23,7 @@ sampler:
   max_depth_offset: 0.015
   depth_sample_win_height: 1
   depth_sample_win_width: 1
-  depth_samples_per_grasp: 1
+  depth_samples_per_grasp: 2
 
 ### GQCNN CONFIG ###
 gqcnn_config:

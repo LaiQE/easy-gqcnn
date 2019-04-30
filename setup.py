@@ -1,3 +1,4 @@
+#!/usr/bin/env	python3
 # -*- coding: utf-8 -*-
 """
 Setup of easy-dexnet python codebase
@@ -7,7 +8,7 @@ from setuptools import setup, find_packages
 
 requirements = [
     'opencv-python',
-    'tensorflow',
+    'tensorflow-gpu',
     'scipy'
 ]
 

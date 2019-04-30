@@ -88,8 +88,8 @@ class ImageGraspSampler():
         # 计算表面法线
         normals = np.zeros([edge_pixels.shape[0], 2])
         for i, pix in enumerate(edge_pixels):
-            dx = grad[1][pix[0], pix[1]]
-            dy = grad[0][pix[0], pix[1]]
+            dx = grad[1][pix[1], pix[0]]
+            dy = grad[0][pix[1], pix[0]]
             normal_vec = np.array([dx, dy])
             if np.linalg.norm(normal_vec) == 0:
                 normal_vec = np.array([1, 0])
@@ -109,6 +109,10 @@ class ImageGraspSampler():
         dists = ssd.squareform(ssd.pdist(edge_pixels))
         # 取上对角阵,以消除重复的元素
         dists = np.triu(dists, 1)
+        # aa = np.where(dists < max_grasp_width_px)
+        # logging.info('aa' + str(len(aa[0])))
+        # bb = np.where(normal_ip < -np.cos(np.arctan(self._friction_coef)))
+        # logging.info('bb' + str(len(bb[0])))
         # 1. 点对梯度夹角大于180-摩擦角
         # 2. 点对距离小于最大距离大于0
         valid_indices = np.where((normal_ip < -np.cos(np.arctan(self._friction_coef)))
@@ -116,6 +120,7 @@ class ImageGraspSampler():
         # 这里valid的两个数就代表在edge_pixels数组里的两行所代表的点
         valid_indices = np.c_[valid_indices[0], valid_indices[1]]
         num_pairs = valid_indices.shape[0]
+        logging.info('有效的点对个数为%d'%num_pairs)
         if num_pairs == 0:
             logging.warning('没有找到合适的点对')
             return []
@@ -130,6 +135,7 @@ class ImageGraspSampler():
         # TODO: 这里需要修改抓取轴宽度由图像产生
         depth = self._depth
         edge_pixels = self._get_edge(self._config['depth_grad_thresh'])
+        logging.info('采样到边缘点个数:'+str(edge_pixels.shape))
         edge_normals = self._surface_normals(depth, edge_pixels)
         valid_indices = self._find_pair(edge_pixels, edge_normals)
 
@@ -185,5 +191,7 @@ class ImageGraspSampler():
                         grasps.append([candidate_grasp, p0, p1])
 
             if len(grasps) >= num_sample:
+                logging.info('未遍历所有有效点对，共采样%d个候选抓取点对'%len(grasps))
                 return grasps
+        logging.info('遍历所有有效点对，共采样%d个候选抓取'%len(grasps))
         return grasps

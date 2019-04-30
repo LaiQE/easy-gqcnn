@@ -1,3 +1,11 @@
+import sys
+sys.path = ['', '/home/lai/Project/easy-gqcnn/src', 
+'/usr/lib/python3/dist-packages', 
+'/usr/lib/python35.zip', '/usr/lib/python3.5', 
+'/usr/lib/python3.5/plat-x86_64-linux-gnu', 
+'/usr/lib/python3.5/lib-dynload', 
+'/home/lai/.local/lib/python3.5/site-packages', 
+'/usr/local/lib/python3.5/dist-packages']
 import os
 import logging
 import numpy as np
@@ -8,8 +16,8 @@ from easygqcnn import ImageGraspSampler
 file_path = os.path.split(__file__)[0]
 ROOT_PATH = os.path.abspath(os.path.join(file_path, '..'))
 TEST_LOG_FILE = os.path.join(ROOT_PATH, 'tools/logs/sampler.log')
-TEST_CFG_FILE = os.path.join(ROOT_PATH, 'config/test.yaml')
-IMAGE = os.path.join(ROOT_PATH, 'data/test/sampler/depth_0.npy')
+TEST_CFG_FILE = os.path.join(ROOT_PATH, 'config/policy.yaml')
+IMAGE = os.path.join(ROOT_PATH, 'data/test/depth.npy')
 
 
 def config_logging(file=None, level=logging.DEBUG):
@@ -53,19 +61,20 @@ def plot_grasp(g, offset=[0, 0]):
         plot_2p(p0, p1, mode, width)
 
     p0, p1 = g.endpoints
-    axis = [g.axis[1], -g.axis[0]]
-    plot_2p(p0, p1, 'r--')
-    plot_center(p0, axis, g.width_px/2.5, width=3)
-    plot_center(p1, axis, g.width_px/2.5, width=3)
-    plt.plot(*(g.center - offset), 'bo')
+    # axis = [g.axis[1], -g.axis[0]]
+    plot_2p(p0, p1, 'r')
+    # plot_center(p0, axis, g.width_px/2.5, width=3)
+    # plot_center(p1, axis, g.width_px/2.5, width=3)
+    # plt.plot(*(g.center - offset), 'bo')
 
 
 def main():
     config = load_config(TEST_CFG_FILE)
     depth = np.load(IMAGE)
     depth = np.squeeze(depth)
-    depth = depth[100:300, 200:400]
+    # depth = depth[100:300, 200:400]
     # roi = ((100, 200), (300, 400))
+    depth = depth[150:300, 250:400]
     sampler = ImageGraspSampler(depth, None, config)
     grasps = sampler.sample(100)
     depth = np.squeeze(depth)
@@ -76,9 +85,9 @@ def main():
     for g in grasps[:]:
         plot_grasp(g[0], [0, 0])
         plt.plot(g[0].center[0], g[0].center[1], 'ro')
-        plt.plot(g[1][0], g[1][1], 'yo')
-        plt.plot(g[2][0], g[2][1], 'yo')
-        print(g[1], g[2])
+        # plt.plot(g[1][0], g[1][1], 'yo')
+        # plt.plot(g[2][0], g[2][1], 'yo')
+        # print(g[1], g[2])
     plt.show()
 
 

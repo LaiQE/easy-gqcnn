@@ -67,7 +67,7 @@ class GraspingPolicy(object):
             grasps = []
             for grasp_vec in grasp_vecs:
                 # TODO: 这里的夹爪宽度需要由深度数据产生
-                grasp_width_px = 30
+                grasp_width_px = 45
                 grasps.append(Grasp2D.from_feature_vec(grasp_vec, grasp_width_px))
             image_tensor, pose_tensor = grasp_mapper.render(grasps)
             image_tensor = image_tensor[..., np.newaxis]

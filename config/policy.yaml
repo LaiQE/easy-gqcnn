@@ -6,16 +6,16 @@ grasp_mapper:
   final_height: 32
 
 policy:
-  num_seed_samples: 200
+  num_seed_samples: 100
   num_gmm_samples: 50
-  num_iters: 3
-  gmm_refit_p: 0.25
+  num_iters: 5
+  gmm_refit_p: 0.35
   gmm_component_frac: 0.4
   gmm_reg_covar: 0.01
   
 sampler:
-  max_grasp_width_px: 30
-  friction_coef: 0.8
+  max_grasp_width_px: 45
+  friction_coef: 0.5
   depth_grad_thresh: 0.05
   min_grasp_dist: 0.025
   angle_dist_weight: 0.025
@@ -32,9 +32,11 @@ gqcnn_config:
   im_width: 32
   im_channels: 1
 
+  # 是否使用原始的gqcnn模型
   use_raw: 1
 
-  model_path: C:/Users/13111/Documents/Robot/test/gqcnn-test/GQ-Image-Wise
+  model_path: /home/lai/Project/GQ-Image-Wise
+  # model_path: /home/lai/Project/model_jvywhaoztm
   # needs to match input data mode that was used for training, determines the pose dimensions for the network
   pose_dim: 1
 

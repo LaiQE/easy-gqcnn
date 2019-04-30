@@ -1,3 +1,12 @@
+import sys
+sys.path = ['', '/home/lai/Project/easy-gqcnn/src', 
+'/usr/lib/python3/dist-packages', 
+'/usr/lib/python35.zip', '/usr/lib/python3.5', 
+'/usr/lib/python3.5/plat-x86_64-linux-gnu', 
+'/usr/lib/python3.5/lib-dynload', 
+'/home/lai/.local/lib/python3.5/site-packages', 
+'/usr/local/lib/python3.5/dist-packages']
+
 import os
 import random
 import logging
@@ -6,11 +15,20 @@ import matplotlib.pyplot as plt
 from ruamel.yaml import YAML
 from easygqcnn import GraspingPolicy
 
+# sys.path = ['', '/home/lai/Project/easy-gqcnn/src', 
+# '/usr/lib/python3/dist-packages', 
+# '/usr/lib/python35.zip', '/usr/lib/python3.5', 
+# '/usr/lib/python3.5/plat-x86_64-linux-gnu', 
+# '/usr/lib/python3.5/lib-dynload', 
+# '/home/lai/.local/lib/python3.5/site-packages', 
+# '/usr/local/lib/python3.5/dist-packages']
+
+
 file_path = os.path.split(__file__)[0]
 ROOT_PATH = os.path.abspath(os.path.join(file_path, '..'))
 TEST_LOG_FILE = os.path.join(ROOT_PATH, 'tools/logs/policy_visual.log')
 TEST_CFG_FILE = os.path.join(ROOT_PATH, 'config/policy.yaml')
-IMAGE = os.path.join(ROOT_PATH, 'data/test/depth_0.npy')
+IMAGE = os.path.join(ROOT_PATH, 'data/test/depth.npy')
 
 
 def config_logging(file=None, level=logging.DEBUG):
@@ -53,15 +71,20 @@ def plot_grasp(g, offset=[0, 0]):
 
 def main():
     config = load_config(TEST_CFG_FILE)
+    config_logging(TEST_LOG_FILE)
     depth = np.load(IMAGE)
     depth = np.squeeze(depth)
-    depth = depth[100:300, 200:400]
-    # roi = ((100, 200), (300, 400))
+    # depth = depth[150:300, 250:400]
+    roi = ((150, 300), (250, 400))
     random.seed(15)
     np.random.seed(15)
     policy = GraspingPolicy(config)
     g, q = policy.action(depth, None)
     print(q)
+    # 320,277
+    print(g.center)
+    # 0.576
+    print(g.depth)
 
     plt.figure()
     plt.imshow(depth)

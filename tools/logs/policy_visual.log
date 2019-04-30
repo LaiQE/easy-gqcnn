@@ -1,0 +1,14 @@
+2019-04-26 14:28:43,006 - INFO - 采样到边缘点个数:(252, 2)
+2019-04-26 14:28:43,018 - INFO - 有效的点对个数为5310
+2019-04-26 14:28:46,133 - INFO - 遍历所有有效点对，共采样96个候选抓取
+2019-04-26 14:28:47,458 - DEBUG - locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f35f2a4c6d8>
+2019-04-26 14:28:47,459 - DEBUG - Using auto colorbar locator on colorbar
+2019-04-26 14:28:47,459 - DEBUG - locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f35f2a4c6d8>
+2019-04-26 14:28:47,460 - DEBUG - Setting pcolormesh
+2019-04-26 14:28:47,500 - DEBUG - update_title_pos
+2019-04-26 14:28:47,552 - DEBUG - findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python3.5/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2019-04-26 14:28:47,608 - DEBUG - update_title_pos
+2019-04-26 14:28:47,659 - DEBUG - update_title_pos
+2019-04-26 14:28:47,704 - DEBUG - update_title_pos
+2019-04-26 14:28:51,915 - DEBUG - update_title_pos
+2019-04-26 14:28:51,975 - DEBUG - update_title_pos

@@ -1,14 +1,12 @@
-2019-04-26 14:28:43,006 - INFO - 采样到边缘点个数:(252, 2)
-2019-04-26 14:28:43,018 - INFO - 有效的点对个数为5310
-2019-04-26 14:28:46,133 - INFO - 遍历所有有效点对，共采样96个候选抓取
-2019-04-26 14:28:47,458 - DEBUG - locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f35f2a4c6d8>
-2019-04-26 14:28:47,459 - DEBUG - Using auto colorbar locator on colorbar
-2019-04-26 14:28:47,459 - DEBUG - locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f35f2a4c6d8>
-2019-04-26 14:28:47,460 - DEBUG - Setting pcolormesh
-2019-04-26 14:28:47,500 - DEBUG - update_title_pos
-2019-04-26 14:28:47,552 - DEBUG - findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python3.5/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
-2019-04-26 14:28:47,608 - DEBUG - update_title_pos
-2019-04-26 14:28:47,659 - DEBUG - update_title_pos
-2019-04-26 14:28:47,704 - DEBUG - update_title_pos
-2019-04-26 14:28:51,915 - DEBUG - update_title_pos
-2019-04-26 14:28:51,975 - DEBUG - update_title_pos
+2020-02-07 19:05:07,572 - WARNING - From /usr/local/lib/python3.6/dist-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-02-07 19:05:17,780 - INFO - 采样到边缘点个数:(2436, 2)
+2020-02-07 19:05:17,911 - INFO - 有效的点对个数为144063
+2020-02-07 19:05:18,084 - INFO - 未遍历所有有效点对，共采样200个候选抓取点对
+2020-02-07 19:10:57,639 - INFO - 采样到边缘点个数:(1280, 2)
+2020-02-07 19:10:57,689 - INFO - 有效的点对个数为107594
+2020-02-07 19:10:57,874 - INFO - 未遍历所有有效点对，共采样200个候选抓取点对
+2020-02-07 19:11:15,071 - INFO - 采样到边缘点个数:(1280, 2)
+2020-02-07 19:11:15,117 - INFO - 有效的点对个数为47015
+2020-02-07 19:11:15,306 - INFO - 未遍历所有有效点对，共采样200个候选抓取点对

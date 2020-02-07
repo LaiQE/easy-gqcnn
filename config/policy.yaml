@@ -1,7 +1,9 @@
 grasp_mapper:
   # 这个参数用于缩放夹爪到最后的tensor上
-  max_width_px_in_tensor: 13
-  min_width_px_in_tensor: 12
+  # max_width_px_in_tensor: 13
+  # min_width_px_in_tensor: 12
+  max_width_px_in_tensor: 21
+  min_width_px_in_tensor: 22
   final_width: 32
   final_height: 32
 
@@ -33,9 +35,9 @@ gqcnn_config:
   im_channels: 1
 
   # 是否使用原始的gqcnn模型
-  use_raw: 1
+  use_raw: 0
 
-  model_path: /home/lai/Project/GQ-Image-Wise
+  model_path: /root/Project/gmdata/gq-data/models/mix-dir-20x100
   # model_path: /home/lai/Project/model_jvywhaoztm
   # needs to match input data mode that was used for training, determines the pose dimensions for the network
   pose_dim: 1

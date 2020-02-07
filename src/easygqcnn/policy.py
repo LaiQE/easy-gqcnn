@@ -14,7 +14,7 @@ class GraspingPolicy(object):
         self._policy_config = config['policy']
         self._network = NeuralNetWork(self._config)
 
-    def action(self, image, roi):
+    def action(self, image, roi, width=None):
         """ 寻找最佳的抓取策略
         1. 随机采样抓取
         2. 用gqcnn排序抓取质量
@@ -22,7 +22,7 @@ class GraspingPolicy(object):
         4. 用高斯混合模型重新采样抓取分布
         5. 重复以上2-4步骤
         """
-        sampler = ImageGraspSampler(image, roi, self._config)
+        sampler = ImageGraspSampler(image, roi, self._config, width=width)
         grasps = sampler.sample(self._policy_config['num_seed_samples'])
         grasps = [g[0] for g in grasps]
         if len(grasps) == 0:
@@ -67,7 +67,7 @@ class GraspingPolicy(object):
             grasps = []
             for grasp_vec in grasp_vecs:
                 # TODO: 这里的夹爪宽度需要由深度数据产生
-                grasp_width_px = 45
+                grasp_width_px = width or 45
                 grasps.append(Grasp2D.from_feature_vec(grasp_vec, grasp_width_px))
             image_tensor, pose_tensor = grasp_mapper.render(grasps)
             image_tensor = image_tensor[..., np.newaxis]

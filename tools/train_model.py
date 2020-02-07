@@ -8,9 +8,10 @@ file_path = os.path.split(__file__)[0]
 ROOT_PATH = os.path.abspath(os.path.join(file_path, '..'))
 TEST_LOG_FILE = os.path.join(ROOT_PATH, 'tools/logs/train_model.log')
 TEST_CFG_FILE = os.path.join(ROOT_PATH, 'config/training.yaml')
-DATA_PATH = os.path.join(r'H:\Robot\template\out_more')
-OUT_PATH = os.path.join(r'H:\Robot\template\train_out_more')
-
+DATA_PATH = r'/root/Project/gmdata/gq-data/mix-dir-20x100-recorder'
+OUT_PATH = r'/root/Project/gmdata/gq-data/models/mix-dir-20x100'
+if not os.path.exists(os.path.join(OUT_PATH, 'summary')):
+    os.makedirs(os.path.join(OUT_PATH, 'summary'))
 
 def config_logging(file=None, level=logging.DEBUG):
     """ 配置全局的日志设置
@@ -46,7 +47,7 @@ def main():
     config = load_config(TEST_CFG_FILE)
     network = NeuralNetWork(config, training=True)
     train = GQCNNTraing(config, network, DATA_PATH, OUT_PATH)
-    train.optimize(5)
+    train.optimize(50)
     # with tf.Session(graph=train._network.graph) as sess:
     # init = tf.global_variables_initializer()
     # sess.run(init)

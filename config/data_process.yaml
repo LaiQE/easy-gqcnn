@@ -1,6 +1,6 @@
 data_process:
-  training_percent: 0.8
-  validation_percent: 0.2
+  training_percent: 0.9
+  validation_percent: 0.1
 
   raw_path: path/to/npz_data
   out_path: path/to/tfrecords_data

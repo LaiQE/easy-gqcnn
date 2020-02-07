@@ -1,17 +1,26 @@
 import os
-# import sys
+import sys
+import shutil
 import logging
 from ruamel.yaml import YAML
-from easygqcnn import DataProcesser
+# from easygqcnn import DataProcesser
 
 file_path = os.path.split(__file__)[0]
 ROOT_PATH = os.path.abspath(os.path.join(file_path, '..'))
+sys.path.append(os.path.join(ROOT_PATH, 'src'))
+try:
+    from easygqcnn import DataProcesser
+except Exception as e:
+    raise e
 LOG_FILE = os.path.join(ROOT_PATH, 'tools/logs/data_process.log')
 CFG_FILE = os.path.join(ROOT_PATH, 'config/data_process.yaml')
 # RAW_PATH = r'H:\Robot\Dex-Net\DataSet\mini_dexnet_all_trans_01_20_17'
 # OUT_PATH = r'H:\Robot\template\out'
-RAW_PATH = r'J:\Dex-Net资料\DexNet_Data\3dnet_kit_06_13_17'
-OUT_PATH = r'H:\Robot\template\out_more'
+RAW_PATH = r'/root/Project/gmdata/gq-data/mix-dir-20x100'
+OUT_PATH = r'/root/Project/gmdata/gq-data/mix-dir-20x100-recorder'
+if os.path.exists(OUT_PATH):
+    shutil.rmtree(OUT_PATH)
+os.makedirs(OUT_PATH)
 
 
 def config_logging(file=None, level=logging.DEBUG):
@@ -67,7 +76,7 @@ def main():
     config_logging(LOG_FILE)
     config = load_config(CFG_FILE)
     processer = DataProcesser(config, RAW_PATH, OUT_PATH)
-    processer.process(is_dex=True)
+    processer.process(is_dex=False)
 
 
 if __name__ == "__main__":

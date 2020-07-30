@@ -41,6 +41,7 @@ class GraspMapper(object):
             # 对齐抓取轴到x轴
             image_T = self.transform(image, g.center_float, g.angle)
             # 缩放到目标大小
+            # print('width_px', g.width_px)
             image_T = self.resize_image(image_T, w / g.width_px)
             # image_T = self.resize_image(image_T, 1./3.0)
             # 裁剪到最终大小
@@ -92,7 +93,10 @@ class GraspMapper(object):
     def resize_image(image, resize_rate):
         """ 缩放图片大小 """
         image_size = np.array(image.shape[:2][::-1])
+        # print('image_size', image_size)
+        # print(resize_rate)
         out_size = np.ceil(image_size * resize_rate).astype(np.int)
+        # print('out_size', out_size)
         image_out = cv2.resize(image, tuple(out_size))
         # image_out = sm.imresize(image, resize_rate, interp='bilinear', mode='F')
         return image_out

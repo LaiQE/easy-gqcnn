@@ -16,6 +16,15 @@ class Grasp2D(object):
         self._angle = angle
         self._depth = depth
         self._width_px = width
+    
+    @classmethod
+    def from_saver(cls, s):
+        """ 从数组中生成一个抓取 """
+        center = s[:2]
+        depth = s[2]
+        angle = s[3]
+        width = s[4]
+        return cls(center, angle, depth, width)
 
     @property
     def width_px(self):

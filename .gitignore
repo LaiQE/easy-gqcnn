@@ -2,3 +2,4 @@ data/test/
 src/easy_gqcnn.egg-info/
 src/easy_gqcnn/__pycache__/*
 *.pyc
+*.log

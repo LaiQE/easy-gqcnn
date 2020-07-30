@@ -10,6 +10,8 @@ import scipy.ndimage.morphology as snm
 import scipy.stats as ss
 import skimage.draw as sd
 import tensorflow as tf
+from .grasp_mapper import GraspMapper
+from .grasp_2d import Grasp2D
 
 
 class DataProcesser(object):
@@ -342,3 +344,57 @@ class DataProcesser(object):
             if np.random.rand() < 0.5:
                 imgae_ = np.flipud(imgae_)
         return imgae_
+
+
+class NpzProcesser(DataProcesser):
+    """ 把npz格式的数据转换成gqcnn的训练数据 """
+
+    def process(self):
+        npz_files = self.file_list(self._raw_path)
+        for npz_f in npz_files:
+            print(npz_f)
+            depth, pose, label = self.process_npz(npz_f)
+            if depth.shape[0] != pose.shape[0] or depth.shape[0] != label.shape[0]:
+                raise ValueError('shape of data was not consistent')
+            for i in range(depth.shape[0]):
+                raw_dp = [depth[i], pose[i], label[i]]
+                processed_dp = self.process_datapoint(raw_dp)
+                self.mean_counter(processed_dp[0], processed_dp[1])
+                self.save_datapoint(processed_dp)
+        self.save_validation()
+        self.save_train()
+        self.save_men_std()
+        datapoint_info = np.array([self._train_num, self._validation_num])
+        np.save(os.path.join(self._out_path, 'datapoint_info.npy'), datapoint_info)
+        logging.info('output train datapoint : %d' % (self._train_num))
+        logging.info('output validation datapoint : %d' %
+                     (self._validation_num))
+        logging.info('output train files num : %d' % (self._train_file_num))
+        logging.info('output validation files num : %d' %
+                     (self._validation_file_num))
+
+    def file_list(self, raw_path):
+        """ 读取npz文件名列表
+        """
+        npz_files = []
+        for root, _, files in os.walk(raw_path, topdown=False):
+            for f in files:
+                if os.path.splitext(f)[1] == '.npz':
+                    npz_files.append(os.path.join(root, f))
+        return npz_files
+
+    def process_npz(self, npz_file, pose_id='grasp_poses'):
+        """ 从npz文件中得到训练要的图像、抓取姿势和训练标签 """
+        data = np.load(npz_file)
+        grasp_mapper = GraspMapper(data['image'], self._config)
+        nan_l = np.squeeze(np.argwhere(~(np.isnan(data[pose_id]).any(1))))
+        gs = [Grasp2D.from_saver(gl) for gl in data[pose_id][nan_l]]
+        image_tensor, pose_tensor = grasp_mapper.render(gs)
+        poses = np.zeros((len(pose_tensor), 3))
+        poses[:, 2] = np.squeeze(pose_tensor)
+        labels = self.get_labels(data['qualities'][nan_l])
+        return image_tensor, poses, labels
+
+    @staticmethod
+    def get_labels(qualities):
+        return np.array(qualities).astype('int64')

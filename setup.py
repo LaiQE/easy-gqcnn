@@ -7,9 +7,9 @@ Author: Lai QE
 from setuptools import setup, find_packages
 
 requirements = [
-    'opencv-python',
-    'tensorflow-gpu',
-    'scipy'
+    # 'opencv-python',
+    # 'tensorflow-gpu',
+    # 'scipy'
 ]
 
 setup(name='easy-gqcnn',

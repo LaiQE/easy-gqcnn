@@ -1,8 +1,0 @@
-2019-03-31 19:22:12,532 - DEBUG - save file: train_000000.tfrecord
-2019-03-31 19:22:16,296 - DEBUG - save file: validation_000000.tfrecord
-2019-03-31 19:22:16,655 - DEBUG - save file: train_000001.tfrecord
-2019-03-31 19:22:17,159 - WARNING - [0.05709934](1,)
-2019-03-31 19:22:17,162 - INFO - output train datapoint : 7314
-2019-03-31 19:22:17,162 - INFO - output validation datapoint : 1831
-2019-03-31 19:22:17,162 - INFO - output train files num : 2
-2019-03-31 19:22:17,162 - INFO - output validation files num : 1

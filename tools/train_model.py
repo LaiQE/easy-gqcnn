@@ -1,4 +1,5 @@
 import os
+import shutil
 import logging
 from ruamel.yaml import YAML
 import tensorflow as tf
@@ -10,12 +11,24 @@ file_path = os.path.split(__file__)[0]
 ROOT_PATH = os.path.abspath(os.path.join(file_path, '..'))
 TEST_LOG_FILE = os.path.join(ROOT_PATH, 'tools/logs/train_model.log')
 TEST_CFG_FILE = os.path.join(ROOT_PATH, 'config/training.yaml')
-DATA_PATH = r'/root/Project/gmdata/gq-data/ml-all-npz'
-OUT_PATH = r'/root/Project/gmdata/gq-data/models/ml-all-npz'
-# DATA_PATH = r'/root/Project/gmdata/gq-data/Cornell_Dataset'
-# OUT_PATH = r'/root/Project/gmdata/gq-data/models/Cornell_Dataset'
 # DATA_PATH = r'/root/Project/gmdata/gq-data/ml-all-npz'
 # OUT_PATH = r'/root/Project/gmdata/gq-data/models/ml-all-npz'
+DATA_PATH = r'/root/Project/gmdata/gq-data/Cornell_Dataset'
+OUT_PATH = r'/root/Project/gmdata/gq-data/models/Cornell_Dataset'
+# DATA_PATH = r'/root/Project/gmdata/gq-data/ml-all-npz'
+# OUT_PATH = r'/root/Project/gmdata/gq-data/models/ml-all-npz'
+
+if os.path.exists(OUT_PATH):
+    shutil.rmtree(OUT_PATH)
+
+if not os.path.exists(OUT_PATH):
+    os.makedirs(OUT_PATH)
+    shutil.copyfile(os.path.join(DATA_PATH, 'mean.npy'), os.path.join(OUT_PATH, 'mean.npy'))
+    shutil.copyfile(os.path.join(DATA_PATH, 'std.npy'), os.path.join(OUT_PATH, 'std.npy'))
+    shutil.copyfile(os.path.join(DATA_PATH, 'pose_mean.npy'), os.path.join(OUT_PATH, 'pose_mean.npy'))
+    shutil.copyfile(os.path.join(DATA_PATH, 'pose_std.npy'), os.path.join(OUT_PATH, 'pose_std.npy'))
+
+
 if not os.path.exists(os.path.join(OUT_PATH, 'summary')):
     os.makedirs(os.path.join(OUT_PATH, 'summary'))
 

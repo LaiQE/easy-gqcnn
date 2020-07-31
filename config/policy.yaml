@@ -14,7 +14,7 @@ policy:
   gmm_refit_p: 0.35
   gmm_component_frac: 0.4
   gmm_reg_covar: 0.01
-  
+
 sampler:
   max_grasp_width_px: 45
   friction_coef: 0.5
@@ -26,9 +26,16 @@ sampler:
   depth_sample_win_height: 1
   depth_sample_win_width: 1
   depth_samples_per_grasp: 2
+  # 是否采样深度,否则使用默认深度
+  use_depth: False
+  grasp_depth: 0.0
+  # 是否使用边缘点动态计算宽度
+  dyn_width: False
 
 ### GQCNN CONFIG ###
 gqcnn_config:
+  # 是否采样深度,否则使用默认深度
+  use_depth: False
   # basic data metrics
   im_height: 32
   im_width: 32
@@ -37,7 +44,7 @@ gqcnn_config:
   # 是否使用原始的gqcnn模型
   use_raw: 0
 
-  model_path: /root/Project/gmdata/gq-data/models/mix-dir-20x100
+  model_path: /root/Project/gmdata/gq-data/models/Cornell_Dataset
   # model_path: /home/lai/Project/model_jvywhaoztm
   # needs to match input data mode that was used for training, determines the pose dimensions for the network
   pose_dim: 1
@@ -51,7 +58,7 @@ gqcnn_config:
       filt_dim: 7
       num_filt: 64
       pool_size: 1
-      pool_stride: 1  
+      pool_stride: 1
       norm: 0
       norm_type: local_response
     conv1_2:
@@ -65,7 +72,7 @@ gqcnn_config:
       filt_dim: 3
       num_filt: 64
       pool_size: 1
-      pool_stride: 1  
+      pool_stride: 1
       norm: 0
       norm_type: local_response
     conv2_2:
@@ -84,9 +91,9 @@ gqcnn_config:
       drop_out: 0
       drop_rate: 0
     fc4:
-      out_size: 1024  
+      out_size: 1024
       drop_out: 0
-      drop_rate: 0 
+      drop_rate: 0
     fc5:
       out_size: 2
 

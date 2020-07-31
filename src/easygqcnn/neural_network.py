@@ -76,13 +76,12 @@ class NeuralNetWork(object):
             self._pose_std = pose_std[2]
         else:
             image_size = [self._config['im_width'],
-                        self._config['im_height'], self._config['im_channels']]
+                          self._config['im_height'], self._config['im_channels']]
             self._image_mean = image_mean.reshape(image_size)
             self._image_std = image_std.reshape(image_size)
             pose_size = [self._config['pose_dim']]
             self._pose_mean = pose_mean.reshape(pose_size)
             self._pose_std = pose_std.reshape(pose_size)
-
 
     def predict(self, image_list, pose_list):
         """ 使用训练好的网络进行预测
@@ -98,7 +97,8 @@ class NeuralNetWork(object):
             raise IndexError('data shape is error')
         data_len = image_list.shape[0]
         image_list = (image_list - self._image_mean) / self._image_std
-        pose_list = (pose_list - self._pose_mean) / self._pose_std
+        if self._config['use_depth']:
+            pose_list = (pose_list - self._pose_mean) / self._pose_std
         point = 0
         result_list = np.zeros(data_len)
         while point < data_len:
@@ -164,13 +164,13 @@ class NeuralNetWork(object):
                         # var = tf.get_variable(v, trainable=False)
                         var = tf.get_variable(v)
                         sess.run(var.assign(w))
-    
+
     def find_model(self, path):
         """ 在给定的文件夹中寻找模型文件, npz或者ckpt, 文件名必须为model"""
         files = os.walk(path).__next__()[-1]
         model_ext = [f.split('.')[1] for f in files if 'model' in f]
         if len(model_ext) == 0:
-                raise KeyError('没有找到合适的模型文件')
+            raise KeyError('没有找到合适的模型文件')
         if 'npz' in model_ext:
             file = 'model.npz'
         elif 'ckpt' in model_ext:
@@ -181,7 +181,7 @@ class NeuralNetWork(object):
                 raise KeyError('模型文件仅支持npz和ckpt格式')
             file = 'model.' + model_ext[0]
         return os.path.join(path, file)
-        
+
     def save_to_npz(self, sess, file):
         weights = {}
         for name in self._config['architecture'].keys():

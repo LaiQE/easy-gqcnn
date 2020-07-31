@@ -120,7 +120,7 @@ class ImageGraspSampler():
         # 这里valid的两个数就代表在edge_pixels数组里的两行所代表的点
         valid_indices = np.c_[valid_indices[0], valid_indices[1]]
         num_pairs = valid_indices.shape[0]
-        logging.info('有效的点对个数为%d'%num_pairs)
+        logging.info('有效的点对个数为%d' % num_pairs)
         if num_pairs == 0:
             logging.warning('没有找到合适的点对')
             return []
@@ -156,42 +156,51 @@ class ImageGraspSampler():
             if self.force_closure(p0, p1, n0, n1, self._friction_coef):
                 grasp_center = (p0 + p1) / 2
                 grasp_axis = p1 - p0
+                grasp_width = 1.5 * \
+                    np.linalg.norm(grasp_axis) if self._config['dyn_width'] else self._width
                 grasp_axis = grasp_axis / np.linalg.norm(grasp_axis)
                 grasp_theta = 0
                 if grasp_axis[0] != 0:
                     grasp_theta = np.arctan(grasp_axis[1] / grasp_axis[0])
                 grasp = Grasp2D(grasp_center, grasp_theta, 0.0)
-                # 改抓取到所有已存在抓取的距离
+                # 该抓取到所有已存在抓取的距离
                 grasp_dists = [Grasp2D.image_dist(
                     grasp, g[0], alpha=self._config['angle_dist_weight']) for g in grasps]
                 if len(grasps) == 0 or np.min(grasp_dists) > self._config['min_grasp_dist']:
-                    # 寻找中心点附近最高的点, 这里修改了原始的算法增加了在p0p1点附近的深度
-                    _h = self._config['depth_sample_win_height']
-                    _w = self._config['depth_sample_win_width']
-                    depth_win_c = depth[int(grasp_center[1]-_h): int(grasp_center[1]+_h),
-                                        int(grasp_center[0]-_w): int(grasp_center[0]+_w)]
-                    depth_win_p0 = depth[int(p0[1]-_h): int(p0[1]+_h),
-                                         int(p0[0]-_w): int(p0[0]+_w)]
-                    depth_win_p1 = depth[int(p1[1]-_h): int(p1[1]+_h),
-                                         int(p1[0]-_w): int(p1[0]+_w)]
-                    depth_win = np.r_[depth_win_c, depth_win_p0, depth_win_p1]
-                    center_depth = np.min(depth_win)
-                    if center_depth == 0 or np.isnan(center_depth):
-                        continue
+                    if self._config['use_depth']:
+                        # 寻找中心点附近最高的点, 这里修改了原始的算法增加了在p0p1点附近的深度
+                        _h = self._config['depth_sample_win_height']
+                        _w = self._config['depth_sample_win_width']
+                        depth_win_c = depth[int(grasp_center[1]-_h): int(grasp_center[1]+_h),
+                                            int(grasp_center[0]-_w): int(grasp_center[0]+_w)]
+                        depth_win_p0 = depth[int(p0[1]-_h): int(p0[1]+_h),
+                                             int(p0[0]-_w): int(p0[0]+_w)]
+                        depth_win_p1 = depth[int(p1[1]-_h): int(p1[1]+_h),
+                                             int(p1[0]-_w): int(p1[0]+_w)]
+                        depth_win = np.r_[depth_win_c, depth_win_p0, depth_win_p1]
+                        center_depth = np.min(depth_win)
+                        if center_depth == 0 or np.isnan(center_depth):
+                            continue
 
-                    # sample depth between the min and max
-                    min_depth = np.min(depth_win) + self._config['min_depth_offset']
-                    max_depth = np.max(depth_win) + self._config['max_depth_offset']
-                    for i in range(self._config['depth_samples_per_grasp']):
-                        sample_depth = min_depth + (max_depth - min_depth) * np.random.rand()
+                        # sample depth between the min and max
+                        min_depth = np.min(depth_win) + self._config['min_depth_offset']
+                        max_depth = np.max(depth_win) + self._config['max_depth_offset']
+                        for i in range(self._config['depth_samples_per_grasp']):
+                            sample_depth = min_depth + (max_depth - min_depth) * np.random.rand()
+                            candidate_grasp = Grasp2D(grasp_center,
+                                                      grasp_theta,
+                                                      sample_depth,
+                                                      width=grasp_width)
+                            grasps.append([candidate_grasp, p0, p1])
+                    else:
                         candidate_grasp = Grasp2D(grasp_center,
                                                   grasp_theta,
-                                                  sample_depth,
-                                                  width=self._width)
+                                                  self._config['grasp_depth'],
+                                                  width=grasp_width)
                         grasps.append([candidate_grasp, p0, p1])
 
             if len(grasps) >= num_sample:
-                logging.info('未遍历所有有效点对，共采样%d个候选抓取点对'%len(grasps))
+                logging.info('未遍历所有有效点对，共采样%d个候选抓取点对' % len(grasps))
                 return grasps
-        logging.info('遍历所有有效点对，共采样%d个候选抓取'%len(grasps))
+        logging.info('遍历所有有效点对，共采样%d个候选抓取' % len(grasps))
         return grasps

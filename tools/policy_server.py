@@ -53,4 +53,4 @@ class Planer(object):
 if __name__ == "__main__":
     pp = Planer()
     Pyro4.config.SERIALIZERS_ACCEPTED.add('pickle')
-    Pyro4.Daemon.serveSimple({pp: 'Planer'}, ns=False, host='', port=6666)
+    Pyro4.Daemon.serveSimple({pp: 'Planer'}, ns=False, host='', port=6665)

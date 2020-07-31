@@ -1,11 +1,11 @@
-import sys
-sys.path = ['', '/home/lai/Project/easy-gqcnn/src', 
-'/usr/lib/python3/dist-packages', 
-'/usr/lib/python35.zip', '/usr/lib/python3.5', 
-'/usr/lib/python3.5/plat-x86_64-linux-gnu', 
-'/usr/lib/python3.5/lib-dynload', 
-'/home/lai/.local/lib/python3.5/site-packages', 
-'/usr/local/lib/python3.5/dist-packages']
+# import sys
+# sys.path = ['', '/home/lai/Project/easy-gqcnn/src',
+# '/usr/lib/python3/dist-packages',
+# '/usr/lib/python35.zip', '/usr/lib/python3.5',
+# '/usr/lib/python3.5/plat-x86_64-linux-gnu',
+# '/usr/lib/python3.5/lib-dynload',
+# '/home/lai/.local/lib/python3.5/site-packages',
+# '/usr/local/lib/python3.5/dist-packages']
 
 import os
 import random
@@ -15,12 +15,12 @@ import matplotlib.pyplot as plt
 from ruamel.yaml import YAML
 from easygqcnn import GraspingPolicy
 
-# sys.path = ['', '/home/lai/Project/easy-gqcnn/src', 
-# '/usr/lib/python3/dist-packages', 
-# '/usr/lib/python35.zip', '/usr/lib/python3.5', 
-# '/usr/lib/python3.5/plat-x86_64-linux-gnu', 
-# '/usr/lib/python3.5/lib-dynload', 
-# '/home/lai/.local/lib/python3.5/site-packages', 
+# sys.path = ['', '/home/lai/Project/easy-gqcnn/src',
+# '/usr/lib/python3/dist-packages',
+# '/usr/lib/python35.zip', '/usr/lib/python3.5',
+# '/usr/lib/python3.5/plat-x86_64-linux-gnu',
+# '/usr/lib/python3.5/lib-dynload',
+# '/home/lai/.local/lib/python3.5/site-packages',
 # '/usr/local/lib/python3.5/dist-packages']
 
 
@@ -28,7 +28,8 @@ file_path = os.path.split(__file__)[0]
 ROOT_PATH = os.path.abspath(os.path.join(file_path, '..'))
 TEST_LOG_FILE = os.path.join(ROOT_PATH, 'tools/logs/policy_visual.log')
 TEST_CFG_FILE = os.path.join(ROOT_PATH, 'config/policy.yaml')
-IMAGE = os.path.join(ROOT_PATH, 'data/test/depth.npy')
+# IMAGE = os.path.join(ROOT_PATH, 'data/test/depth.npy')
+IMAGE = '/root/Project/gmdata/test/sim_test/gearbox/image.npy'
 
 
 def config_logging(file=None, level=logging.DEBUG):
@@ -85,12 +86,14 @@ def main():
     print(g.center)
     # 0.576
     print(g.depth)
+    print(g.width_px)
 
     plt.figure()
     plt.imshow(depth)
     plt.colorbar()
     plot_grasp(g)
-    plt.show()
+    # plt.show()
+    plt.savefig('/root/Project/test.png')
 
 
 if __name__ == "__main__":

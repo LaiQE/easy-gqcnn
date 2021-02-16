@@ -5494,3 +5494,1367 @@ Use standard file APIs to delete files with this prefix.
 2020-02-07 18:29:48,583 - DEBUG - step: 533300, mean_loss: 0.0988, mean_acc: 0.9997
 2020-02-07 18:29:48,585 - INFO - 50 epoch training is finish!
 2020-02-07 18:29:54,704 - INFO - 50 epoch validation is 86.284!
+2021-02-15 19:06:44,571 - WARNING - From /usr/local/lib/python3.6/dist-packages/tensorflow/python/data/ops/dataset_ops.py:1419: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2021-02-15 19:06:45,322 - INFO - not find model, init variable random
+2021-02-15 19:06:45,322 - INFO - summary to the dir: /home/admin/Project/gmdata/datasets/models/gq/small_data/gmd/summary/2021-02-15T19-06-45/
+2021-02-15 19:06:48,067 - INFO - 0 epoch validation is 36.626!
+2021-02-15 19:06:48,067 - INFO - 1 epoch training is start!
+2021-02-15 19:06:50,008 - DEBUG - step: 100, mean_loss: nan, mean_acc: 0.7095
+2021-02-15 19:06:51,553 - DEBUG - step: 200, mean_loss: nan, mean_acc: 0.8494
+2021-02-15 19:06:53,094 - DEBUG - step: 300, mean_loss: nan, mean_acc: 0.8895
+2021-02-15 19:06:54,639 - DEBUG - step: 400, mean_loss: nan, mean_acc: 0.9114
+2021-02-15 19:06:56,078 - DEBUG - step: 500, mean_loss: nan, mean_acc: 0.9150
+2021-02-15 19:06:56,988 - INFO - 1 epoch training is finish!
+2021-02-15 19:06:57,377 - INFO - 1 epoch validation is 91.126!
+2021-02-15 19:06:57,567 - INFO - 2 epoch training is start!
+2021-02-15 19:06:58,360 - DEBUG - step: 600, mean_loss: nan, mean_acc: 0.9170
+2021-02-15 19:06:59,904 - DEBUG - step: 700, mean_loss: nan, mean_acc: 0.9234
+2021-02-15 19:07:01,449 - DEBUG - step: 800, mean_loss: nan, mean_acc: 0.9316
+2021-02-15 19:07:02,995 - DEBUG - step: 900, mean_loss: nan, mean_acc: 0.9313
+2021-02-15 19:07:04,503 - DEBUG - step: 1000, mean_loss: nan, mean_acc: 0.9366
+2021-02-15 19:07:05,939 - DEBUG - step: 1100, mean_loss: nan, mean_acc: 0.9363
+2021-02-15 19:07:06,276 - INFO - 2 epoch training is finish!
+2021-02-15 19:07:06,668 - INFO - 2 epoch validation is 94.273!
+2021-02-15 19:07:06,797 - INFO - 3 epoch training is start!
+2021-02-15 19:07:08,182 - DEBUG - step: 1200, mean_loss: nan, mean_acc: 0.9506
+2021-02-15 19:07:09,724 - DEBUG - step: 1300, mean_loss: nan, mean_acc: 0.9366
+2021-02-15 19:07:11,271 - DEBUG - step: 1400, mean_loss: nan, mean_acc: 0.9497
+2021-02-15 19:07:12,815 - DEBUG - step: 1500, mean_loss: nan, mean_acc: 0.9587
+2021-02-15 19:07:14,282 - DEBUG - step: 1600, mean_loss: nan, mean_acc: 0.9578
+2021-02-15 19:07:15,512 - INFO - 3 epoch training is finish!
+2021-02-15 19:07:15,906 - INFO - 3 epoch validation is 95.790!
+2021-02-15 19:07:16,039 - INFO - 4 epoch training is start!
+2021-02-15 19:07:16,462 - DEBUG - step: 1700, mean_loss: nan, mean_acc: 0.9605
+2021-02-15 19:07:18,007 - DEBUG - step: 1800, mean_loss: nan, mean_acc: 0.9666
+2021-02-15 19:07:19,551 - DEBUG - step: 1900, mean_loss: nan, mean_acc: 0.9639
+2021-02-15 19:07:21,097 - DEBUG - step: 2000, mean_loss: nan, mean_acc: 0.9686
+2021-02-15 19:07:22,626 - DEBUG - step: 2100, mean_loss: nan, mean_acc: 0.9731
+2021-02-15 19:07:24,070 - DEBUG - step: 2200, mean_loss: nan, mean_acc: 0.9703
+2021-02-15 19:07:24,752 - INFO - 4 epoch training is finish!
+2021-02-15 19:07:25,148 - INFO - 4 epoch validation is 96.462!
+2021-02-15 19:07:25,240 - WARNING - From /usr/local/lib/python3.6/dist-packages/tensorflow/python/training/saver.py:966: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+2021-02-15 19:07:25,286 - INFO - 5 epoch training is start!
+2021-02-15 19:07:26,290 - DEBUG - step: 2300, mean_loss: nan, mean_acc: 0.9728
+2021-02-15 19:07:27,836 - DEBUG - step: 2400, mean_loss: nan, mean_acc: 0.9717
+2021-02-15 19:07:29,379 - DEBUG - step: 2500, mean_loss: nan, mean_acc: 0.9736
+2021-02-15 19:07:30,925 - DEBUG - step: 2600, mean_loss: nan, mean_acc: 0.9736
+2021-02-15 19:07:32,420 - DEBUG - step: 2700, mean_loss: nan, mean_acc: 0.9770
+2021-02-15 19:07:33,863 - DEBUG - step: 2800, mean_loss: nan, mean_acc: 0.9800
+2021-02-15 19:07:33,999 - INFO - 5 epoch training is finish!
+2021-02-15 19:07:34,392 - INFO - 5 epoch validation is 96.296!
+2021-02-15 19:07:34,541 - INFO - 6 epoch training is start!
+2021-02-15 19:07:36,138 - DEBUG - step: 2900, mean_loss: nan, mean_acc: 0.9806
+2021-02-15 19:08:47,093 - WARNING - From /usr/local/lib/python3.6/dist-packages/tensorflow/python/data/ops/dataset_ops.py:1419: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2021-02-15 19:08:47,685 - INFO - not find model, init variable random
+2021-02-15 19:08:47,685 - INFO - summary to the dir: /home/admin/Project/gmdata/datasets/models/gq/small_data/gmd/summary/2021-02-15T19-08-47/
+2021-02-15 19:08:49,687 - INFO - 0 epoch validation is 36.661!
+2021-02-15 19:08:49,688 - INFO - 1 epoch training is start!
+2021-02-15 19:08:51,597 - DEBUG - step: 100, mean_loss: nan, mean_acc: 0.8041
+2021-02-15 19:08:53,139 - DEBUG - step: 200, mean_loss: nan, mean_acc: 0.8558
+2021-02-15 19:08:54,679 - DEBUG - step: 300, mean_loss: nan, mean_acc: 0.8886
+2021-02-15 19:08:56,220 - DEBUG - step: 400, mean_loss: nan, mean_acc: 0.9167
+2021-02-15 19:08:57,659 - DEBUG - step: 500, mean_loss: nan, mean_acc: 0.9147
+2021-02-15 19:08:58,561 - INFO - 1 epoch training is finish!
+2021-02-15 19:08:58,958 - INFO - 1 epoch validation is 91.598!
+2021-02-15 19:08:59,141 - INFO - 2 epoch training is start!
+2021-02-15 19:08:59,934 - DEBUG - step: 600, mean_loss: nan, mean_acc: 0.9205
+2021-02-15 19:09:01,476 - DEBUG - step: 700, mean_loss: nan, mean_acc: 0.9191
+2021-02-15 19:09:03,020 - DEBUG - step: 800, mean_loss: nan, mean_acc: 0.9255
+2021-02-15 19:09:04,563 - DEBUG - step: 900, mean_loss: nan, mean_acc: 0.9298
+2021-02-15 19:09:06,069 - DEBUG - step: 1000, mean_loss: nan, mean_acc: 0.9367
+2021-02-15 19:09:07,507 - DEBUG - step: 1100, mean_loss: nan, mean_acc: 0.9461
+2021-02-15 19:09:07,851 - INFO - 2 epoch training is finish!
+2021-02-15 19:09:08,244 - INFO - 2 epoch validation is 94.378!
+2021-02-15 19:09:08,377 - INFO - 3 epoch training is start!
+2021-02-15 19:09:09,753 - DEBUG - step: 1200, mean_loss: nan, mean_acc: 0.9420
+2021-02-15 19:09:11,296 - DEBUG - step: 1300, mean_loss: nan, mean_acc: 0.9478
+2021-02-15 19:09:12,838 - DEBUG - step: 1400, mean_loss: nan, mean_acc: 0.9566
+2021-02-15 19:09:14,385 - DEBUG - step: 1500, mean_loss: nan, mean_acc: 0.9569
+2021-02-15 19:09:15,853 - DEBUG - step: 1600, mean_loss: nan, mean_acc: 0.9628
+2021-02-15 19:09:17,081 - INFO - 3 epoch training is finish!
+2021-02-15 19:09:17,470 - INFO - 3 epoch validation is 95.625!
+2021-02-15 19:09:17,602 - INFO - 4 epoch training is start!
+2021-02-15 19:09:18,017 - DEBUG - step: 1700, mean_loss: nan, mean_acc: 0.9641
+2021-02-15 19:09:19,565 - DEBUG - step: 1800, mean_loss: nan, mean_acc: 0.9667
+2021-02-15 19:09:21,108 - DEBUG - step: 1900, mean_loss: nan, mean_acc: 0.9695
+2021-02-15 19:09:22,656 - DEBUG - step: 2000, mean_loss: nan, mean_acc: 0.9672
+2021-02-15 19:09:24,192 - DEBUG - step: 2100, mean_loss: nan, mean_acc: 0.9692
+2021-02-15 19:09:25,632 - DEBUG - step: 2200, mean_loss: nan, mean_acc: 0.9731
+2021-02-15 19:09:26,313 - INFO - 4 epoch training is finish!
+2021-02-15 19:09:26,705 - INFO - 4 epoch validation is 96.296!
+2021-02-15 19:09:26,807 - WARNING - From /usr/local/lib/python3.6/dist-packages/tensorflow/python/training/saver.py:966: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+2021-02-15 19:09:26,851 - INFO - 5 epoch training is start!
+2021-02-15 19:09:27,858 - DEBUG - step: 2300, mean_loss: nan, mean_acc: 0.9733
+2021-02-15 19:09:29,404 - DEBUG - step: 2400, mean_loss: nan, mean_acc: 0.9783
+2021-02-15 19:09:30,964 - DEBUG - step: 2500, mean_loss: nan, mean_acc: 0.9803
+2021-02-15 19:09:32,508 - DEBUG - step: 2600, mean_loss: nan, mean_acc: 0.9805
+2021-02-15 19:09:34,002 - DEBUG - step: 2700, mean_loss: nan, mean_acc: 0.9834
+2021-02-15 19:09:35,441 - DEBUG - step: 2800, mean_loss: nan, mean_acc: 0.9806
+2021-02-15 19:09:35,576 - INFO - 5 epoch training is finish!
+2021-02-15 19:09:35,969 - INFO - 5 epoch validation is 96.617!
+2021-02-15 19:09:36,119 - INFO - 6 epoch training is start!
+2021-02-15 19:09:37,704 - DEBUG - step: 2900, mean_loss: nan, mean_acc: 0.9834
+2021-02-15 19:09:39,247 - DEBUG - step: 3000, mean_loss: nan, mean_acc: 0.9833
+2021-02-15 19:09:40,792 - DEBUG - step: 3100, mean_loss: nan, mean_acc: 0.9825
+2021-02-15 19:09:42,334 - DEBUG - step: 3200, mean_loss: nan, mean_acc: 0.9864
+2021-02-15 19:09:43,790 - DEBUG - step: 3300, mean_loss: nan, mean_acc: 0.9858
+2021-02-15 19:09:44,820 - INFO - 6 epoch training is finish!
+2021-02-15 19:09:45,216 - INFO - 6 epoch validation is 96.972!
+2021-02-15 19:09:45,351 - INFO - 7 epoch training is start!
+2021-02-15 19:09:45,991 - DEBUG - step: 3400, mean_loss: nan, mean_acc: 0.9852
+2021-02-15 19:09:47,535 - DEBUG - step: 3500, mean_loss: nan, mean_acc: 0.9873
+2021-02-15 19:09:49,083 - DEBUG - step: 3600, mean_loss: nan, mean_acc: 0.9895
+2021-02-15 19:09:50,626 - DEBUG - step: 3700, mean_loss: nan, mean_acc: 0.9905
+2021-02-15 19:09:52,145 - DEBUG - step: 3800, mean_loss: nan, mean_acc: 0.9894
+2021-02-15 19:09:53,583 - DEBUG - step: 3900, mean_loss: nan, mean_acc: 0.9917
+2021-02-15 19:09:54,066 - INFO - 7 epoch training is finish!
+2021-02-15 19:09:54,459 - INFO - 7 epoch validation is 96.275!
+2021-02-15 19:09:54,594 - INFO - 8 epoch training is start!
+2021-02-15 19:09:55,817 - DEBUG - step: 4000, mean_loss: nan, mean_acc: 0.9927
+2021-02-15 19:09:57,365 - DEBUG - step: 4100, mean_loss: nan, mean_acc: 0.9930
+2021-02-15 19:09:58,910 - DEBUG - step: 4200, mean_loss: nan, mean_acc: 0.9934
+2021-02-15 19:10:00,455 - DEBUG - step: 4300, mean_loss: nan, mean_acc: 0.9917
+2021-02-15 19:10:01,938 - DEBUG - step: 4400, mean_loss: nan, mean_acc: 0.9906
+2021-02-15 19:10:03,313 - INFO - 8 epoch training is finish!
+2021-02-15 19:10:03,706 - INFO - 8 epoch validation is 97.348!
+2021-02-15 19:10:03,850 - INFO - 9 epoch training is start!
+2021-02-15 19:10:04,110 - DEBUG - step: 4500, mean_loss: nan, mean_acc: 0.9917
+2021-02-15 19:10:05,655 - DEBUG - step: 4600, mean_loss: nan, mean_acc: 0.9964
+2021-02-15 19:10:07,205 - DEBUG - step: 4700, mean_loss: nan, mean_acc: 0.9958
+2021-02-15 19:10:08,749 - DEBUG - step: 4800, mean_loss: nan, mean_acc: 0.9958
+2021-02-15 19:10:10,293 - DEBUG - step: 4900, mean_loss: nan, mean_acc: 0.9939
+2021-02-15 19:10:11,737 - DEBUG - step: 5000, mean_loss: nan, mean_acc: 0.9952
+2021-02-15 19:10:12,568 - INFO - 9 epoch training is finish!
+2021-02-15 19:10:12,966 - INFO - 9 epoch validation is 97.127!
+2021-02-15 19:10:13,096 - INFO - 10 epoch training is start!
+2021-02-15 19:10:13,947 - DEBUG - step: 5100, mean_loss: nan, mean_acc: 0.9958
+2021-02-15 19:10:15,494 - DEBUG - step: 5200, mean_loss: nan, mean_acc: 0.9978
+2021-02-15 19:10:17,043 - DEBUG - step: 5300, mean_loss: nan, mean_acc: 0.9973
+2021-02-15 19:10:18,592 - DEBUG - step: 5400, mean_loss: nan, mean_acc: 0.9962
+2021-02-15 19:10:20,100 - DEBUG - step: 5500, mean_loss: nan, mean_acc: 0.9969
+2021-02-15 19:10:21,542 - DEBUG - step: 5600, mean_loss: nan, mean_acc: 0.9961
+2021-02-15 19:10:21,822 - INFO - 10 epoch training is finish!
+2021-02-15 19:10:22,218 - INFO - 10 epoch validation is 97.019!
+2021-02-15 19:10:22,350 - INFO - 11 epoch training is start!
+2021-02-15 19:10:23,793 - DEBUG - step: 5700, mean_loss: nan, mean_acc: 0.9988
+2021-02-15 19:10:25,337 - DEBUG - step: 5800, mean_loss: nan, mean_acc: 0.9992
+2021-02-15 19:10:26,889 - DEBUG - step: 5900, mean_loss: nan, mean_acc: 0.9992
+2021-02-15 19:10:28,438 - DEBUG - step: 6000, mean_loss: nan, mean_acc: 0.9977
+2021-02-15 19:10:29,905 - DEBUG - step: 6100, mean_loss: nan, mean_acc: 0.9973
+2021-02-15 19:10:31,082 - INFO - 11 epoch training is finish!
+2021-02-15 19:10:31,477 - INFO - 11 epoch validation is 97.527!
+2021-02-15 19:10:31,613 - INFO - 12 epoch training is start!
+2021-02-15 19:10:32,093 - DEBUG - step: 6200, mean_loss: nan, mean_acc: 0.9986
+2021-02-15 19:10:33,643 - DEBUG - step: 6300, mean_loss: nan, mean_acc: 0.9992
+2021-02-15 19:10:35,190 - DEBUG - step: 6400, mean_loss: nan, mean_acc: 0.9956
+2021-02-15 19:10:36,742 - DEBUG - step: 6500, mean_loss: nan, mean_acc: 0.9995
+2021-02-15 19:10:38,274 - DEBUG - step: 6600, mean_loss: nan, mean_acc: 0.9983
+2021-02-15 19:10:39,719 - DEBUG - step: 6700, mean_loss: nan, mean_acc: 0.9992
+2021-02-15 19:10:40,343 - INFO - 12 epoch training is finish!
+2021-02-15 19:10:40,734 - INFO - 12 epoch validation is 97.775!
+2021-02-15 19:10:40,870 - INFO - 13 epoch training is start!
+2021-02-15 19:10:41,940 - DEBUG - step: 6800, mean_loss: nan, mean_acc: 0.9989
+2021-02-15 19:10:43,488 - DEBUG - step: 6900, mean_loss: nan, mean_acc: 0.9983
+2021-02-15 19:10:45,042 - DEBUG - step: 7000, mean_loss: nan, mean_acc: 0.9991
+2021-02-15 19:10:46,588 - DEBUG - step: 7100, mean_loss: nan, mean_acc: 0.9994
+2021-02-15 19:10:48,083 - DEBUG - step: 7200, mean_loss: nan, mean_acc: 0.9994
+2021-02-15 19:10:49,527 - DEBUG - step: 7300, mean_loss: nan, mean_acc: 0.9992
+2021-02-15 19:10:49,605 - INFO - 13 epoch training is finish!
+2021-02-15 19:10:50,003 - INFO - 13 epoch validation is 97.788!
+2021-02-15 19:10:50,133 - INFO - 14 epoch training is start!
+2021-02-15 19:10:51,781 - DEBUG - step: 7400, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:10:53,328 - DEBUG - step: 7500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:10:54,878 - DEBUG - step: 7600, mean_loss: nan, mean_acc: 0.9997
+2021-02-15 19:10:56,424 - DEBUG - step: 7700, mean_loss: nan, mean_acc: 0.9994
+2021-02-15 19:10:57,877 - DEBUG - step: 7800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:10:58,851 - INFO - 14 epoch training is finish!
+2021-02-15 19:10:59,243 - INFO - 14 epoch validation is 97.798!
+2021-02-15 19:10:59,384 - INFO - 15 epoch training is start!
+2021-02-15 19:11:00,078 - DEBUG - step: 7900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:01,634 - DEBUG - step: 8000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:03,184 - DEBUG - step: 8100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:04,731 - DEBUG - step: 8200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:06,253 - DEBUG - step: 8300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:07,694 - DEBUG - step: 8400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:08,126 - INFO - 15 epoch training is finish!
+2021-02-15 19:11:08,515 - INFO - 15 epoch validation is 97.822!
+2021-02-15 19:11:08,659 - INFO - 16 epoch training is start!
+2021-02-15 19:11:09,953 - DEBUG - step: 8500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:11,504 - DEBUG - step: 8600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:13,051 - DEBUG - step: 8700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:14,596 - DEBUG - step: 8800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:16,077 - DEBUG - step: 8900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:17,393 - INFO - 16 epoch training is finish!
+2021-02-15 19:11:17,782 - INFO - 16 epoch validation is 97.811!
+2021-02-15 19:11:17,920 - INFO - 17 epoch training is start!
+2021-02-15 19:11:18,236 - DEBUG - step: 9000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:19,787 - DEBUG - step: 9100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:21,339 - DEBUG - step: 9200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:22,887 - DEBUG - step: 9300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:24,435 - DEBUG - step: 9400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:25,877 - DEBUG - step: 9500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:26,647 - INFO - 17 epoch training is finish!
+2021-02-15 19:11:27,046 - INFO - 17 epoch validation is 97.751!
+2021-02-15 19:11:27,178 - INFO - 18 epoch training is start!
+2021-02-15 19:11:28,088 - DEBUG - step: 9600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:29,638 - DEBUG - step: 9700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:31,186 - DEBUG - step: 9800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:32,733 - DEBUG - step: 9900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:34,239 - DEBUG - step: 10000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:35,680 - DEBUG - step: 10100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:35,904 - INFO - 18 epoch training is finish!
+2021-02-15 19:11:36,297 - INFO - 18 epoch validation is 97.719!
+2021-02-15 19:11:36,439 - INFO - 19 epoch training is start!
+2021-02-15 19:11:37,936 - DEBUG - step: 10200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:39,483 - DEBUG - step: 10300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:41,029 - DEBUG - step: 10400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:42,570 - DEBUG - step: 10500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:44,032 - DEBUG - step: 10600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:45,151 - INFO - 19 epoch training is finish!
+2021-02-15 19:11:45,545 - INFO - 19 epoch validation is 97.751!
+2021-02-15 19:11:45,677 - INFO - 20 epoch training is start!
+2021-02-15 19:11:46,223 - DEBUG - step: 10700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:47,773 - DEBUG - step: 10800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:49,321 - DEBUG - step: 10900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:50,871 - DEBUG - step: 11000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:52,398 - DEBUG - step: 11100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:53,842 - DEBUG - step: 11200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:54,411 - INFO - 20 epoch training is finish!
+2021-02-15 19:11:54,804 - INFO - 20 epoch validation is 97.645!
+2021-02-15 19:11:54,948 - INFO - 21 epoch training is start!
+2021-02-15 19:11:56,082 - DEBUG - step: 11300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:57,629 - DEBUG - step: 11400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:11:59,179 - DEBUG - step: 11500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:00,729 - DEBUG - step: 11600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:02,219 - DEBUG - step: 11700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:03,665 - DEBUG - step: 11800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:03,686 - INFO - 21 epoch training is finish!
+2021-02-15 19:12:04,085 - INFO - 21 epoch validation is 97.751!
+2021-02-15 19:12:04,224 - INFO - 22 epoch training is start!
+2021-02-15 19:12:05,941 - DEBUG - step: 11900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:07,488 - DEBUG - step: 12000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:09,033 - DEBUG - step: 12100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:10,580 - DEBUG - step: 12200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:12,031 - DEBUG - step: 12300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:12,943 - INFO - 22 epoch training is finish!
+2021-02-15 19:12:13,337 - INFO - 22 epoch validation is 97.633!
+2021-02-15 19:12:13,469 - INFO - 23 epoch training is start!
+2021-02-15 19:12:14,230 - DEBUG - step: 12400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:15,779 - DEBUG - step: 12500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:17,335 - DEBUG - step: 12600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:18,898 - DEBUG - step: 12700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:20,414 - DEBUG - step: 12800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:21,861 - DEBUG - step: 12900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:22,231 - INFO - 23 epoch training is finish!
+2021-02-15 19:12:22,625 - INFO - 23 epoch validation is 97.719!
+2021-02-15 19:12:22,758 - INFO - 24 epoch training is start!
+2021-02-15 19:12:24,103 - DEBUG - step: 13000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:25,653 - DEBUG - step: 13100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:27,199 - DEBUG - step: 13200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:28,745 - DEBUG - step: 13300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:30,220 - DEBUG - step: 13400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:31,480 - INFO - 24 epoch training is finish!
+2021-02-15 19:12:31,871 - INFO - 24 epoch validation is 97.680!
+2021-02-15 19:12:32,005 - INFO - 25 epoch training is start!
+2021-02-15 19:12:32,391 - DEBUG - step: 13500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:33,940 - DEBUG - step: 13600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:35,489 - DEBUG - step: 13700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:37,035 - DEBUG - step: 13800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:38,571 - DEBUG - step: 13900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:40,012 - DEBUG - step: 14000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:40,726 - INFO - 25 epoch training is finish!
+2021-02-15 19:12:41,123 - INFO - 25 epoch validation is 97.846!
+2021-02-15 19:12:41,257 - INFO - 26 epoch training is start!
+2021-02-15 19:12:42,228 - DEBUG - step: 14100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:43,781 - DEBUG - step: 14200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:45,333 - DEBUG - step: 14300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:46,884 - DEBUG - step: 14400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:48,384 - DEBUG - step: 14500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:49,830 - DEBUG - step: 14600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:49,996 - INFO - 26 epoch training is finish!
+2021-02-15 19:12:50,387 - INFO - 26 epoch validation is 97.622!
+2021-02-15 19:12:50,527 - INFO - 27 epoch training is start!
+2021-02-15 19:12:52,098 - DEBUG - step: 14700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:53,646 - DEBUG - step: 14800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:55,197 - DEBUG - step: 14900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:56,745 - DEBUG - step: 15000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:58,205 - DEBUG - step: 15100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:12:59,263 - INFO - 27 epoch training is finish!
+2021-02-15 19:12:59,654 - INFO - 27 epoch validation is 97.764!
+2021-02-15 19:12:59,789 - INFO - 28 epoch training is start!
+2021-02-15 19:13:00,391 - DEBUG - step: 15200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:01,944 - DEBUG - step: 15300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:03,494 - DEBUG - step: 15400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:05,049 - DEBUG - step: 15500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:06,571 - DEBUG - step: 15600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:08,015 - DEBUG - step: 15700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:08,525 - INFO - 28 epoch training is finish!
+2021-02-15 19:13:08,923 - INFO - 28 epoch validation is 97.585!
+2021-02-15 19:13:09,056 - INFO - 29 epoch training is start!
+2021-02-15 19:13:10,247 - DEBUG - step: 15800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:11,796 - DEBUG - step: 15900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:13,348 - DEBUG - step: 16000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:14,897 - DEBUG - step: 16100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:16,384 - DEBUG - step: 16200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:17,788 - INFO - 29 epoch training is finish!
+2021-02-15 19:13:18,179 - INFO - 29 epoch validation is 97.751!
+2021-02-15 19:13:18,314 - INFO - 30 epoch training is start!
+2021-02-15 19:13:18,550 - DEBUG - step: 16300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:20,097 - DEBUG - step: 16400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:21,641 - DEBUG - step: 16500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:23,187 - DEBUG - step: 16600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:24,735 - DEBUG - step: 16700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:26,184 - DEBUG - step: 16800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:27,042 - INFO - 30 epoch training is finish!
+2021-02-15 19:13:27,435 - INFO - 30 epoch validation is 97.742!
+2021-02-15 19:13:27,565 - INFO - 31 epoch training is start!
+2021-02-15 19:13:28,380 - DEBUG - step: 16900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:29,927 - DEBUG - step: 17000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:31,475 - DEBUG - step: 17100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:33,022 - DEBUG - step: 17200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:34,534 - DEBUG - step: 17300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:35,979 - DEBUG - step: 17400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:36,288 - INFO - 31 epoch training is finish!
+2021-02-15 19:13:36,681 - INFO - 31 epoch validation is 97.751!
+2021-02-15 19:13:36,816 - INFO - 32 epoch training is start!
+2021-02-15 19:13:38,223 - DEBUG - step: 17500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:39,773 - DEBUG - step: 17600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:41,322 - DEBUG - step: 17700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:42,868 - DEBUG - step: 17800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:44,339 - DEBUG - step: 17900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:45,543 - INFO - 32 epoch training is finish!
+2021-02-15 19:13:45,933 - INFO - 32 epoch validation is 97.717!
+2021-02-15 19:13:46,067 - INFO - 33 epoch training is start!
+2021-02-15 19:13:46,515 - DEBUG - step: 18000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:48,063 - DEBUG - step: 18100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:49,614 - DEBUG - step: 18200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:51,168 - DEBUG - step: 18300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:52,707 - DEBUG - step: 18400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:54,149 - DEBUG - step: 18500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:54,809 - INFO - 33 epoch training is finish!
+2021-02-15 19:13:55,199 - INFO - 33 epoch validation is 97.661!
+2021-02-15 19:13:55,341 - INFO - 34 epoch training is start!
+2021-02-15 19:13:56,380 - DEBUG - step: 18600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:57,931 - DEBUG - step: 18700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:13:59,478 - DEBUG - step: 18800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:01,027 - DEBUG - step: 18900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:02,521 - DEBUG - step: 19000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:03,962 - DEBUG - step: 19100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:04,069 - INFO - 34 epoch training is finish!
+2021-02-15 19:14:04,460 - INFO - 34 epoch validation is 97.693!
+2021-02-15 19:14:04,598 - INFO - 35 epoch training is start!
+2021-02-15 19:14:06,218 - DEBUG - step: 19200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:07,769 - DEBUG - step: 19300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:09,314 - DEBUG - step: 19400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:10,857 - DEBUG - step: 19500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:12,313 - DEBUG - step: 19600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:13,318 - INFO - 35 epoch training is finish!
+2021-02-15 19:14:13,717 - INFO - 35 epoch validation is 97.658!
+2021-02-15 19:14:13,857 - INFO - 36 epoch training is start!
+2021-02-15 19:14:14,519 - DEBUG - step: 19700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:16,070 - DEBUG - step: 19800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:17,621 - DEBUG - step: 19900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:19,169 - DEBUG - step: 20000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:20,689 - DEBUG - step: 20100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:22,133 - DEBUG - step: 20200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:22,585 - INFO - 36 epoch training is finish!
+2021-02-15 19:14:22,979 - INFO - 36 epoch validation is 97.693!
+2021-02-15 19:14:23,126 - INFO - 37 epoch training is start!
+2021-02-15 19:14:24,381 - DEBUG - step: 20300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:25,936 - DEBUG - step: 20400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:27,482 - DEBUG - step: 20500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:29,028 - DEBUG - step: 20600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:30,510 - DEBUG - step: 20700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:31,857 - INFO - 37 epoch training is finish!
+2021-02-15 19:14:32,244 - INFO - 37 epoch validation is 97.645!
+2021-02-15 19:14:32,390 - INFO - 38 epoch training is start!
+2021-02-15 19:14:32,687 - DEBUG - step: 20800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:34,238 - DEBUG - step: 20900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:35,787 - DEBUG - step: 21000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:37,333 - DEBUG - step: 21100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:38,877 - DEBUG - step: 21200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:40,321 - DEBUG - step: 21300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:41,119 - INFO - 38 epoch training is finish!
+2021-02-15 19:14:41,512 - INFO - 38 epoch validation is 97.706!
+2021-02-15 19:14:41,649 - INFO - 39 epoch training is start!
+2021-02-15 19:14:42,543 - DEBUG - step: 21400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:44,092 - DEBUG - step: 21500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:45,638 - DEBUG - step: 21600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:47,184 - DEBUG - step: 21700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:48,692 - DEBUG - step: 21800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:50,136 - DEBUG - step: 21900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:50,388 - INFO - 39 epoch training is finish!
+2021-02-15 19:14:50,781 - INFO - 39 epoch validation is 97.622!
+2021-02-15 19:14:50,918 - INFO - 40 epoch training is start!
+2021-02-15 19:14:52,388 - DEBUG - step: 22000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:53,939 - DEBUG - step: 22100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:55,490 - DEBUG - step: 22200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:57,039 - DEBUG - step: 22300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:58,508 - DEBUG - step: 22400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:14:59,649 - INFO - 40 epoch training is finish!
+2021-02-15 19:15:00,040 - INFO - 40 epoch validation is 97.669!
+2021-02-15 19:15:00,182 - INFO - 41 epoch training is start!
+2021-02-15 19:15:00,702 - DEBUG - step: 22500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:02,254 - DEBUG - step: 22600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:03,806 - DEBUG - step: 22700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:05,353 - DEBUG - step: 22800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:06,886 - DEBUG - step: 22900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:08,332 - DEBUG - step: 23000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:08,932 - INFO - 41 epoch training is finish!
+2021-02-15 19:15:09,323 - INFO - 41 epoch validation is 97.564!
+2021-02-15 19:15:09,465 - INFO - 42 epoch training is start!
+2021-02-15 19:15:10,561 - DEBUG - step: 23100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:12,110 - DEBUG - step: 23200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:13,659 - DEBUG - step: 23300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:15,209 - DEBUG - step: 23400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:16,702 - DEBUG - step: 23500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:18,146 - DEBUG - step: 23600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:18,196 - INFO - 42 epoch training is finish!
+2021-02-15 19:15:18,593 - INFO - 42 epoch validation is 97.656!
+2021-02-15 19:15:18,734 - INFO - 43 epoch training is start!
+2021-02-15 19:15:20,428 - DEBUG - step: 23700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:21,979 - DEBUG - step: 23800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:23,530 - DEBUG - step: 23900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:25,077 - DEBUG - step: 24000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:26,530 - DEBUG - step: 24100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:27,478 - INFO - 43 epoch training is finish!
+2021-02-15 19:15:27,868 - INFO - 43 epoch validation is 97.611!
+2021-02-15 19:15:28,005 - INFO - 44 epoch training is start!
+2021-02-15 19:15:28,733 - DEBUG - step: 24200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:30,286 - DEBUG - step: 24300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:31,837 - DEBUG - step: 24400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:33,386 - DEBUG - step: 24500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:34,904 - DEBUG - step: 24600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:36,344 - DEBUG - step: 24700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:36,739 - INFO - 44 epoch training is finish!
+2021-02-15 19:15:37,137 - INFO - 44 epoch validation is 97.740!
+2021-02-15 19:15:37,280 - INFO - 45 epoch training is start!
+2021-02-15 19:15:38,598 - DEBUG - step: 24800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:40,149 - DEBUG - step: 24900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:41,694 - DEBUG - step: 25000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:43,242 - DEBUG - step: 25100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:44,716 - DEBUG - step: 25200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:46,005 - INFO - 45 epoch training is finish!
+2021-02-15 19:15:46,392 - INFO - 45 epoch validation is 97.706!
+2021-02-15 19:15:46,526 - INFO - 46 epoch training is start!
+2021-02-15 19:15:46,883 - DEBUG - step: 25300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:48,435 - DEBUG - step: 25400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:49,984 - DEBUG - step: 25500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:51,533 - DEBUG - step: 25600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:53,072 - DEBUG - step: 25700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:54,514 - DEBUG - step: 25800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:55,257 - INFO - 46 epoch training is finish!
+2021-02-15 19:15:55,655 - INFO - 46 epoch validation is 97.658!
+2021-02-15 19:15:55,790 - INFO - 47 epoch training is start!
+2021-02-15 19:15:56,738 - DEBUG - step: 25900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:58,286 - DEBUG - step: 26000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:15:59,835 - DEBUG - step: 26100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:01,383 - DEBUG - step: 26200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:02,890 - DEBUG - step: 26300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:04,337 - DEBUG - step: 26400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:04,531 - INFO - 47 epoch training is finish!
+2021-02-15 19:16:04,923 - INFO - 47 epoch validation is 97.574!
+2021-02-15 19:16:05,062 - INFO - 48 epoch training is start!
+2021-02-15 19:16:06,599 - DEBUG - step: 26500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:08,146 - DEBUG - step: 26600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:09,693 - DEBUG - step: 26700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:11,242 - DEBUG - step: 26800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:12,705 - DEBUG - step: 26900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:13,792 - INFO - 48 epoch training is finish!
+2021-02-15 19:16:14,187 - INFO - 48 epoch validation is 97.562!
+2021-02-15 19:16:14,329 - INFO - 49 epoch training is start!
+2021-02-15 19:16:14,899 - DEBUG - step: 27000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:16,447 - DEBUG - step: 27100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:17,995 - DEBUG - step: 27200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:19,541 - DEBUG - step: 27300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:21,068 - DEBUG - step: 27400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:22,511 - DEBUG - step: 27500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:23,051 - INFO - 49 epoch training is finish!
+2021-02-15 19:16:23,446 - INFO - 49 epoch validation is 97.656!
+2021-02-15 19:16:23,594 - INFO - 50 epoch training is start!
+2021-02-15 19:16:24,751 - DEBUG - step: 27600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:26,304 - DEBUG - step: 27700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:27,853 - DEBUG - step: 27800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:29,403 - DEBUG - step: 27900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:30,892 - DEBUG - step: 28000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:32,326 - DEBUG - step: 28100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:16:32,327 - INFO - 50 epoch training is finish!
+2021-02-15 19:16:32,724 - INFO - 50 epoch validation is 97.622!
+2021-02-15 19:16:36,041 - INFO - not find model, init variable random
+2021-02-15 19:16:36,041 - INFO - summary to the dir: /home/admin/Project/gmdata/datasets/models/gq/small_data/cor/summary/2021-02-15T19-16-36/
+2021-02-15 19:16:36,809 - INFO - 0 epoch validation is 36.837!
+2021-02-15 19:16:36,810 - INFO - 1 epoch training is start!
+2021-02-15 19:16:38,695 - DEBUG - step: 100, mean_loss: nan, mean_acc: 0.7097
+2021-02-15 19:16:40,246 - DEBUG - step: 200, mean_loss: nan, mean_acc: 0.6512
+2021-02-15 19:16:41,794 - DEBUG - step: 300, mean_loss: nan, mean_acc: 0.7419
+2021-02-15 19:16:43,341 - DEBUG - step: 400, mean_loss: nan, mean_acc: 0.7955
+2021-02-15 19:16:44,789 - DEBUG - step: 500, mean_loss: nan, mean_acc: 0.8139
+2021-02-15 19:16:45,797 - INFO - 1 epoch training is finish!
+2021-02-15 19:16:46,165 - INFO - 1 epoch validation is 78.525!
+2021-02-15 19:16:46,315 - INFO - 2 epoch training is start!
+2021-02-15 19:16:47,060 - DEBUG - step: 600, mean_loss: nan, mean_acc: 0.8173
+2021-02-15 19:16:48,608 - DEBUG - step: 700, mean_loss: nan, mean_acc: 0.8023
+2021-02-15 19:16:50,156 - DEBUG - step: 800, mean_loss: nan, mean_acc: 0.7919
+2021-02-15 19:16:51,704 - DEBUG - step: 900, mean_loss: nan, mean_acc: 0.8264
+2021-02-15 19:16:53,219 - DEBUG - step: 1000, mean_loss: nan, mean_acc: 0.8470
+2021-02-15 19:16:54,658 - DEBUG - step: 1100, mean_loss: nan, mean_acc: 0.8558
+2021-02-15 19:16:55,088 - INFO - 2 epoch training is finish!
+2021-02-15 19:16:55,455 - INFO - 2 epoch validation is 83.163!
+2021-02-15 19:16:55,573 - INFO - 3 epoch training is start!
+2021-02-15 19:16:56,853 - DEBUG - step: 1200, mean_loss: nan, mean_acc: 0.8481
+2021-02-15 19:16:58,396 - DEBUG - step: 1300, mean_loss: nan, mean_acc: 0.8175
+2021-02-15 19:16:59,937 - DEBUG - step: 1400, mean_loss: nan, mean_acc: 0.8331
+2021-02-15 19:17:01,479 - DEBUG - step: 1500, mean_loss: nan, mean_acc: 0.8603
+2021-02-15 19:17:02,959 - DEBUG - step: 1600, mean_loss: nan, mean_acc: 0.8778
+2021-02-15 19:17:04,324 - INFO - 3 epoch training is finish!
+2021-02-15 19:17:04,693 - INFO - 3 epoch validation is 84.988!
+2021-02-15 19:17:04,815 - INFO - 4 epoch training is start!
+2021-02-15 19:17:05,094 - DEBUG - step: 1700, mean_loss: nan, mean_acc: 0.8764
+2021-02-15 19:17:06,642 - DEBUG - step: 1800, mean_loss: nan, mean_acc: 0.8642
+2021-02-15 19:17:08,191 - DEBUG - step: 1900, mean_loss: nan, mean_acc: 0.8289
+2021-02-15 19:17:09,735 - DEBUG - step: 2000, mean_loss: nan, mean_acc: 0.8617
+2021-02-15 19:17:11,279 - DEBUG - step: 2100, mean_loss: nan, mean_acc: 0.8864
+2021-02-15 19:17:12,723 - DEBUG - step: 2200, mean_loss: nan, mean_acc: 0.8973
+2021-02-15 19:17:13,584 - INFO - 4 epoch training is finish!
+2021-02-15 19:17:13,941 - INFO - 4 epoch validation is 85.618!
+2021-02-15 19:17:14,071 - INFO - 5 epoch training is start!
+2021-02-15 19:17:14,884 - DEBUG - step: 2300, mean_loss: nan, mean_acc: 0.8908
+2021-02-15 19:17:16,431 - DEBUG - step: 2400, mean_loss: nan, mean_acc: 0.8609
+2021-02-15 19:17:17,978 - DEBUG - step: 2500, mean_loss: nan, mean_acc: 0.8617
+2021-02-15 19:17:19,519 - DEBUG - step: 2600, mean_loss: nan, mean_acc: 0.8862
+2021-02-15 19:17:21,036 - DEBUG - step: 2700, mean_loss: nan, mean_acc: 0.9011
+2021-02-15 19:17:22,475 - DEBUG - step: 2800, mean_loss: nan, mean_acc: 0.9000
+2021-02-15 19:17:22,834 - INFO - 5 epoch training is finish!
+2021-02-15 19:17:23,195 - INFO - 5 epoch validation is 86.535!
+2021-02-15 19:17:23,330 - INFO - 6 epoch training is start!
+2021-02-15 19:17:24,694 - DEBUG - step: 2900, mean_loss: nan, mean_acc: 0.9023
+2021-02-15 19:17:26,242 - DEBUG - step: 3000, mean_loss: nan, mean_acc: 0.8628
+2021-02-15 19:17:27,789 - DEBUG - step: 3100, mean_loss: nan, mean_acc: 0.8823
+2021-02-15 19:17:29,335 - DEBUG - step: 3200, mean_loss: nan, mean_acc: 0.8942
+2021-02-15 19:17:30,810 - DEBUG - step: 3300, mean_loss: nan, mean_acc: 0.9092
+2021-02-15 19:17:32,106 - INFO - 6 epoch training is finish!
+2021-02-15 19:17:32,470 - INFO - 6 epoch validation is 86.086!
+2021-02-15 19:17:32,605 - INFO - 7 epoch training is start!
+2021-02-15 19:17:32,958 - DEBUG - step: 3400, mean_loss: nan, mean_acc: 0.9062
+2021-02-15 19:17:34,508 - DEBUG - step: 3500, mean_loss: nan, mean_acc: 0.9067
+2021-02-15 19:17:36,055 - DEBUG - step: 3600, mean_loss: nan, mean_acc: 0.8728
+2021-02-15 19:17:37,599 - DEBUG - step: 3700, mean_loss: nan, mean_acc: 0.8962
+2021-02-15 19:17:39,145 - DEBUG - step: 3800, mean_loss: nan, mean_acc: 0.9214
+2021-02-15 19:17:40,584 - DEBUG - step: 3900, mean_loss: nan, mean_acc: 0.9177
+2021-02-15 19:17:41,372 - INFO - 7 epoch training is finish!
+2021-02-15 19:17:41,746 - INFO - 7 epoch validation is 87.174!
+2021-02-15 19:17:41,882 - INFO - 8 epoch training is start!
+2021-02-15 19:17:42,784 - DEBUG - step: 4000, mean_loss: nan, mean_acc: 0.9182
+2021-02-15 19:17:44,334 - DEBUG - step: 4100, mean_loss: nan, mean_acc: 0.9053
+2021-02-15 19:17:45,877 - DEBUG - step: 4200, mean_loss: nan, mean_acc: 0.9058
+2021-02-15 19:17:47,426 - DEBUG - step: 4300, mean_loss: nan, mean_acc: 0.9128
+2021-02-15 19:17:48,934 - DEBUG - step: 4400, mean_loss: nan, mean_acc: 0.9258
+2021-02-15 19:17:50,373 - DEBUG - step: 4500, mean_loss: nan, mean_acc: 0.9280
+2021-02-15 19:17:50,659 - INFO - 8 epoch training is finish!
+2021-02-15 19:17:51,023 - INFO - 8 epoch validation is 88.466!
+2021-02-15 19:17:51,153 - INFO - 9 epoch training is start!
+2021-02-15 19:17:52,585 - DEBUG - step: 4600, mean_loss: nan, mean_acc: 0.9360
+2021-02-15 19:17:54,130 - DEBUG - step: 4700, mean_loss: nan, mean_acc: 0.9077
+2021-02-15 19:17:55,679 - DEBUG - step: 4800, mean_loss: nan, mean_acc: 0.9184
+2021-02-15 19:17:57,224 - DEBUG - step: 4900, mean_loss: nan, mean_acc: 0.9316
+2021-02-15 19:17:58,692 - DEBUG - step: 5000, mean_loss: nan, mean_acc: 0.9378
+2021-02-15 19:17:59,914 - INFO - 9 epoch training is finish!
+2021-02-15 19:18:00,281 - INFO - 9 epoch validation is 88.411!
+2021-02-15 19:18:00,419 - INFO - 10 epoch training is start!
+2021-02-15 19:18:00,854 - DEBUG - step: 5100, mean_loss: nan, mean_acc: 0.9389
+2021-02-15 19:18:02,392 - DEBUG - step: 5200, mean_loss: nan, mean_acc: 0.9373
+2021-02-15 19:18:03,943 - DEBUG - step: 5300, mean_loss: nan, mean_acc: 0.9206
+2021-02-15 19:18:05,491 - DEBUG - step: 5400, mean_loss: nan, mean_acc: 0.9353
+2021-02-15 19:18:07,030 - DEBUG - step: 5500, mean_loss: nan, mean_acc: 0.9480
+2021-02-15 19:18:08,473 - DEBUG - step: 5600, mean_loss: nan, mean_acc: 0.9433
+2021-02-15 19:18:09,192 - INFO - 10 epoch training is finish!
+2021-02-15 19:18:09,555 - INFO - 10 epoch validation is 88.505!
+2021-02-15 19:18:09,688 - INFO - 11 epoch training is start!
+2021-02-15 19:18:10,657 - DEBUG - step: 5700, mean_loss: nan, mean_acc: 0.9479
+2021-02-15 19:18:12,198 - DEBUG - step: 5800, mean_loss: nan, mean_acc: 0.9397
+2021-02-15 19:18:13,742 - DEBUG - step: 5900, mean_loss: nan, mean_acc: 0.9377
+2021-02-15 19:18:15,283 - DEBUG - step: 6000, mean_loss: nan, mean_acc: 0.9423
+2021-02-15 19:18:16,783 - DEBUG - step: 6100, mean_loss: nan, mean_acc: 0.9520
+2021-02-15 19:18:18,225 - DEBUG - step: 6200, mean_loss: nan, mean_acc: 0.9561
+2021-02-15 19:18:18,440 - INFO - 11 epoch training is finish!
+2021-02-15 19:18:18,807 - INFO - 11 epoch validation is 89.740!
+2021-02-15 19:18:18,947 - INFO - 12 epoch training is start!
+2021-02-15 19:18:20,461 - DEBUG - step: 6300, mean_loss: nan, mean_acc: 0.9629
+2021-02-15 19:18:22,009 - DEBUG - step: 6400, mean_loss: nan, mean_acc: 0.9425
+2021-02-15 19:18:23,552 - DEBUG - step: 6500, mean_loss: nan, mean_acc: 0.9541
+2021-02-15 19:18:25,098 - DEBUG - step: 6600, mean_loss: nan, mean_acc: 0.9573
+2021-02-15 19:18:26,562 - DEBUG - step: 6700, mean_loss: nan, mean_acc: 0.9622
+2021-02-15 19:18:27,711 - INFO - 12 epoch training is finish!
+2021-02-15 19:18:28,075 - INFO - 12 epoch validation is 89.770!
+2021-02-15 19:18:28,204 - INFO - 13 epoch training is start!
+2021-02-15 19:18:28,711 - DEBUG - step: 6800, mean_loss: nan, mean_acc: 0.9633
+2021-02-15 19:18:30,259 - DEBUG - step: 6900, mean_loss: nan, mean_acc: 0.9661
+2021-02-15 19:18:31,806 - DEBUG - step: 7000, mean_loss: nan, mean_acc: 0.9573
+2021-02-15 19:18:33,349 - DEBUG - step: 7100, mean_loss: nan, mean_acc: 0.9603
+2021-02-15 19:18:34,881 - DEBUG - step: 7200, mean_loss: nan, mean_acc: 0.9719
+2021-02-15 19:18:36,319 - DEBUG - step: 7300, mean_loss: nan, mean_acc: 0.9730
+2021-02-15 19:18:36,966 - INFO - 13 epoch training is finish!
+2021-02-15 19:18:37,329 - INFO - 13 epoch validation is 89.351!
+2021-02-15 19:18:37,464 - INFO - 14 epoch training is start!
+2021-02-15 19:18:38,509 - DEBUG - step: 7400, mean_loss: nan, mean_acc: 0.9769
+2021-02-15 19:18:40,056 - DEBUG - step: 7500, mean_loss: nan, mean_acc: 0.9675
+2021-02-15 19:18:41,603 - DEBUG - step: 7600, mean_loss: nan, mean_acc: 0.9672
+2021-02-15 19:18:43,146 - DEBUG - step: 7700, mean_loss: nan, mean_acc: 0.9691
+2021-02-15 19:18:44,641 - DEBUG - step: 7800, mean_loss: nan, mean_acc: 0.9759
+2021-02-15 19:18:46,084 - DEBUG - step: 7900, mean_loss: nan, mean_acc: 0.9783
+2021-02-15 19:18:46,225 - INFO - 14 epoch training is finish!
+2021-02-15 19:18:46,591 - INFO - 14 epoch validation is 89.245!
+2021-02-15 19:18:46,733 - INFO - 15 epoch training is start!
+2021-02-15 19:18:48,326 - DEBUG - step: 8000, mean_loss: nan, mean_acc: 0.9723
+2021-02-15 19:18:49,868 - DEBUG - step: 8100, mean_loss: nan, mean_acc: 0.9719
+2021-02-15 19:18:51,414 - DEBUG - step: 8200, mean_loss: nan, mean_acc: 0.9752
+2021-02-15 19:18:52,960 - DEBUG - step: 8300, mean_loss: nan, mean_acc: 0.9845
+2021-02-15 19:18:54,417 - DEBUG - step: 8400, mean_loss: nan, mean_acc: 0.9806
+2021-02-15 19:18:55,497 - INFO - 15 epoch training is finish!
+2021-02-15 19:18:55,861 - INFO - 15 epoch validation is 89.559!
+2021-02-15 19:18:55,994 - INFO - 16 epoch training is start!
+2021-02-15 19:18:56,580 - DEBUG - step: 8500, mean_loss: nan, mean_acc: 0.9823
+2021-02-15 19:18:58,125 - DEBUG - step: 8600, mean_loss: nan, mean_acc: 0.9814
+2021-02-15 19:18:59,671 - DEBUG - step: 8700, mean_loss: nan, mean_acc: 0.9761
+2021-02-15 19:19:01,219 - DEBUG - step: 8800, mean_loss: nan, mean_acc: 0.9809
+2021-02-15 19:19:02,745 - DEBUG - step: 8900, mean_loss: nan, mean_acc: 0.9842
+2021-02-15 19:19:04,188 - DEBUG - step: 9000, mean_loss: nan, mean_acc: 0.9883
+2021-02-15 19:19:04,762 - INFO - 16 epoch training is finish!
+2021-02-15 19:19:05,126 - INFO - 16 epoch validation is 90.052!
+2021-02-15 19:19:05,258 - INFO - 17 epoch training is start!
+2021-02-15 19:19:06,388 - DEBUG - step: 9100, mean_loss: nan, mean_acc: 0.9895
+2021-02-15 19:19:07,934 - DEBUG - step: 9200, mean_loss: nan, mean_acc: 0.9800
+2021-02-15 19:19:09,483 - DEBUG - step: 9300, mean_loss: nan, mean_acc: 0.9845
+2021-02-15 19:19:11,025 - DEBUG - step: 9400, mean_loss: nan, mean_acc: 0.9836
+2021-02-15 19:19:12,513 - DEBUG - step: 9500, mean_loss: nan, mean_acc: 0.9852
+2021-02-15 19:19:13,957 - DEBUG - step: 9600, mean_loss: nan, mean_acc: 0.9889
+2021-02-15 19:19:14,027 - INFO - 17 epoch training is finish!
+2021-02-15 19:19:14,390 - INFO - 17 epoch validation is 89.779!
+2021-02-15 19:19:14,541 - INFO - 18 epoch training is start!
+2021-02-15 19:19:16,208 - DEBUG - step: 9700, mean_loss: nan, mean_acc: 0.9891
+2021-02-15 19:19:17,755 - DEBUG - step: 9800, mean_loss: nan, mean_acc: 0.9880
+2021-02-15 19:19:19,305 - DEBUG - step: 9900, mean_loss: nan, mean_acc: 0.9848
+2021-02-15 19:19:20,849 - DEBUG - step: 10000, mean_loss: nan, mean_acc: 0.9872
+2021-02-15 19:19:22,305 - DEBUG - step: 10100, mean_loss: nan, mean_acc: 0.9889
+2021-02-15 19:19:23,310 - INFO - 18 epoch training is finish!
+2021-02-15 19:19:23,667 - INFO - 18 epoch validation is 89.635!
+2021-02-15 19:19:23,811 - INFO - 19 epoch training is start!
+2021-02-15 19:19:24,470 - DEBUG - step: 10200, mean_loss: nan, mean_acc: 0.9871
+2021-02-15 19:19:26,015 - DEBUG - step: 10300, mean_loss: nan, mean_acc: 0.9941
+2021-02-15 19:19:27,571 - DEBUG - step: 10400, mean_loss: nan, mean_acc: 0.9898
+2021-02-15 19:19:29,113 - DEBUG - step: 10500, mean_loss: nan, mean_acc: 0.9900
+2021-02-15 19:19:30,638 - DEBUG - step: 10600, mean_loss: nan, mean_acc: 0.9909
+2021-02-15 19:19:32,078 - DEBUG - step: 10700, mean_loss: nan, mean_acc: 0.9939
+2021-02-15 19:19:32,582 - INFO - 19 epoch training is finish!
+2021-02-15 19:19:32,964 - INFO - 19 epoch validation is 90.366!
+2021-02-15 19:19:33,099 - INFO - 20 epoch training is start!
+2021-02-15 19:19:34,303 - DEBUG - step: 10800, mean_loss: nan, mean_acc: 0.9958
+2021-02-15 19:19:35,853 - DEBUG - step: 10900, mean_loss: nan, mean_acc: 0.9938
+2021-02-15 19:19:37,394 - DEBUG - step: 11000, mean_loss: nan, mean_acc: 0.9916
+2021-02-15 19:19:38,941 - DEBUG - step: 11100, mean_loss: nan, mean_acc: 0.9934
+2021-02-15 19:19:40,429 - DEBUG - step: 11200, mean_loss: nan, mean_acc: 0.9958
+2021-02-15 19:19:41,866 - DEBUG - step: 11300, mean_loss: nan, mean_acc: 0.9956
+2021-02-15 19:19:41,867 - INFO - 20 epoch training is finish!
+2021-02-15 19:19:42,225 - INFO - 20 epoch validation is 90.421!
+2021-02-15 19:19:42,361 - INFO - 21 epoch training is start!
+2021-02-15 19:19:44,107 - DEBUG - step: 11400, mean_loss: nan, mean_acc: 0.9959
+2021-02-15 19:19:45,650 - DEBUG - step: 11500, mean_loss: nan, mean_acc: 0.9922
+2021-02-15 19:19:47,195 - DEBUG - step: 11600, mean_loss: nan, mean_acc: 0.9941
+2021-02-15 19:19:48,740 - DEBUG - step: 11700, mean_loss: nan, mean_acc: 0.9942
+2021-02-15 19:19:50,189 - DEBUG - step: 11800, mean_loss: nan, mean_acc: 0.9966
+2021-02-15 19:19:51,126 - INFO - 21 epoch training is finish!
+2021-02-15 19:19:51,486 - INFO - 21 epoch validation is 90.931!
+2021-02-15 19:19:51,618 - INFO - 22 epoch training is start!
+2021-02-15 19:19:52,357 - DEBUG - step: 11900, mean_loss: nan, mean_acc: 0.9961
+2021-02-15 19:19:53,901 - DEBUG - step: 12000, mean_loss: nan, mean_acc: 0.9967
+2021-02-15 19:19:55,445 - DEBUG - step: 12100, mean_loss: nan, mean_acc: 0.9955
+2021-02-15 19:19:56,987 - DEBUG - step: 12200, mean_loss: nan, mean_acc: 0.9959
+2021-02-15 19:19:58,504 - DEBUG - step: 12300, mean_loss: nan, mean_acc: 0.9972
+2021-02-15 19:19:59,948 - DEBUG - step: 12400, mean_loss: nan, mean_acc: 0.9964
+2021-02-15 19:20:00,378 - INFO - 22 epoch training is finish!
+2021-02-15 19:20:00,741 - INFO - 22 epoch validation is 89.885!
+2021-02-15 19:20:00,886 - INFO - 23 epoch training is start!
+2021-02-15 19:20:02,168 - DEBUG - step: 12500, mean_loss: nan, mean_acc: 0.9973
+2021-02-15 19:20:03,712 - DEBUG - step: 12600, mean_loss: nan, mean_acc: 0.9956
+2021-02-15 19:20:05,260 - DEBUG - step: 12700, mean_loss: nan, mean_acc: 0.9975
+2021-02-15 19:20:06,807 - DEBUG - step: 12800, mean_loss: nan, mean_acc: 0.9977
+2021-02-15 19:20:08,288 - DEBUG - step: 12900, mean_loss: nan, mean_acc: 0.9984
+2021-02-15 19:20:09,657 - INFO - 23 epoch training is finish!
+2021-02-15 19:20:10,024 - INFO - 23 epoch validation is 90.450!
+2021-02-15 19:20:10,163 - INFO - 24 epoch training is start!
+2021-02-15 19:20:10,441 - DEBUG - step: 13000, mean_loss: nan, mean_acc: 0.9983
+2021-02-15 19:20:11,993 - DEBUG - step: 13100, mean_loss: nan, mean_acc: 0.9978
+2021-02-15 19:20:13,537 - DEBUG - step: 13200, mean_loss: nan, mean_acc: 0.9991
+2021-02-15 19:20:15,085 - DEBUG - step: 13300, mean_loss: nan, mean_acc: 0.9984
+2021-02-15 19:20:16,630 - DEBUG - step: 13400, mean_loss: nan, mean_acc: 0.9981
+2021-02-15 19:20:18,075 - DEBUG - step: 13500, mean_loss: nan, mean_acc: 0.9986
+2021-02-15 19:20:18,937 - INFO - 24 epoch training is finish!
+2021-02-15 19:20:19,296 - INFO - 24 epoch validation is 89.830!
+2021-02-15 19:20:19,432 - INFO - 25 epoch training is start!
+2021-02-15 19:20:20,254 - DEBUG - step: 13600, mean_loss: nan, mean_acc: 0.9977
+2021-02-15 19:20:21,801 - DEBUG - step: 13700, mean_loss: nan, mean_acc: 0.9984
+2021-02-15 19:20:23,347 - DEBUG - step: 13800, mean_loss: nan, mean_acc: 0.9970
+2021-02-15 19:20:24,890 - DEBUG - step: 13900, mean_loss: nan, mean_acc: 0.9978
+2021-02-15 19:20:26,402 - DEBUG - step: 14000, mean_loss: nan, mean_acc: 0.9983
+2021-02-15 19:20:27,842 - DEBUG - step: 14100, mean_loss: nan, mean_acc: 0.9991
+2021-02-15 19:20:28,199 - INFO - 25 epoch training is finish!
+2021-02-15 19:20:28,562 - INFO - 25 epoch validation is 90.395!
+2021-02-15 19:20:28,702 - INFO - 26 epoch training is start!
+2021-02-15 19:20:30,063 - DEBUG - step: 14200, mean_loss: nan, mean_acc: 0.9992
+2021-02-15 19:20:31,614 - DEBUG - step: 14300, mean_loss: nan, mean_acc: 0.9977
+2021-02-15 19:20:33,160 - DEBUG - step: 14400, mean_loss: nan, mean_acc: 0.9986
+2021-02-15 19:20:34,702 - DEBUG - step: 14500, mean_loss: nan, mean_acc: 0.9992
+2021-02-15 19:20:36,181 - DEBUG - step: 14600, mean_loss: nan, mean_acc: 0.9994
+2021-02-15 19:20:37,473 - INFO - 26 epoch training is finish!
+2021-02-15 19:20:37,836 - INFO - 26 epoch validation is 90.244!
+2021-02-15 19:20:37,969 - INFO - 27 epoch training is start!
+2021-02-15 19:20:38,327 - DEBUG - step: 14700, mean_loss: nan, mean_acc: 0.9992
+2021-02-15 19:20:39,873 - DEBUG - step: 14800, mean_loss: nan, mean_acc: 0.9995
+2021-02-15 19:20:41,420 - DEBUG - step: 14900, mean_loss: nan, mean_acc: 0.9991
+2021-02-15 19:20:42,967 - DEBUG - step: 15000, mean_loss: nan, mean_acc: 0.9986
+2021-02-15 19:20:44,512 - DEBUG - step: 15100, mean_loss: nan, mean_acc: 0.9995
+2021-02-15 19:20:45,948 - DEBUG - step: 15200, mean_loss: nan, mean_acc: 0.9992
+2021-02-15 19:20:46,739 - INFO - 27 epoch training is finish!
+2021-02-15 19:20:47,107 - INFO - 27 epoch validation is 90.299!
+2021-02-15 19:20:47,236 - INFO - 28 epoch training is start!
+2021-02-15 19:20:48,133 - DEBUG - step: 15300, mean_loss: nan, mean_acc: 0.9988
+2021-02-15 19:20:49,682 - DEBUG - step: 15400, mean_loss: nan, mean_acc: 0.9994
+2021-02-15 19:20:51,228 - DEBUG - step: 15500, mean_loss: nan, mean_acc: 0.9997
+2021-02-15 19:20:52,777 - DEBUG - step: 15600, mean_loss: nan, mean_acc: 0.9995
+2021-02-15 19:20:54,285 - DEBUG - step: 15700, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:20:55,726 - DEBUG - step: 15800, mean_loss: nan, mean_acc: 0.9992
+2021-02-15 19:20:56,012 - INFO - 28 epoch training is finish!
+2021-02-15 19:20:56,374 - INFO - 28 epoch validation is 90.663!
+2021-02-15 19:20:56,504 - INFO - 29 epoch training is start!
+2021-02-15 19:20:57,948 - DEBUG - step: 15900, mean_loss: nan, mean_acc: 0.9994
+2021-02-15 19:20:59,494 - DEBUG - step: 16000, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:21:01,039 - DEBUG - step: 16100, mean_loss: nan, mean_acc: 0.9997
+2021-02-15 19:21:02,584 - DEBUG - step: 16200, mean_loss: nan, mean_acc: 0.9997
+2021-02-15 19:21:04,053 - DEBUG - step: 16300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:21:05,275 - INFO - 29 epoch training is finish!
+2021-02-15 19:21:05,635 - INFO - 29 epoch validation is 90.329!
+2021-02-15 19:21:05,774 - INFO - 30 epoch training is start!
+2021-02-15 19:21:06,202 - DEBUG - step: 16400, mean_loss: nan, mean_acc: 0.9994
+2021-02-15 19:21:07,747 - DEBUG - step: 16500, mean_loss: nan, mean_acc: 0.9995
+2021-02-15 19:21:09,295 - DEBUG - step: 16600, mean_loss: nan, mean_acc: 0.9995
+2021-02-15 19:21:10,842 - DEBUG - step: 16700, mean_loss: nan, mean_acc: 0.9994
+2021-02-15 19:21:12,378 - DEBUG - step: 16800, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:21:13,818 - DEBUG - step: 16900, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:21:14,536 - INFO - 30 epoch training is finish!
+2021-02-15 19:21:14,899 - INFO - 30 epoch validation is 90.224!
+2021-02-15 19:21:15,037 - INFO - 31 epoch training is start!
+2021-02-15 19:21:16,020 - DEBUG - step: 17000, mean_loss: nan, mean_acc: 0.9997
+2021-02-15 19:21:17,563 - DEBUG - step: 17100, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:21:19,109 - DEBUG - step: 17200, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:21:20,654 - DEBUG - step: 17300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:21:22,155 - DEBUG - step: 17400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:21:23,596 - DEBUG - step: 17500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:21:23,810 - INFO - 31 epoch training is finish!
+2021-02-15 19:21:24,173 - INFO - 31 epoch validation is 90.244!
+2021-02-15 19:21:24,309 - INFO - 32 epoch training is start!
+2021-02-15 19:21:25,826 - DEBUG - step: 17600, mean_loss: nan, mean_acc: 0.9997
+2021-02-15 19:21:27,374 - DEBUG - step: 17700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:21:28,918 - DEBUG - step: 17800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:21:30,462 - DEBUG - step: 17900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:21:31,927 - DEBUG - step: 18000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:21:33,074 - INFO - 32 epoch training is finish!
+2021-02-15 19:21:33,432 - INFO - 32 epoch validation is 90.336!
+2021-02-15 19:21:33,568 - INFO - 33 epoch training is start!
+2021-02-15 19:21:34,084 - DEBUG - step: 18100, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:21:35,627 - DEBUG - step: 18200, mean_loss: nan, mean_acc: 0.9997
+2021-02-15 19:21:37,171 - DEBUG - step: 18300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:21:38,715 - DEBUG - step: 18400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:21:40,247 - DEBUG - step: 18500, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:21:41,686 - DEBUG - step: 18600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:21:42,333 - INFO - 33 epoch training is finish!
+2021-02-15 19:21:42,690 - INFO - 33 epoch validation is 90.370!
+2021-02-15 19:21:42,817 - INFO - 34 epoch training is start!
+2021-02-15 19:21:43,858 - DEBUG - step: 18700, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:21:45,405 - DEBUG - step: 18800, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:21:46,955 - DEBUG - step: 18900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:21:48,505 - DEBUG - step: 19000, mean_loss: nan, mean_acc: 0.9997
+2021-02-15 19:21:50,003 - DEBUG - step: 19100, mean_loss: nan, mean_acc: 0.9995
+2021-02-15 19:21:51,441 - DEBUG - step: 19200, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:21:51,583 - INFO - 34 epoch training is finish!
+2021-02-15 19:21:51,943 - INFO - 34 epoch validation is 90.281!
+2021-02-15 19:21:52,076 - INFO - 35 epoch training is start!
+2021-02-15 19:21:53,667 - DEBUG - step: 19300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:21:55,212 - DEBUG - step: 19400, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:21:56,757 - DEBUG - step: 19500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:21:58,301 - DEBUG - step: 19600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:21:59,758 - DEBUG - step: 19700, mean_loss: nan, mean_acc: 0.9997
+2021-02-15 19:22:00,838 - INFO - 35 epoch training is finish!
+2021-02-15 19:22:01,202 - INFO - 35 epoch validation is 90.338!
+2021-02-15 19:22:01,339 - INFO - 36 epoch training is start!
+2021-02-15 19:22:01,929 - DEBUG - step: 19800, mean_loss: nan, mean_acc: 0.9997
+2021-02-15 19:22:03,478 - DEBUG - step: 19900, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:22:05,027 - DEBUG - step: 20000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:06,579 - DEBUG - step: 20100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:08,103 - DEBUG - step: 20200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:09,545 - DEBUG - step: 20300, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:22:10,118 - INFO - 36 epoch training is finish!
+2021-02-15 19:22:10,481 - INFO - 36 epoch validation is 90.249!
+2021-02-15 19:22:10,616 - INFO - 37 epoch training is start!
+2021-02-15 19:22:11,751 - DEBUG - step: 20400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:13,299 - DEBUG - step: 20500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:14,846 - DEBUG - step: 20600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:16,395 - DEBUG - step: 20700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:17,889 - DEBUG - step: 20800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:19,332 - DEBUG - step: 20900, mean_loss: nan, mean_acc: 0.9995
+2021-02-15 19:22:19,403 - INFO - 37 epoch training is finish!
+2021-02-15 19:22:19,767 - INFO - 37 epoch validation is 90.072!
+2021-02-15 19:22:19,902 - INFO - 38 epoch training is start!
+2021-02-15 19:22:21,574 - DEBUG - step: 21000, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:22:23,119 - DEBUG - step: 21100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:24,666 - DEBUG - step: 21200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:26,210 - DEBUG - step: 21300, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:22:27,665 - DEBUG - step: 21400, mean_loss: nan, mean_acc: 0.9997
+2021-02-15 19:22:28,674 - INFO - 38 epoch training is finish!
+2021-02-15 19:22:29,044 - INFO - 38 epoch validation is 90.304!
+2021-02-15 19:22:29,182 - INFO - 39 epoch training is start!
+2021-02-15 19:22:29,847 - DEBUG - step: 21500, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:22:31,392 - DEBUG - step: 21600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:32,939 - DEBUG - step: 21700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:34,488 - DEBUG - step: 21800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:36,012 - DEBUG - step: 21900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:37,452 - DEBUG - step: 22000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:37,955 - INFO - 39 epoch training is finish!
+2021-02-15 19:22:38,323 - INFO - 39 epoch validation is 90.354!
+2021-02-15 19:22:38,456 - INFO - 40 epoch training is start!
+2021-02-15 19:22:39,663 - DEBUG - step: 22100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:41,212 - DEBUG - step: 22200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:42,761 - DEBUG - step: 22300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:44,307 - DEBUG - step: 22400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:45,794 - DEBUG - step: 22500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:47,233 - DEBUG - step: 22600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:47,234 - INFO - 40 epoch training is finish!
+2021-02-15 19:22:47,607 - INFO - 40 epoch validation is 90.439!
+2021-02-15 19:22:47,733 - INFO - 41 epoch training is start!
+2021-02-15 19:22:49,472 - DEBUG - step: 22700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:51,018 - DEBUG - step: 22800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:52,564 - DEBUG - step: 22900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:54,109 - DEBUG - step: 23000, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:22:55,557 - DEBUG - step: 23100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:56,489 - INFO - 41 epoch training is finish!
+2021-02-15 19:22:56,856 - INFO - 41 epoch validation is 90.254!
+2021-02-15 19:22:56,988 - INFO - 42 epoch training is start!
+2021-02-15 19:22:57,727 - DEBUG - step: 23200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:22:59,276 - DEBUG - step: 23300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:00,827 - DEBUG - step: 23400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:02,372 - DEBUG - step: 23500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:03,892 - DEBUG - step: 23600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:05,336 - DEBUG - step: 23700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:05,766 - INFO - 42 epoch training is finish!
+2021-02-15 19:23:06,136 - INFO - 42 epoch validation is 90.295!
+2021-02-15 19:23:06,270 - INFO - 43 epoch training is start!
+2021-02-15 19:23:07,556 - DEBUG - step: 23800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:09,105 - DEBUG - step: 23900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:10,652 - DEBUG - step: 24000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:12,197 - DEBUG - step: 24100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:13,677 - DEBUG - step: 24200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:15,045 - INFO - 43 epoch training is finish!
+2021-02-15 19:23:15,410 - INFO - 43 epoch validation is 90.290!
+2021-02-15 19:23:15,543 - INFO - 44 epoch training is start!
+2021-02-15 19:23:15,813 - DEBUG - step: 24300, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:23:17,361 - DEBUG - step: 24400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:18,906 - DEBUG - step: 24500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:20,450 - DEBUG - step: 24600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:21,993 - DEBUG - step: 24700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:23,439 - DEBUG - step: 24800, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:23:24,301 - INFO - 44 epoch training is finish!
+2021-02-15 19:23:24,669 - INFO - 44 epoch validation is 90.315!
+2021-02-15 19:23:24,805 - INFO - 45 epoch training is start!
+2021-02-15 19:23:25,624 - DEBUG - step: 24900, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:23:27,172 - DEBUG - step: 25000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:28,721 - DEBUG - step: 25100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:30,268 - DEBUG - step: 25200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:31,779 - DEBUG - step: 25300, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:23:33,224 - DEBUG - step: 25400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:33,583 - INFO - 45 epoch training is finish!
+2021-02-15 19:23:33,949 - INFO - 45 epoch validation is 90.299!
+2021-02-15 19:23:34,089 - INFO - 46 epoch training is start!
+2021-02-15 19:23:35,454 - DEBUG - step: 25500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:37,001 - DEBUG - step: 25600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:38,548 - DEBUG - step: 25700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:40,093 - DEBUG - step: 25800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:41,570 - DEBUG - step: 25900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:42,865 - INFO - 46 epoch training is finish!
+2021-02-15 19:23:43,236 - INFO - 46 epoch validation is 90.265!
+2021-02-15 19:23:43,373 - INFO - 47 epoch training is start!
+2021-02-15 19:23:43,727 - DEBUG - step: 26000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:45,273 - DEBUG - step: 26100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:46,824 - DEBUG - step: 26200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:48,369 - DEBUG - step: 26300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:49,913 - DEBUG - step: 26400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:51,357 - DEBUG - step: 26500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:52,147 - INFO - 47 epoch training is finish!
+2021-02-15 19:23:52,509 - INFO - 47 epoch validation is 90.373!
+2021-02-15 19:23:52,655 - INFO - 48 epoch training is start!
+2021-02-15 19:23:53,558 - DEBUG - step: 26600, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:23:55,102 - DEBUG - step: 26700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:56,648 - DEBUG - step: 26800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:58,196 - DEBUG - step: 26900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:23:59,703 - DEBUG - step: 27000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:24:01,147 - DEBUG - step: 27100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:24:01,433 - INFO - 48 epoch training is finish!
+2021-02-15 19:24:01,795 - INFO - 48 epoch validation is 90.320!
+2021-02-15 19:24:01,934 - INFO - 49 epoch training is start!
+2021-02-15 19:24:03,369 - DEBUG - step: 27200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:24:04,926 - DEBUG - step: 27300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:24:06,471 - DEBUG - step: 27400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:24:08,015 - DEBUG - step: 27500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:24:09,487 - DEBUG - step: 27600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:24:10,708 - INFO - 49 epoch training is finish!
+2021-02-15 19:24:11,081 - INFO - 49 epoch validation is 90.269!
+2021-02-15 19:24:11,219 - INFO - 50 epoch training is start!
+2021-02-15 19:24:11,647 - DEBUG - step: 27700, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:24:13,192 - DEBUG - step: 27800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:24:14,739 - DEBUG - step: 27900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:24:16,283 - DEBUG - step: 28000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:24:17,824 - DEBUG - step: 28100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:24:19,265 - DEBUG - step: 28200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:24:19,983 - INFO - 50 epoch training is finish!
+2021-02-15 19:24:20,351 - INFO - 50 epoch validation is 90.290!
+2021-02-15 19:24:23,585 - INFO - not find model, init variable random
+2021-02-15 19:24:23,585 - INFO - summary to the dir: /home/admin/Project/gmdata/datasets/models/gq/small_data/jaq/summary/2021-02-15T19-24-23/
+2021-02-15 19:24:24,289 - INFO - 0 epoch validation is 43.525!
+2021-02-15 19:24:24,289 - INFO - 1 epoch training is start!
+2021-02-15 19:24:26,167 - DEBUG - step: 100, mean_loss: nan, mean_acc: 0.7863
+2021-02-15 19:24:27,716 - DEBUG - step: 200, mean_loss: nan, mean_acc: 0.8577
+2021-02-15 19:24:29,268 - DEBUG - step: 300, mean_loss: nan, mean_acc: 0.9152
+2021-02-15 19:24:30,818 - DEBUG - step: 400, mean_loss: nan, mean_acc: 0.9189
+2021-02-15 19:24:32,268 - DEBUG - step: 500, mean_loss: nan, mean_acc: 0.9236
+2021-02-15 19:24:33,243 - INFO - 1 epoch training is finish!
+2021-02-15 19:24:33,618 - INFO - 1 epoch validation is 93.468!
+2021-02-15 19:24:33,754 - INFO - 2 epoch training is start!
+2021-02-15 19:24:34,520 - DEBUG - step: 600, mean_loss: nan, mean_acc: 0.9333
+2021-02-15 19:24:36,072 - DEBUG - step: 700, mean_loss: nan, mean_acc: 0.9466
+2021-02-15 19:24:37,616 - DEBUG - step: 800, mean_loss: nan, mean_acc: 0.9458
+2021-02-15 19:24:39,164 - DEBUG - step: 900, mean_loss: nan, mean_acc: 0.9387
+2021-02-15 19:24:40,676 - DEBUG - step: 1000, mean_loss: nan, mean_acc: 0.9464
+2021-02-15 19:24:42,115 - DEBUG - step: 1100, mean_loss: nan, mean_acc: 0.9466
+2021-02-15 19:24:42,513 - INFO - 2 epoch training is finish!
+2021-02-15 19:24:42,883 - INFO - 2 epoch validation is 94.494!
+2021-02-15 19:24:43,004 - INFO - 3 epoch training is start!
+2021-02-15 19:24:44,319 - DEBUG - step: 1200, mean_loss: nan, mean_acc: 0.9634
+2021-02-15 19:24:45,862 - DEBUG - step: 1300, mean_loss: nan, mean_acc: 0.9563
+2021-02-15 19:24:47,405 - DEBUG - step: 1400, mean_loss: nan, mean_acc: 0.9622
+2021-02-15 19:24:48,948 - DEBUG - step: 1500, mean_loss: nan, mean_acc: 0.9609
+2021-02-15 19:24:50,417 - DEBUG - step: 1600, mean_loss: nan, mean_acc: 0.9633
+2021-02-15 19:24:51,736 - INFO - 3 epoch training is finish!
+2021-02-15 19:24:52,109 - INFO - 3 epoch validation is 96.023!
+2021-02-15 19:24:52,239 - INFO - 4 epoch training is start!
+2021-02-15 19:24:52,563 - DEBUG - step: 1700, mean_loss: nan, mean_acc: 0.9613
+2021-02-15 19:24:54,109 - DEBUG - step: 1800, mean_loss: nan, mean_acc: 0.9700
+2021-02-15 19:24:55,660 - DEBUG - step: 1900, mean_loss: nan, mean_acc: 0.9691
+2021-02-15 19:24:57,209 - DEBUG - step: 2000, mean_loss: nan, mean_acc: 0.9750
+2021-02-15 19:24:58,751 - DEBUG - step: 2100, mean_loss: nan, mean_acc: 0.9703
+2021-02-15 19:25:00,190 - DEBUG - step: 2200, mean_loss: nan, mean_acc: 0.9708
+2021-02-15 19:25:00,993 - INFO - 4 epoch training is finish!
+2021-02-15 19:25:01,363 - INFO - 4 epoch validation is 96.246!
+2021-02-15 19:25:01,510 - INFO - 5 epoch training is start!
+2021-02-15 19:25:02,395 - DEBUG - step: 2300, mean_loss: nan, mean_acc: 0.9714
+2021-02-15 19:25:03,940 - DEBUG - step: 2400, mean_loss: nan, mean_acc: 0.9788
+2021-02-15 19:25:05,493 - DEBUG - step: 2500, mean_loss: nan, mean_acc: 0.9798
+2021-02-15 19:25:07,041 - DEBUG - step: 2600, mean_loss: nan, mean_acc: 0.9756
+2021-02-15 19:25:08,546 - DEBUG - step: 2700, mean_loss: nan, mean_acc: 0.9752
+2021-02-15 19:25:09,985 - DEBUG - step: 2800, mean_loss: nan, mean_acc: 0.9773
+2021-02-15 19:25:10,270 - INFO - 5 epoch training is finish!
+2021-02-15 19:25:10,638 - INFO - 5 epoch validation is 96.045!
+2021-02-15 19:25:10,772 - INFO - 6 epoch training is start!
+2021-02-15 19:25:12,210 - DEBUG - step: 2900, mean_loss: nan, mean_acc: 0.9814
+2021-02-15 19:25:13,755 - DEBUG - step: 3000, mean_loss: nan, mean_acc: 0.9834
+2021-02-15 19:25:15,298 - DEBUG - step: 3100, mean_loss: nan, mean_acc: 0.9839
+2021-02-15 19:25:16,843 - DEBUG - step: 3200, mean_loss: nan, mean_acc: 0.9775
+2021-02-15 19:25:18,308 - DEBUG - step: 3300, mean_loss: nan, mean_acc: 0.9811
+2021-02-15 19:25:19,516 - INFO - 6 epoch training is finish!
+2021-02-15 19:25:19,888 - INFO - 6 epoch validation is 96.776!
+2021-02-15 19:25:20,020 - INFO - 7 epoch training is start!
+2021-02-15 19:25:20,467 - DEBUG - step: 3400, mean_loss: nan, mean_acc: 0.9820
+2021-02-15 19:25:22,013 - DEBUG - step: 3500, mean_loss: nan, mean_acc: 0.9870
+2021-02-15 19:25:23,554 - DEBUG - step: 3600, mean_loss: nan, mean_acc: 0.9902
+2021-02-15 19:25:25,097 - DEBUG - step: 3700, mean_loss: nan, mean_acc: 0.9711
+2021-02-15 19:25:26,628 - DEBUG - step: 3800, mean_loss: nan, mean_acc: 0.9772
+2021-02-15 19:25:28,072 - DEBUG - step: 3900, mean_loss: nan, mean_acc: 0.9827
+2021-02-15 19:25:28,761 - INFO - 7 epoch training is finish!
+2021-02-15 19:25:29,131 - INFO - 7 epoch validation is 95.549!
+2021-02-15 19:25:29,263 - INFO - 8 epoch training is start!
+2021-02-15 19:25:30,268 - DEBUG - step: 4000, mean_loss: nan, mean_acc: 0.9822
+2021-02-15 19:25:31,814 - DEBUG - step: 4100, mean_loss: nan, mean_acc: 0.9853
+2021-02-15 19:25:33,359 - DEBUG - step: 4200, mean_loss: nan, mean_acc: 0.9850
+2021-02-15 19:25:34,905 - DEBUG - step: 4300, mean_loss: nan, mean_acc: 0.9880
+2021-02-15 19:25:36,403 - DEBUG - step: 4400, mean_loss: nan, mean_acc: 0.9808
+2021-02-15 19:25:37,843 - DEBUG - step: 4500, mean_loss: nan, mean_acc: 0.9873
+2021-02-15 19:25:38,012 - INFO - 8 epoch training is finish!
+2021-02-15 19:25:38,381 - INFO - 8 epoch validation is 96.505!
+2021-02-15 19:25:38,518 - INFO - 9 epoch training is start!
+2021-02-15 19:25:40,073 - DEBUG - step: 4600, mean_loss: nan, mean_acc: 0.9911
+2021-02-15 19:25:41,616 - DEBUG - step: 4700, mean_loss: nan, mean_acc: 0.9900
+2021-02-15 19:25:43,163 - DEBUG - step: 4800, mean_loss: nan, mean_acc: 0.9947
+2021-02-15 19:25:44,712 - DEBUG - step: 4900, mean_loss: nan, mean_acc: 0.9911
+2021-02-15 19:25:46,169 - DEBUG - step: 5000, mean_loss: nan, mean_acc: 0.9925
+2021-02-15 19:25:47,260 - INFO - 9 epoch training is finish!
+2021-02-15 19:25:47,630 - INFO - 9 epoch validation is 96.801!
+2021-02-15 19:25:47,761 - INFO - 10 epoch training is start!
+2021-02-15 19:25:48,332 - DEBUG - step: 5100, mean_loss: nan, mean_acc: 0.9905
+2021-02-15 19:25:49,879 - DEBUG - step: 5200, mean_loss: nan, mean_acc: 0.9967
+2021-02-15 19:25:51,419 - DEBUG - step: 5300, mean_loss: nan, mean_acc: 0.9950
+2021-02-15 19:25:52,964 - DEBUG - step: 5400, mean_loss: nan, mean_acc: 0.9938
+2021-02-15 19:25:54,494 - DEBUG - step: 5500, mean_loss: nan, mean_acc: 0.9934
+2021-02-15 19:25:55,936 - DEBUG - step: 5600, mean_loss: nan, mean_acc: 0.9947
+2021-02-15 19:25:56,505 - INFO - 10 epoch training is finish!
+2021-02-15 19:25:56,877 - INFO - 10 epoch validation is 96.677!
+2021-02-15 19:25:57,009 - INFO - 11 epoch training is start!
+2021-02-15 19:25:58,136 - DEBUG - step: 5700, mean_loss: nan, mean_acc: 0.9975
+2021-02-15 19:25:59,680 - DEBUG - step: 5800, mean_loss: nan, mean_acc: 0.9980
+2021-02-15 19:26:01,229 - DEBUG - step: 5900, mean_loss: nan, mean_acc: 0.9947
+2021-02-15 19:26:02,774 - DEBUG - step: 6000, mean_loss: nan, mean_acc: 0.9961
+2021-02-15 19:26:04,266 - DEBUG - step: 6100, mean_loss: nan, mean_acc: 0.9939
+2021-02-15 19:26:05,708 - DEBUG - step: 6200, mean_loss: nan, mean_acc: 0.9966
+2021-02-15 19:26:05,760 - INFO - 11 epoch training is finish!
+2021-02-15 19:26:06,131 - INFO - 11 epoch validation is 97.076!
+2021-02-15 19:26:06,284 - INFO - 12 epoch training is start!
+2021-02-15 19:26:07,966 - DEBUG - step: 6300, mean_loss: nan, mean_acc: 0.9955
+2021-02-15 19:26:09,516 - DEBUG - step: 6400, mean_loss: nan, mean_acc: 0.9970
+2021-02-15 19:26:11,066 - DEBUG - step: 6500, mean_loss: nan, mean_acc: 0.9972
+2021-02-15 19:26:12,611 - DEBUG - step: 6600, mean_loss: nan, mean_acc: 0.9912
+2021-02-15 19:26:14,063 - DEBUG - step: 6700, mean_loss: nan, mean_acc: 0.9823
+2021-02-15 19:26:15,038 - INFO - 12 epoch training is finish!
+2021-02-15 19:26:15,408 - INFO - 12 epoch validation is 96.580!
+2021-02-15 19:26:15,543 - INFO - 13 epoch training is start!
+2021-02-15 19:26:16,244 - DEBUG - step: 6800, mean_loss: nan, mean_acc: 0.9906
+2021-02-15 19:26:17,790 - DEBUG - step: 6900, mean_loss: nan, mean_acc: 0.9950
+2021-02-15 19:26:19,340 - DEBUG - step: 7000, mean_loss: nan, mean_acc: 0.9975
+2021-02-15 19:26:20,886 - DEBUG - step: 7100, mean_loss: nan, mean_acc: 0.9958
+2021-02-15 19:26:22,408 - DEBUG - step: 7200, mean_loss: nan, mean_acc: 0.9953
+2021-02-15 19:26:23,852 - DEBUG - step: 7300, mean_loss: nan, mean_acc: 0.9970
+2021-02-15 19:26:24,310 - INFO - 13 epoch training is finish!
+2021-02-15 19:26:24,680 - INFO - 13 epoch validation is 96.641!
+2021-02-15 19:26:24,816 - INFO - 14 epoch training is start!
+2021-02-15 19:26:26,070 - DEBUG - step: 7400, mean_loss: nan, mean_acc: 0.9967
+2021-02-15 19:26:27,618 - DEBUG - step: 7500, mean_loss: nan, mean_acc: 0.9967
+2021-02-15 19:26:29,164 - DEBUG - step: 7600, mean_loss: nan, mean_acc: 0.9988
+2021-02-15 19:26:30,710 - DEBUG - step: 7700, mean_loss: nan, mean_acc: 0.9975
+2021-02-15 19:26:32,191 - DEBUG - step: 7800, mean_loss: nan, mean_acc: 0.9983
+2021-02-15 19:26:33,565 - INFO - 14 epoch training is finish!
+2021-02-15 19:26:33,936 - INFO - 14 epoch validation is 97.013!
+2021-02-15 19:26:34,090 - INFO - 15 epoch training is start!
+2021-02-15 19:26:34,351 - DEBUG - step: 7900, mean_loss: nan, mean_acc: 0.9981
+2021-02-15 19:26:35,896 - DEBUG - step: 8000, mean_loss: nan, mean_acc: 0.9991
+2021-02-15 19:26:37,441 - DEBUG - step: 8100, mean_loss: nan, mean_acc: 0.9997
+2021-02-15 19:26:38,983 - DEBUG - step: 8200, mean_loss: nan, mean_acc: 0.9991
+2021-02-15 19:26:40,526 - DEBUG - step: 8300, mean_loss: nan, mean_acc: 0.9989
+2021-02-15 19:26:41,971 - DEBUG - step: 8400, mean_loss: nan, mean_acc: 0.9989
+2021-02-15 19:26:42,833 - INFO - 15 epoch training is finish!
+2021-02-15 19:26:43,203 - INFO - 15 epoch validation is 96.988!
+2021-02-15 19:26:43,347 - INFO - 16 epoch training is start!
+2021-02-15 19:26:44,164 - DEBUG - step: 8500, mean_loss: nan, mean_acc: 0.9983
+2021-02-15 19:26:45,709 - DEBUG - step: 8600, mean_loss: nan, mean_acc: 0.9994
+2021-02-15 19:26:47,255 - DEBUG - step: 8700, mean_loss: nan, mean_acc: 0.9989
+2021-02-15 19:26:48,801 - DEBUG - step: 8800, mean_loss: nan, mean_acc: 0.9991
+2021-02-15 19:26:50,312 - DEBUG - step: 8900, mean_loss: nan, mean_acc: 0.9992
+2021-02-15 19:26:51,750 - DEBUG - step: 9000, mean_loss: nan, mean_acc: 0.9981
+2021-02-15 19:26:52,092 - INFO - 16 epoch training is finish!
+2021-02-15 19:26:52,459 - INFO - 16 epoch validation is 96.866!
+2021-02-15 19:26:52,595 - INFO - 17 epoch training is start!
+2021-02-15 19:26:53,975 - DEBUG - step: 9100, mean_loss: nan, mean_acc: 0.9995
+2021-02-15 19:26:55,518 - DEBUG - step: 9200, mean_loss: nan, mean_acc: 0.9997
+2021-02-15 19:26:57,066 - DEBUG - step: 9300, mean_loss: nan, mean_acc: 0.9995
+2021-02-15 19:26:58,615 - DEBUG - step: 9400, mean_loss: nan, mean_acc: 0.9995
+2021-02-15 19:27:00,085 - DEBUG - step: 9500, mean_loss: nan, mean_acc: 0.9994
+2021-02-15 19:27:01,347 - INFO - 17 epoch training is finish!
+2021-02-15 19:27:01,715 - INFO - 17 epoch validation is 97.123!
+2021-02-15 19:27:01,848 - INFO - 18 epoch training is start!
+2021-02-15 19:27:02,229 - DEBUG - step: 9600, mean_loss: nan, mean_acc: 0.9995
+2021-02-15 19:27:03,775 - DEBUG - step: 9700, mean_loss: nan, mean_acc: 0.9991
+2021-02-15 19:27:05,321 - DEBUG - step: 9800, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:27:06,865 - DEBUG - step: 9900, mean_loss: nan, mean_acc: 0.9995
+2021-02-15 19:27:08,402 - DEBUG - step: 10000, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:27:09,844 - DEBUG - step: 10100, mean_loss: nan, mean_acc: 0.9995
+2021-02-15 19:27:10,594 - INFO - 18 epoch training is finish!
+2021-02-15 19:27:10,962 - INFO - 18 epoch validation is 97.098!
+2021-02-15 19:27:11,093 - INFO - 19 epoch training is start!
+2021-02-15 19:27:12,036 - DEBUG - step: 10200, mean_loss: nan, mean_acc: 0.9995
+2021-02-15 19:27:13,584 - DEBUG - step: 10300, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:27:15,131 - DEBUG - step: 10400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:27:16,676 - DEBUG - step: 10500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:27:18,178 - DEBUG - step: 10600, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:27:19,621 - DEBUG - step: 10700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:27:19,847 - INFO - 19 epoch training is finish!
+2021-02-15 19:27:20,215 - INFO - 19 epoch validation is 96.765!
+2021-02-15 19:27:20,348 - INFO - 20 epoch training is start!
+2021-02-15 19:27:21,844 - DEBUG - step: 10800, mean_loss: nan, mean_acc: 0.9984
+2021-02-15 19:27:23,391 - DEBUG - step: 10900, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:27:24,936 - DEBUG - step: 11000, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:27:26,481 - DEBUG - step: 11100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:27:27,955 - DEBUG - step: 11200, mean_loss: nan, mean_acc: 0.9997
+2021-02-15 19:27:29,101 - INFO - 20 epoch training is finish!
+2021-02-15 19:27:29,468 - INFO - 20 epoch validation is 97.197!
+2021-02-15 19:27:29,619 - INFO - 21 epoch training is start!
+2021-02-15 19:27:30,141 - DEBUG - step: 11300, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:27:31,687 - DEBUG - step: 11400, mean_loss: nan, mean_acc: 0.9998
+2021-02-15 19:27:33,236 - DEBUG - step: 11500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:27:34,780 - DEBUG - step: 11600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:27:36,311 - DEBUG - step: 11700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:27:37,751 - DEBUG - step: 11800, mean_loss: nan, mean_acc: 0.9997
+2021-02-15 19:27:38,383 - INFO - 21 epoch training is finish!
+2021-02-15 19:27:38,749 - INFO - 21 epoch validation is 97.211!
+2021-02-15 19:27:38,898 - INFO - 22 epoch training is start!
+2021-02-15 19:27:39,967 - DEBUG - step: 11900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:27:41,519 - DEBUG - step: 12000, mean_loss: nan, mean_acc: 0.9997
+2021-02-15 19:27:43,065 - DEBUG - step: 12100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:27:44,613 - DEBUG - step: 12200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:27:46,110 - DEBUG - step: 12300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:27:47,552 - DEBUG - step: 12400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:27:47,671 - INFO - 22 epoch training is finish!
+2021-02-15 19:27:48,040 - INFO - 22 epoch validation is 97.137!
+2021-02-15 19:27:48,186 - INFO - 23 epoch training is start!
+2021-02-15 19:27:49,816 - DEBUG - step: 12500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:27:51,364 - DEBUG - step: 12600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:27:52,906 - DEBUG - step: 12700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:27:54,448 - DEBUG - step: 12800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:27:55,903 - DEBUG - step: 12900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:27:56,939 - INFO - 23 epoch training is finish!
+2021-02-15 19:27:57,305 - INFO - 23 epoch validation is 97.166!
+2021-02-15 19:27:57,440 - INFO - 24 epoch training is start!
+2021-02-15 19:27:58,076 - DEBUG - step: 13000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:27:59,625 - DEBUG - step: 13100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:01,174 - DEBUG - step: 13200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:02,720 - DEBUG - step: 13300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:04,242 - DEBUG - step: 13400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:05,686 - DEBUG - step: 13500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:06,201 - INFO - 24 epoch training is finish!
+2021-02-15 19:28:06,563 - INFO - 24 epoch validation is 97.175!
+2021-02-15 19:28:06,699 - INFO - 25 epoch training is start!
+2021-02-15 19:28:07,903 - DEBUG - step: 13600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:09,449 - DEBUG - step: 13700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:10,997 - DEBUG - step: 13800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:12,543 - DEBUG - step: 13900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:14,029 - DEBUG - step: 14000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:15,466 - DEBUG - step: 14100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:15,467 - INFO - 25 epoch training is finish!
+2021-02-15 19:28:15,837 - INFO - 25 epoch validation is 97.040!
+2021-02-15 19:28:15,980 - INFO - 26 epoch training is start!
+2021-02-15 19:28:17,724 - DEBUG - step: 14200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:19,265 - DEBUG - step: 14300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:20,812 - DEBUG - step: 14400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:22,356 - DEBUG - step: 14500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:23,803 - DEBUG - step: 14600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:24,720 - INFO - 26 epoch training is finish!
+2021-02-15 19:28:25,090 - INFO - 26 epoch validation is 97.087!
+2021-02-15 19:28:25,237 - INFO - 27 epoch training is start!
+2021-02-15 19:28:26,000 - DEBUG - step: 14700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:27,545 - DEBUG - step: 14800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:29,093 - DEBUG - step: 14900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:30,645 - DEBUG - step: 15000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:32,162 - DEBUG - step: 15100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:33,605 - DEBUG - step: 15200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:34,004 - INFO - 27 epoch training is finish!
+2021-02-15 19:28:34,372 - INFO - 27 epoch validation is 97.037!
+2021-02-15 19:28:34,522 - INFO - 28 epoch training is start!
+2021-02-15 19:28:35,840 - DEBUG - step: 15300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:37,385 - DEBUG - step: 15400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:38,929 - DEBUG - step: 15500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:40,474 - DEBUG - step: 15600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:41,953 - DEBUG - step: 15700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:43,271 - INFO - 28 epoch training is finish!
+2021-02-15 19:28:43,640 - INFO - 28 epoch validation is 97.076!
+2021-02-15 19:28:43,777 - INFO - 29 epoch training is start!
+2021-02-15 19:28:44,105 - DEBUG - step: 15800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:45,650 - DEBUG - step: 15900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:47,196 - DEBUG - step: 16000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:48,741 - DEBUG - step: 16100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:50,287 - DEBUG - step: 16200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:51,726 - DEBUG - step: 16300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:52,530 - INFO - 29 epoch training is finish!
+2021-02-15 19:28:52,899 - INFO - 29 epoch validation is 97.001!
+2021-02-15 19:28:53,032 - INFO - 30 epoch training is start!
+2021-02-15 19:28:53,909 - DEBUG - step: 16400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:55,453 - DEBUG - step: 16500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:56,998 - DEBUG - step: 16600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:28:58,544 - DEBUG - step: 16700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:00,051 - DEBUG - step: 16800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:01,493 - DEBUG - step: 16900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:01,776 - INFO - 30 epoch training is finish!
+2021-02-15 19:29:02,149 - INFO - 30 epoch validation is 96.976!
+2021-02-15 19:29:02,281 - INFO - 31 epoch training is start!
+2021-02-15 19:29:03,716 - DEBUG - step: 17000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:05,265 - DEBUG - step: 17100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:06,812 - DEBUG - step: 17200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:08,362 - DEBUG - step: 17300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:09,829 - DEBUG - step: 17400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:11,034 - INFO - 31 epoch training is finish!
+2021-02-15 19:29:11,402 - INFO - 31 epoch validation is 97.013!
+2021-02-15 19:29:11,549 - INFO - 32 epoch training is start!
+2021-02-15 19:29:12,001 - DEBUG - step: 17500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:13,546 - DEBUG - step: 17600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:15,090 - DEBUG - step: 17700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:16,635 - DEBUG - step: 17800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:18,168 - DEBUG - step: 17900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:19,608 - DEBUG - step: 18000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:20,295 - INFO - 32 epoch training is finish!
+2021-02-15 19:29:20,661 - INFO - 32 epoch validation is 97.024!
+2021-02-15 19:29:20,814 - INFO - 33 epoch training is start!
+2021-02-15 19:29:21,817 - DEBUG - step: 18100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:23,360 - DEBUG - step: 18200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:24,904 - DEBUG - step: 18300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:26,447 - DEBUG - step: 18400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:27,944 - DEBUG - step: 18500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:29,388 - DEBUG - step: 18600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:29,556 - INFO - 33 epoch training is finish!
+2021-02-15 19:29:29,923 - INFO - 33 epoch validation is 96.965!
+2021-02-15 19:29:30,054 - INFO - 34 epoch training is start!
+2021-02-15 19:29:31,617 - DEBUG - step: 18700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:33,164 - DEBUG - step: 18800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:34,708 - DEBUG - step: 18900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:36,251 - DEBUG - step: 19000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:37,713 - DEBUG - step: 19100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:38,801 - INFO - 34 epoch training is finish!
+2021-02-15 19:29:39,177 - INFO - 34 epoch validation is 97.049!
+2021-02-15 19:29:39,311 - INFO - 35 epoch training is start!
+2021-02-15 19:29:39,887 - DEBUG - step: 19200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:41,435 - DEBUG - step: 19300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:42,985 - DEBUG - step: 19400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:44,533 - DEBUG - step: 19500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:46,061 - DEBUG - step: 19600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:47,504 - DEBUG - step: 19700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:48,076 - INFO - 35 epoch training is finish!
+2021-02-15 19:29:48,446 - INFO - 35 epoch validation is 97.049!
+2021-02-15 19:29:48,581 - INFO - 36 epoch training is start!
+2021-02-15 19:29:49,709 - DEBUG - step: 19800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:51,253 - DEBUG - step: 19900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:52,796 - DEBUG - step: 20000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:54,342 - DEBUG - step: 20100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:55,833 - DEBUG - step: 20200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:57,271 - DEBUG - step: 20300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:29:57,326 - INFO - 36 epoch training is finish!
+2021-02-15 19:29:57,693 - INFO - 36 epoch validation is 96.988!
+2021-02-15 19:29:57,834 - INFO - 37 epoch training is start!
+2021-02-15 19:29:59,521 - DEBUG - step: 20400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:01,066 - DEBUG - step: 20500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:02,616 - DEBUG - step: 20600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:04,166 - DEBUG - step: 20700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:05,617 - DEBUG - step: 20800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:06,595 - INFO - 37 epoch training is finish!
+2021-02-15 19:30:06,964 - INFO - 37 epoch validation is 96.913!
+2021-02-15 19:30:07,095 - INFO - 38 epoch training is start!
+2021-02-15 19:30:07,794 - DEBUG - step: 20900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:09,340 - DEBUG - step: 21000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:10,889 - DEBUG - step: 21100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:12,444 - DEBUG - step: 21200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:13,961 - DEBUG - step: 21300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:15,401 - DEBUG - step: 21400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:15,857 - INFO - 38 epoch training is finish!
+2021-02-15 19:30:16,226 - INFO - 38 epoch validation is 97.013!
+2021-02-15 19:30:16,364 - INFO - 39 epoch training is start!
+2021-02-15 19:30:17,612 - DEBUG - step: 21500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:19,159 - DEBUG - step: 21600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:20,701 - DEBUG - step: 21700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:22,249 - DEBUG - step: 21800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:23,727 - DEBUG - step: 21900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:25,108 - INFO - 39 epoch training is finish!
+2021-02-15 19:30:25,481 - INFO - 39 epoch validation is 96.925!
+2021-02-15 19:30:25,611 - INFO - 40 epoch training is start!
+2021-02-15 19:30:25,874 - DEBUG - step: 22000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:27,423 - DEBUG - step: 22100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:28,966 - DEBUG - step: 22200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:30,511 - DEBUG - step: 22300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:32,054 - DEBUG - step: 22400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:33,499 - DEBUG - step: 22500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:34,357 - INFO - 40 epoch training is finish!
+2021-02-15 19:30:34,721 - INFO - 40 epoch validation is 96.988!
+2021-02-15 19:30:34,857 - INFO - 41 epoch training is start!
+2021-02-15 19:30:35,672 - DEBUG - step: 22600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:37,216 - DEBUG - step: 22700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:38,763 - DEBUG - step: 22800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:40,306 - DEBUG - step: 22900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:41,817 - DEBUG - step: 23000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:43,259 - DEBUG - step: 23100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:43,601 - INFO - 41 epoch training is finish!
+2021-02-15 19:30:43,968 - INFO - 41 epoch validation is 97.001!
+2021-02-15 19:30:44,105 - INFO - 42 epoch training is start!
+2021-02-15 19:30:45,480 - DEBUG - step: 23200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:47,028 - DEBUG - step: 23300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:48,577 - DEBUG - step: 23400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:50,122 - DEBUG - step: 23500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:51,599 - DEBUG - step: 23600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:52,861 - INFO - 42 epoch training is finish!
+2021-02-15 19:30:53,232 - INFO - 42 epoch validation is 97.051!
+2021-02-15 19:30:53,365 - INFO - 43 epoch training is start!
+2021-02-15 19:30:53,751 - DEBUG - step: 23700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:55,298 - DEBUG - step: 23800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:56,845 - DEBUG - step: 23900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:58,391 - DEBUG - step: 24000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:30:59,934 - DEBUG - step: 24100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:01,375 - DEBUG - step: 24200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:02,120 - INFO - 43 epoch training is finish!
+2021-02-15 19:31:02,485 - INFO - 43 epoch validation is 96.927!
+2021-02-15 19:31:02,621 - INFO - 44 epoch training is start!
+2021-02-15 19:31:03,558 - DEBUG - step: 24300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:05,111 - DEBUG - step: 24400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:06,662 - DEBUG - step: 24500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:08,212 - DEBUG - step: 24600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:09,716 - DEBUG - step: 24700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:11,156 - DEBUG - step: 24800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:11,382 - INFO - 44 epoch training is finish!
+2021-02-15 19:31:11,754 - INFO - 44 epoch validation is 96.976!
+2021-02-15 19:31:11,891 - INFO - 45 epoch training is start!
+2021-02-15 19:31:13,393 - DEBUG - step: 24900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:14,941 - DEBUG - step: 25000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:16,486 - DEBUG - step: 25100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:18,030 - DEBUG - step: 25200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:19,494 - DEBUG - step: 25300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:20,647 - INFO - 45 epoch training is finish!
+2021-02-15 19:31:21,014 - INFO - 45 epoch validation is 96.938!
+2021-02-15 19:31:21,148 - INFO - 46 epoch training is start!
+2021-02-15 19:31:21,664 - DEBUG - step: 25400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:23,212 - DEBUG - step: 25500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:24,766 - DEBUG - step: 25600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:26,320 - DEBUG - step: 25700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:27,855 - DEBUG - step: 25800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:29,297 - DEBUG - step: 25900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:29,927 - INFO - 46 epoch training is finish!
+2021-02-15 19:31:30,300 - INFO - 46 epoch validation is 96.949!
+2021-02-15 19:31:30,434 - INFO - 47 epoch training is start!
+2021-02-15 19:31:31,497 - DEBUG - step: 26000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:33,045 - DEBUG - step: 26100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:34,589 - DEBUG - step: 26200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:36,137 - DEBUG - step: 26300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:37,629 - DEBUG - step: 26400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:39,070 - DEBUG - step: 26500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:39,179 - INFO - 47 epoch training is finish!
+2021-02-15 19:31:39,547 - INFO - 47 epoch validation is 96.877!
+2021-02-15 19:31:39,683 - INFO - 48 epoch training is start!
+2021-02-15 19:31:41,309 - DEBUG - step: 26600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:42,853 - DEBUG - step: 26700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:44,399 - DEBUG - step: 26800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:45,942 - DEBUG - step: 26900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:47,400 - DEBUG - step: 27000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:48,433 - INFO - 48 epoch training is finish!
+2021-02-15 19:31:48,808 - INFO - 48 epoch validation is 96.974!
+2021-02-15 19:31:48,956 - INFO - 49 epoch training is start!
+2021-02-15 19:31:49,587 - DEBUG - step: 27100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:51,129 - DEBUG - step: 27200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:52,675 - DEBUG - step: 27300, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:54,221 - DEBUG - step: 27400, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:55,745 - DEBUG - step: 27500, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:57,186 - DEBUG - step: 27600, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:31:57,701 - INFO - 49 epoch training is finish!
+2021-02-15 19:31:58,076 - INFO - 49 epoch validation is 97.001!
+2021-02-15 19:31:58,207 - INFO - 50 epoch training is start!
+2021-02-15 19:31:59,400 - DEBUG - step: 27700, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:32:00,947 - DEBUG - step: 27800, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:32:02,495 - DEBUG - step: 27900, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:32:04,042 - DEBUG - step: 28000, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:32:05,531 - DEBUG - step: 28100, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:32:06,965 - DEBUG - step: 28200, mean_loss: nan, mean_acc: 1.0000
+2021-02-15 19:32:06,966 - INFO - 50 epoch training is finish!
+2021-02-15 19:32:07,339 - INFO - 50 epoch validation is 96.893!

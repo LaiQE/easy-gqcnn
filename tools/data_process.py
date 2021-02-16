@@ -2,6 +2,7 @@ import os
 import sys
 import shutil
 import logging
+from pathlib import Path
 from ruamel.yaml import YAML
 # from easygqcnn import DataProcesser
 
@@ -16,8 +17,12 @@ LOG_FILE = os.path.join(ROOT_PATH, 'tools/logs/data_process.log')
 CFG_FILE = os.path.join(ROOT_PATH, 'config/data_process.yaml')
 # RAW_PATH = r'H:\Robot\Dex-Net\DataSet\mini_dexnet_all_trans_01_20_17'
 # OUT_PATH = r'H:\Robot\template\out'
-RAW_PATH = r'/root/Project/gmdata/gq-data/mix-dir-20x100'
-OUT_PATH = r'/root/Project/gmdata/gq-data/mix-dir-20x100-recorder'
+# RAW_PATH = r'/root/Project/gmdata/gq-data/mix-dir-20x100'
+# OUT_PATH = r'/root/Project/gmdata/gq-data/mix-dir-20x100-recorder'
+GMDATA_PATH = Path.home().joinpath('Project/gmdata')
+DATASET_PATH = GMDATA_PATH.joinpath('datasets/train_datasets')
+INPUT_DATA_PATH = DATASET_PATH.joinpath('gq_data/small_data')
+OUT_PATH = DATASET_PATH.joinpath('gq_data/small_data_train')
 if os.path.exists(OUT_PATH):
     shutil.rmtree(OUT_PATH)
 os.makedirs(OUT_PATH)
@@ -75,8 +80,14 @@ def load_config(file):
 def main():
     config_logging(LOG_FILE)
     config = load_config(CFG_FILE)
-    processer = DataProcesser(config, RAW_PATH, OUT_PATH)
-    processer.process(is_dex=False)
+    for t in 'gmd cor jaq'.split():
+        input_path = INPUT_DATA_PATH.joinpath(t)
+        out_path = OUT_PATH.joinpath(t)
+        if out_path.exists():
+            shutil.rmtree(out_path)
+        out_path.mkdir(parents=True)
+        processer = DataProcesser(config, input_path.as_posix(), out_path.as_posix())
+        processer.process(is_dex=False)
 
 
 if __name__ == "__main__":

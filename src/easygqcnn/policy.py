@@ -14,7 +14,7 @@ class GraspingPolicy(object):
         self._policy_config = config['policy']
         self._network = NeuralNetWork(self._config)
 
-    def action(self, image, roi, width=None):
+    def action(self, image, roi, width=None, g_depth=None):
         """ 寻找最佳的抓取策略
         1. 随机采样抓取
         2. 用gqcnn排序抓取质量
@@ -22,7 +22,7 @@ class GraspingPolicy(object):
         4. 用高斯混合模型重新采样抓取分布
         5. 重复以上2-4步骤
         """
-        sampler = ImageGraspSampler(image, roi, self._config, width=width)
+        sampler = ImageGraspSampler(image, roi, self._config, width=width, g_depth=g_depth)
         grasps = sampler.sample(self._policy_config['num_seed_samples'])
         grasps = [g[0] for g in grasps]
         if len(grasps) == 0:

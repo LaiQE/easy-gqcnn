@@ -98,7 +98,10 @@ class NeuralNetWork(object):
             raise IndexError('data shape is error')
         data_len = image_list.shape[0]
         image_list = (image_list - self._image_mean) / self._image_std
-        pose_list = (pose_list - self._pose_mean) / self._pose_std
+        # print('==============')
+        # print(pose_list)
+        if not any(pose_list == 0):
+            pose_list = (pose_list - self._pose_mean) / self._pose_std
         point = 0
         result_list = np.zeros(data_len)
         while point < data_len:

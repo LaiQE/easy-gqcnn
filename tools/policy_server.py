@@ -43,37 +43,22 @@ def load_config(file):
 @Pyro4.expose
 class Planer(object):
     def __init__(self, config):
-        config_logging(TEST_LOG_FILE)
-        self.policy = GraspingPolicy(config)
-        print('ok')
-
-    def get_grasp(self, image, width):
-        im = image.copy()
-        i = 5
-        q = 0
-        while q < 0.9 and i:
-            g, q = self.policy.action(im, None, width=width, g_depth=0)
-            i -= 1
-        p0, p1 = g.endpoints
-        return True, [p0, p1, g.depth, g.depth, q]
-
-@Pyro4.expose
-class Planer(object):
-    def __init__(self):
-        config = load_config(TEST_CFG_FILE)
-        config['gqcnn_config']['model_path'] = model_path
+        # config = load_config(TEST_CFG_FILE)
+        # config['gqcnn_config']['model_path'] = model_path
         config_logging(TEST_LOG_FILE)
         self.policy = GraspingPolicy(config)
         print('ok')
 
     def plan(self, image, width):
+        random.seed(0)
+        np.random.seed(0)
         im = image.copy()
         try_num = 5
         qs = []
         gs = []
         for _ in range(try_num):
             try:
-                g, q = self.policy.action(im, None, width=width)
+                g, q = self.policy.action(im, None, width=width, g_depth=0)
             except Exception as e:
                 print('--------------------出错了----------------------')
                 print(e)

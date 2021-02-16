@@ -25,11 +25,15 @@ class GraspingPolicy(object):
         sampler = ImageGraspSampler(image, roi, self._config, width=width, g_depth=g_depth)
         grasps = sampler.sample(self._policy_config['num_seed_samples'])
         grasps = [g[0] for g in grasps]
+        # print('+++++++++++++')
+        # print([g.depth for g in grasps])
         if len(grasps) == 0:
             logging.error('采样抓取失败')
             raise Exception('采样抓取失败')
         grasp_mapper = GraspMapper(image, self._config)
         image_tensor, pose_tensor = grasp_mapper.render(grasps)
+        # print('-------------')
+        # print(pose_tensor)
         image_tensor = image_tensor[..., np.newaxis]
         for _ in range(self._policy_config['num_iters']):
             q_values = self._network.predict(image_tensor, pose_tensor)
@@ -69,6 +73,9 @@ class GraspingPolicy(object):
                 # TODO: 这里的夹爪宽度需要由深度数据产生
                 grasp_width_px = width or 45
                 grasps.append(Grasp2D.from_feature_vec(grasp_vec, grasp_width_px))
+            if g_depth is not None:
+                for g in grasps:
+                    g._depth = g_depth
             image_tensor, pose_tensor = grasp_mapper.render(grasps)
             image_tensor = image_tensor[..., np.newaxis]
         # 进行最后的夹爪选择
